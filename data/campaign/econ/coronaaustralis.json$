@@ -1,0 +1,48 @@
+{
+	"starSystem":"coronaaustralis",
+	"markets":[
+		{
+			"entities":["neut_smalldrill"],
+			"faction":"neutrinocorp",
+			"size":2,
+			"startingConditions":[
+				"ore_complex",		
+				"ore_complex",				
+				"population_2",
+			],
+		},
+		{
+			"entities":["neut_largeprocessing"], 
+			"faction":"neutrinocorp",
+			"size":5,
+			"startingConditions":[
+				"urbanized_polity",
+				"regional_capital",
+				"orbital_station",
+				"military_base",
+				"ore_refining_complex",
+                        "light_industrial_complex",
+				"autofac_heavy_industry",
+				"population_5",
+			],
+		},
+		{
+			"entities":["neut_experimental"], # testing facility
+			"faction":"neutrinocorp",
+			"size":3,
+			"startingConditions":[
+				"free_market",
+				"outpost",
+				"military_base",
+				"light_industrial_complex",				
+				"vice_demand",
+				"population_3",
+			],
+		},
+	],
+
+
+}
+
+
+

@@ -1,0 +1,23 @@
+{
+    "displayName": "Extended Range",
+    "fluxCapacitors": 0,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "neutrino_nausicaa2",
+    "hullMods": [
+        "auxiliary_fuel_tanks",
+        "efficiency_overhaul"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_nausicaa2_ER",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "neutrino_misery",
+            "WS0004": "neutrino_misery",
+            "WS0005": "neutrino_misery",
+            "WS0006": "neutrino_misery"
+        }
+    }]
+}

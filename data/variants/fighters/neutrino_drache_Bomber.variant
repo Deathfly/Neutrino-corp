@@ -1,0 +1,29 @@
+{
+  "displayName": "Super Bomber Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "neutrino_drache",
+  "hullMods": [
+    "neutrino_sigmaupgrade"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "neutrino_drache_Bomber",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 2": "neutrino_graviton_inverter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+	  "WS 1": "neutrino_magnetar"}
+    }
+  ],
+  "wings": []
+}

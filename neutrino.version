@@ -1,0 +1,11 @@
+{
+    "masterVersionFile":"https://bitbucket.org/Deathfly/neutrino-corp/downloads/neutrino.version",
+    "modName":"Neutrino Corporation",
+    "modThreadId":2345,
+    "modVersion":
+    {
+        "major":1,
+        "minor":86,
+        "patch":"RC3"
+    }
+}

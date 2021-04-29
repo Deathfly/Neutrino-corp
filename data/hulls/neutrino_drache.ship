@@ -1,0 +1,146 @@
+{
+  "bounds": [
+    7,
+    -59,
+    -2,
+    -62,
+    -6,
+    -19.5,
+    -25,
+    -8.5,
+    -25,
+    8.5,
+    -6,
+    19.5,
+    -2,
+    62,
+    7,
+    59,
+    25,
+    -0
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_neutroniumplating",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS 1": "neutrino_magnetar",
+    "WS 2": "neutrino_graviton_inverter"
+  },
+  "builtInWings": [],
+  "center": [
+    63,
+    26
+  ],
+  "collisionRadius": 75.006668,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 50,
+      "location": [
+        -7,
+        -27
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 50,
+      "location": [
+        -7,
+        27
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 40,
+      "location": [
+        -5,
+        -41
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 40,
+      "location": [
+        -5,
+        41
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    }
+  ],
+  "height": 52,
+  "hullId": "neutrino_drache",
+  "hullName": "Drache",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 43.5,
+  "spriteName": "graphics/neut/ships/neutrino_drache.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 360,
+      "id": "WS 1",
+      "locations": [
+        -4.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 2",
+      "locations": [
+        7.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 20,
+      "arc": 30,
+      "id": "WS0001",
+      "locations": [
+        12.5,
+        33
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -20,
+      "arc": 30,
+      "id": "WS0002",
+      "locations": [
+        12.5,
+        -33
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 126
+}

@@ -1,0 +1,63 @@
+{
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    75,
+    75,
+    75,
+    200
+  ],
+  "darkCore": true,
+  "fireSoundOne": "neutrino_darkmatter_firing",
+  "fireSoundTwo": "neutrino_heavybeamloop",
+  "fringeColor": [
+    50,
+    50,
+    50,
+    120
+  ],
+  "glowColor": [
+    227,
+    101,
+    52,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/neut/weapons/neutrino_particlecannon_hardpoint_glow.png",
+  "hardpointOffsets": [
+    18,
+    0
+  ],
+  "hardpointSprite": "graphics/neut/weapons/neutrino_particlecannon_hardpoint_base.png",
+  "hitGlowRadius": 0,
+  "id": "neutrino_darkmatterbeamcannon",
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF,
+    FIGHTER
+  ],
+  "pixelsPerTexel": 2.5,
+  "size": "MEDIUM",
+  "specClass": "beam",
+  "textureScrollSpeed": 220,
+  "textureType": [
+    "graphics/fx/beam_laser_fringe.png",
+    "graphics/neut/fx/beam_ion_only.png"
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/neut/weapons/neutrino_particlecannon_turret_glow.png",
+  "turretOffsets": [
+    14,
+    0
+  ],
+  "turretSprite": "graphics/neut/weapons/neutrino_particlecannon_turret_base.png",
+  "type": "ENERGY",
+  "width": 20
+}

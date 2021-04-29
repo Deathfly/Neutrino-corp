@@ -1,0 +1,210 @@
+{
+  "bounds": [
+    63.5,
+    -0,
+    16.5,
+    -6,
+    -5,
+    -18.5,
+    -0.5,
+    -35.5,
+    -6.5,
+    -37,
+    -27,
+    -16,
+    -36,
+    -16,
+    -36,
+    -4.5,
+    -30.5,
+    -4.5,
+    -30.5,
+    4.5,
+    -36,
+    4.5,
+    -36,
+    16,
+    -27,
+    16,
+    -6.5,
+    37,
+    -0.5,
+    35.5,
+    -5,
+    18.5,
+    16.5,
+    6
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_neutroniumplating",
+    "phasefield",
+    "delicate"
+  ],
+  "builtInWeapons": {
+    "WS0007": "neutrino_superphasemissilelauncher"
+  },
+  "builtInWings": [
+	"neutrino_barghestgepard_wing",
+	"neutrino_barghestgepard_wing"],
+  "center": [
+    38,
+    37
+  ],
+  "collisionRadius": 68,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 25,
+      "location": [
+        -34.5,
+        12.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 25,
+      "location": [
+        -34.5,
+        -12.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 25,
+      "location": [
+        -34.5,
+        8.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 25,
+      "location": [
+        -34.5,
+        -8.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 40,
+      "location": [
+        -34.5,
+        10.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 40,
+      "location": [
+        -34.5,
+        -10.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 12
+    }
+  ],
+  "height": 102,
+  "hullId": "neutrino_barghestcausality",
+  "hullName": "Barghest",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    3.5,
+    -0
+  ],
+  "shieldRadius": 61.5,
+  "spriteName": "graphics/neut/ships/neutrino_barghestcausality.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 7.5,
+      "id": "WS0001",
+      "locations": [
+        0.5,
+        15
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 75,
+      "id": "WS0005",
+      "locations": [
+        -11.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -0,
+      "arc": 7.5,
+      "id": "WS0002",
+      "locations": [
+        0.5,
+        -15
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 7.5,
+      "id": "WS0003",
+      "locations": [
+        -3.5,
+        30
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 7.5,
+      "id": "WS0004",
+      "locations": [
+        -3.5,
+        -30
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 75,
+      "id": "WS0007",
+      "locations": [
+        -4.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 76
+}

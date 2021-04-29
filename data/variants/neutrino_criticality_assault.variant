@@ -1,0 +1,28 @@
+{
+    "displayName": "Assault Drone",
+    "fluxCapacitors": 4,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "neutrino_criticality",
+    "hullMods": [
+        "armoredweapons",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_criticality_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "neutrino_darkmatterbeamcannon",
+                "WS0002": "neutrino_darkmatterbeamcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "heavyburst"}
+        }
+    ]
+}

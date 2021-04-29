@@ -1,0 +1,119 @@
+{
+  "bounds": [
+    11,
+    -4,
+    6.5,
+    -19,
+    -2,
+    -22,
+    -2,
+    -3,
+    -10.5,
+    -3,
+    -10.5,
+    3,
+    -2,
+    3,
+    -2,
+    22,
+    6.5,
+    19,
+    11,
+    4
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_neutroniumplating"],
+  "center": [
+    23,
+    12
+  ],
+  "collisionRadius": 28.6,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 30.5,
+      "location": [
+        -4,
+        10
+      ],
+      "style": "HIGH_TECH",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 30.5,
+      "location": [
+        -4,
+        -10
+      ],
+      "style": "HIGH_TECH",
+      "width": 5
+    }
+  ],
+  "height": 24,
+  "hullId": "neutrino_schwarzgeist",
+  "hullName": "Schwarzgeist",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 27.5,
+  "spriteName": "graphics/neut/ships/neutrino_schwarzgeist.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 1",
+      "locations": [
+        3,
+        5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS 2",
+      "locations": [
+        3,
+        -5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 3",
+      "locations": [
+        3,
+        15
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS 4",
+      "locations": [
+        3,
+        -15
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 46
+}

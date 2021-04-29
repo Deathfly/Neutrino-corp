@@ -1,0 +1,29 @@
+{
+	"id":"neutrino_particlecannonarray",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	#"displayArcRadius":666,
+	"turretSprite":"graphics/neut/weapons/neutrino_particlecannonarray_turret_base2.png",
+	"turretGunSprite":"graphics/neut/weapons/neutrino_particlecannonarray_turret_recoil.png",
+	"hardpointSprite":"graphics/neut/weapons/neutrino_particlecannonarray_hardpoint_base2.png",
+	"hardpointGunSprite":"graphics/neut/weapons/neutrino_particlecannonarray_hardpoint_recoil.png",
+	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
+	"glowColor":[199,93,76,215],
+	"turretOffsets":[6, -5, 9, 13, 6, 5, 9, -13],
+	"turretAngleOffsets":[0, 0, 0, 0],
+	"hardpointOffsets":[11, -5, 14, 13, 11, 5, 14, -13],
+	"hardpointAngleOffsets":[0, 0, 0, 0],
+	"barrelMode":"DUAL", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":36,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":32.0,
+					   "particleDuration":0.13,
+					   "particleCount":8,
+					  "particleColor":[100,100,255,255]},
+	"projectileSpecId":"neutrino_particlecannonshot",  # projectile that will be fired
+	"fireSoundTwo":"neutrino_energygun_firing",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+}

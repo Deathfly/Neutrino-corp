@@ -1,0 +1,26 @@
+{
+  "displayName": "Escort Corvette",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "neutrino_moskito",
+  "hullMods": [
+],
+  "quality": 0,
+  "variantId": "neutrino_moskito_Fighter",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "neutrino_pulsar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "neutrino_antiproton"
+      }
+    }
+  ]
+}

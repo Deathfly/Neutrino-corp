@@ -1,0 +1,303 @@
+// By Deathfly
+// WIP!
+package data.scripts.plugins;
+
+import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.combat.BaseEveryFrameCombatPlugin;
+import com.fs.starfarer.api.combat.CombatEngineAPI;
+import com.fs.starfarer.api.combat.CombatEntityAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.DamageType;
+import com.fs.starfarer.api.input.InputEventAPI;
+import java.util.ArrayList;
+import java.util.List;
+import org.lazywizard.lazylib.combat.DefenseUtils;
+import org.lazywizard.lazylib.combat.entities.AnchoredEntity;
+import org.lwjgl.util.vector.Vector2f;
+
+public class DpsPlugin extends BaseEveryFrameCombatPlugin {
+
+    private static final List<DpsEffect> dpsEffects = new ArrayList<>();
+    private final List<DpsEffect> toRemove = new ArrayList<>();
+    private static final CombatEngineAPI engine = Global.getCombatEngine();
+
+    @Override
+    public void init(CombatEngineAPI engine) {
+        //reinitialize the map 
+        dpsEffects.clear();
+        toRemove.clear();
+    }
+
+    @Override
+    public void advance(float amount, List<InputEventAPI> events) {
+
+        if (engine == null || engine.isPaused()) {
+            return;
+        }
+        if (!dpsEffects.isEmpty()) {
+            // dig in the dpsEffects.
+            for (DpsEffect dpsEffect : dpsEffects) {
+                boolean doDmgThisFrame = true;
+                // check for durationTimer.
+                if (dpsEffect.durationTimer <= 0) {
+                    toRemove.add(dpsEffect);
+                    doDmgThisFrame = false;
+                }
+                dpsEffect.durationTimer -= amount;
+                if (doDmgThisFrame) {
+                    dpsEffect.timer += amount;
+                    // for non ship hit. (it is no need to use this method for non ship hit but just in case...)
+                    if (!(dpsEffect.damageTarget instanceof ShipAPI)) {
+                        engine.applyDamage(dpsEffect.damageTarget, dpsEffect.currHitPoint, dpsEffect.dps * dpsEffect.timer, dpsEffect.damageType, dpsEffect.EMP * dpsEffect.timer, dpsEffect.bypassShields, dpsEffect.dealsSoftFlux, dpsEffect.source);
+                        dpsEffect.timer = 0f;
+
+                    } else { // ha, hit on ship?
+                        // check for sheild 
+                        ShipAPI target = (ShipAPI) dpsEffect.damageTarget;
+                        if (!dpsEffect.bypassShields && target.getShield() != null && target.getShield().isOn() && target.getShield().isWithinArc(dpsEffect.currHitPoint)) {
+                            dpsEffect.sheildHit = true;
+                            if (dpsEffect.timer > amount) {
+                                liquidation(dpsEffect, amount);
+                            }
+                            engine.applyDamage(dpsEffect.damageTarget, dpsEffect.currHitPoint, dpsEffect.dps * dpsEffect.timer, dpsEffect.damageType, dpsEffect.EMP * dpsEffect.timer, dpsEffect.bypassShields, dpsEffect.dealsSoftFlux, dpsEffect.source);
+                        } else {
+                            dpsEffect.sheildHit = false;
+                            if (target.getArmorGrid().getCellAtLocation(dpsEffect.currHitPoint) != target.getArmorGrid().getCellAtLocation(dpsEffect.lastFrameHitPoint)) {
+                                liquidation(dpsEffect, amount);
+                            }
+                            if (dpsEffect.timer > dpsEffect.dmgInterval) {
+                                dpsEffect.timer -= dpsEffect.dmgInterval;
+                                engine.applyDamage(dpsEffect.damageTarget, dpsEffect.currHitPoint, dpsEffect.dps * dpsEffect.dmgInterval, dpsEffect.damageType, dpsEffect.EMP * dpsEffect.dmgInterval, dpsEffect.bypassShields, dpsEffect.dealsSoftFlux, dpsEffect.source);
+                            }
+                            if (dpsEffect.dps * dpsEffect.timer > target.getHitpoints()
+                                    && DefenseUtils.getArmorValue(target, dpsEffect.currHitPoint) != DefenseUtils.NOT_IN_GRID
+                                    && dpsEffect.dps * dpsEffect.timer * (dpsEffect.dps * dpsEffect.timer / (dpsEffect.dps * dpsEffect.timer + DefenseUtils.getArmorValue(target, dpsEffect.currHitPoint))) > (target.getHitpoints() + DefenseUtils.getArmorValue(target, dpsEffect.currHitPoint)) * 0.8f) {
+                                engine.applyDamage(dpsEffect.damageTarget, dpsEffect.currHitPoint, dpsEffect.dps * dpsEffect.timer, dpsEffect.damageType, dpsEffect.EMP * dpsEffect.timer, dpsEffect.bypassShields, dpsEffect.dealsSoftFlux, dpsEffect.source);
+                            }
+                        }
+                    }
+
+                } else {
+                    if (dpsEffect.timer > amount) {
+                        liquidation(dpsEffect, amount);
+                        dpsEffect.timer = 0;
+                    }
+                }
+                dpsEffect.anchor.reanchor(dpsEffect.damageTarget, dpsEffect.currHitPoint);
+            }
+
+            if (!toRemove.isEmpty()) {
+                dpsEffects.removeAll(toRemove);
+                toRemove.clear();
+            }
+        }
+    }
+
+    private static void liquidation(DpsEffect dpsEffect, float amount) {
+
+        if (dpsEffect.timer > amount) {
+            engine.applyDamage(dpsEffect.damageTarget, dpsEffect.lastFrameHitPoint, dpsEffect.dps * (dpsEffect.timer - amount), dpsEffect.damageType, dpsEffect.EMP * (dpsEffect.timer - amount), true, dpsEffect.dealsSoftFlux, dpsEffect.source);
+            dpsEffect.timer = amount;
+
+        }
+    }
+
+    // a class to log the dps down.
+    public static class DpsEffect {
+
+        protected float dps = 0f;
+        protected float EMP = 0f;
+        protected float dmgInterval = 0f;
+        protected DamageType damageType;
+        protected float timer = 0f;
+        protected float duration = Float.MIN_VALUE;
+        protected float durationTimer = Float.MIN_VALUE;
+        protected Object source;
+        protected CombatEntityAPI damageTarget;
+        protected AnchoredEntity anchor;
+        protected Vector2f currHitPoint = new Vector2f();
+        protected Vector2f lastFrameHitPoint = anchor.getLocation();
+        protected boolean bypassShields;
+        protected boolean dealsSoftFlux;
+        protected boolean sheildHit = false;
+
+        public void setDps(float dps) {
+            this.dps = dps;
+        }
+
+        public float getDps() {
+            return dps;
+        }
+
+        public void setEMP(float emp) {
+            this.EMP = emp;
+        }
+
+        public float getEMP() {
+            return EMP;
+        }
+
+        public void setDmgInterval(float dmgInterval) {
+            this.dmgInterval = dmgInterval;
+        }
+
+        public float getDmgInterval() {
+            return dmgInterval;
+        }
+
+        public void setDamageType(DamageType damageType) {
+            this.damageType = damageType;
+        }
+
+        public DamageType getDamageType() {
+            return damageType;
+        }
+
+        public void setDuration(float duration) {
+            this.duration = duration;
+            this.durationTimer = duration;
+        }
+
+        public float getDuration() {
+            return duration;
+        }
+
+        public void setDurationTimer(float durationTimer) {
+            this.durationTimer = durationTimer;
+        }
+
+        public float getDurationTimer() {
+            return durationTimer;
+        }
+
+        /**
+         * Will reset the durationTimer. Usual use for keep a dpsEffect alive.
+         */
+        public void resetDurationTimer() {
+            this.durationTimer = duration;
+        }
+
+        public void setHitPoint(Vector2f hitPoint, CombatEntityAPI damageTarget, boolean reanchor, boolean liquidation) {
+            this.currHitPoint = hitPoint;
+            this.damageTarget = damageTarget;
+            if (reanchor || this.anchor == null) {
+                this.anchor.reanchor(damageTarget, hitPoint);
+            }
+            if (liquidation) {
+                liquidation(this, Global.getCombatEngine().getElapsedInLastFrame());
+            }
+
+        }
+
+        /**
+         * Use for set current hit point.
+         *
+         * @param currHitPoint new current hit point.
+         */
+        public void setCurrHitsetCurrHitPoint(Vector2f currHitPoint) {
+            this.currHitPoint = currHitPoint;
+        }
+
+        public Vector2f getCurrHitPoint() {
+            return currHitPoint;
+        }
+
+        public Vector2f getLastFrameHitPoint() {
+            return lastFrameHitPoint;
+        }
+
+        public boolean getSheildHit() {
+            return sheildHit;
+        }
+
+        public void setBypassShields(boolean bypassShields) {
+            this.bypassShields = bypassShields;
+        }
+
+        public boolean getBypassShields() {
+            return bypassShields;
+        }
+
+        public void setDealsSoftFlux(boolean dealsSoftFlux) {
+            this.dealsSoftFlux = dealsSoftFlux;
+        }
+
+        public boolean getDealsSoftFlux() {
+            return dealsSoftFlux;
+        }
+
+        public void setSource(Object source) {
+            this.source = source;
+        }
+
+        public Object getSource() {
+            return source;
+        }
+    }
+
+    /**
+     * Apply DPS effect on target.
+     *
+     * @param entity The Damaged target.
+     * @param point Location the damage is dealt at, in absolute engine
+     * coordinates (i.e. *not* relative to the ship). MUST fall within the
+     * sprite of a ship, given its current location and facing, for armor to
+     * properly be taken into account.
+     * @param DPS Damage per sec.
+     * @param damageType
+     * @param EMP EMP per sec.
+     * @param bypassShields Whether shields are ignored completely.
+     * @param dealsSoftFlux Whether damage dealt to shields results in soft
+     * flux.
+     * @param source Should be a ShipAPI if the damage ultimately attributed to
+     * it. Can also be null.
+     * @param dmgInterval The damage interval when it hit hull.
+     * @param duration The
+     * @return The DPS effect just applied.
+     */
+    public static DpsEffect applyDPS(CombatEntityAPI entity, Vector2f point,
+            float DPS, DamageType damageType, float EMP,
+            boolean bypassShields, boolean dealsSoftFlux,
+            Object source,
+            float dmgInterval, float duration) {
+        DpsEffect dpsEffect = new DpsEffect();
+        dpsEffect.setHitPoint(point, entity, false, false);
+        dpsEffect.setDealsSoftFlux(dealsSoftFlux);
+        dpsEffect.setBypassShields(bypassShields);
+        dpsEffect.setDps(DPS);
+        dpsEffect.setEMP(EMP);
+        dpsEffect.setSource(source);
+        dpsEffect.setDuration(duration);
+        dpsEffect.setDmgInterval(dmgInterval);
+        dpsEffects.add(dpsEffect);
+        return dpsEffect;
+    }
+
+    /**
+     * Apply beam DPS effect on target.(When using this, you should call
+     * DpsEffect.resetDurationTimer() in every frame or that DPS will stop.)
+     *
+     * @param entity The Damaged target.
+     * @param point Location the damage is dealt at, in absolute engine
+     * coordinates (i.e. *not* relative to the ship). MUST fall within the
+     * sprite of a ship, given its current location and facing, for armor to
+     * properly be taken into account.
+     * @param DPS Damage per sec.
+     * @param damageType
+     * @param EMP EMP per sec.
+     * @param bypassShields Whether shields are ignored completely.
+     * @param dealsSoftFlux Whether damage dealt to shields results in soft
+     * flux.
+     * @param source Should be a ShipAPI if the damage ultimately attributed to
+     * it. Can also be null.
+     * @return The DPS effect just applied.
+     */
+    public static DpsEffect applyBeamDPS(CombatEntityAPI entity, Vector2f point,
+            float DPS, DamageType damageType, float EMP,
+            boolean bypassShields, boolean dealsSoftFlux,
+            Object source) {
+        float dmgInterval = Global.getSettings().getFloat("dpsToHitStrengthMult");
+        float duration = Float.MIN_VALUE;
+        return applyDPS(entity, point, DPS, damageType, EMP, bypassShields, dealsSoftFlux, source, dmgInterval, duration);
+    }
+}

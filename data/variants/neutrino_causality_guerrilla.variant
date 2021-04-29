@@ -1,0 +1,18 @@
+{
+    "displayName": "Guerrilla Drone",
+    "fluxCapacitors": 6,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "neutrino_causality",
+    "hullMods": [
+        "hardened_subsystems",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_causality_guerrilla",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0001": "neutrino_misery"}
+    }]
+}

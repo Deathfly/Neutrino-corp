@@ -1,0 +1,417 @@
+{
+  "bounds": [
+    256.5,
+    -20.5,
+    142,
+    -21,
+    138.5,
+    -26.5,
+    55,
+    -26.5,
+    38,
+    -44,
+    12.5,
+    -44,
+    1.5,
+    -59,
+    -113,
+    -59,
+    -120.5,
+    -71,
+    -168,
+    -73.5,
+    -183.5,
+    -66,
+    -183.5,
+    -50,
+    -212.5,
+    -49.5,
+    -225.5,
+    -40.5,
+    -225.5,
+    -25,
+    -215,
+    -12,
+    -163,
+    0,
+    -215,
+    12,
+    -225.5,
+    25,
+    -225.5,
+    40.5,
+    -212.5,
+    49.5,
+    -183.5,
+    50,
+    -183.5,
+    66,
+    -168,
+    73.5,
+    -120.5,
+    71,
+    -112,
+    65.5,
+    -55,
+    65,
+    -44,
+    45,
+    38.5,
+    45,
+    51.5,
+    18,
+    73,
+    18,
+    77.5,
+    27.5,
+    137.5,
+    27.5,
+    142.5,
+    20,
+    192,
+    20,
+    198,
+    13,
+    246,
+    13,
+    250,
+    20,
+    285,
+    19.5,
+    306,
+    -0.5
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_neutroniumplating",
+    "missleracks"
+  ],
+  "builtInWings": [],
+  "center": [
+    75,
+    228.5
+  ],
+  "collisionRadius": 330,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 97,
+      "location": [
+        -182,
+        0
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 75,
+      "location": [
+        -188,
+        5.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 14
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 75,
+      "location": [
+        -188,
+        -5.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 14
+    },
+    {
+      "angle": -110,
+      "contrailSize": 7,
+      "length": 3,
+      "location": [
+        -192,
+        10.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 7
+    },
+    {
+      "angle": 110,
+      "contrailSize": 7,
+      "length": 3,
+      "location": [
+        -192,
+        -10.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 7
+    },
+    {
+      "angle": -130,
+      "contrailSize": 7,
+      "length": 3,
+      "location": [
+        -197,
+        10.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 7
+    },
+    {
+      "angle": 130,
+      "contrailSize": 7,
+      "length": 3,
+      "location": [
+        -197,
+        -10.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 7
+    },
+    {
+      "angle": -150,
+      "contrailSize": 7,
+      "length": 3,
+      "location": [
+        -202,
+        10.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 7
+    },
+    {
+      "angle": 150,
+      "contrailSize": 7,
+      "length": 3,
+      "location": [
+        -202,
+        -10.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 7
+    },
+    {
+      "angle": -170,
+      "contrailSize": 7,
+      "length": 3,
+      "location": [
+        -207,
+        10.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 7
+    },
+    {
+      "angle": 170,
+      "contrailSize": 7,
+      "length": 3,
+      "location": [
+        -207,
+        -10.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 7
+    }
+  ],
+  "height": 537,
+  "hullId": "neutrino_banshee",
+  "hullName": "Banshee",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    25,
+    -0
+  ],
+  "shieldRadius": 320,
+  "spriteName": "graphics/neut/ships/neutrino_banshee.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 240,
+      "id": "WS0001",
+      "locations": [
+        -13.5,
+        -28.1
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -45,
+      "arc": 240,
+      "id": "WS0002",
+      "locations": [
+        -56,
+        -28
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        222.5,
+        12.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        168.5,
+        19.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        108.5,
+        27
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 60,
+      "arc": 120,
+      "id": "WS0006",
+      "locations": [
+        -56,
+        25
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 60,
+      "arc": 120,
+      "id": "WS0007",
+      "locations": [
+        -79,
+        44
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 200,
+      "id": "WS0014",
+      "locations": [
+        -117.5,
+        34.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 200,
+      "id": "WS0015",
+      "locations": [
+        -117.5,
+        -34.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 240,
+      "id": "WS0016",
+      "locations": [
+        25.5,
+        -2
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 135,
+      "id": "WS0017",
+      "locations": [
+        127,
+        6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 135,
+      "id": "WS0018",
+      "locations": [
+        127,
+        -6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 135,
+      "id": "WS0019",
+      "locations": [
+        183,
+        6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 135,
+      "id": "WS0020",
+      "locations": [
+        183,
+        -6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        62,
+        16,
+        67.5,
+        15.5,
+        55,
+        16.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 150
+}

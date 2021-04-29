@@ -1,0 +1,13 @@
+{
+	"id":"neutrino_derp_sub_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"NONE",
+	"collisionClassByFighter":"NONE",
+	"width":75.0,
+	"fadeTime":7,
+	"fringeColor":[20,82,170,0],
+	"coreColor":[30,30,30,0],
+	"explosionColor":[211,90,24,0],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":10,									 
+}

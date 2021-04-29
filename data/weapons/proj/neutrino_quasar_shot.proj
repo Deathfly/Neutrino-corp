@@ -1,0 +1,18 @@
+{
+	"id":"neutrino_quasar_shot",
+	"specClass":"projectile",
+   	#"onHitEffect":"data.scripts.weapons.NeutPulsarOnHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":130.0,
+	"width":55,
+	"fadeTime":0.2,
+	"hitGlowRadius":70,	
+	"fringeColor":[0,180,255,255],
+	"coreColor":[255,255,255,200],
+	"textureType":"ROUGH",  # now also used for "BALLISTIC_AS_BEAM", if specified
+	#"textureType":["graphics/fx/emp_arcs.png","graphics/fx/emp_arcs.png"],
+	"textureScrollSpeed":-256,
+	"pixelsPerTexel":1.0,
+}

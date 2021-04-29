@@ -1,0 +1,282 @@
+{
+  "bounds": [
+    102.5,
+    -8,
+    18.5,
+    -9.5,
+    18.5,
+    -34,
+    49,
+    -36,
+    52,
+    -40,
+    -8,
+    -43.5,
+    -29.5,
+    -50.5,
+    -57.5,
+    -46,
+    -57.5,
+    -13,
+    -70,
+    -5.5,
+    -99,
+    -5.5,
+    -99,
+    5.5,
+    -70,
+    5.5,
+    -57.5,
+    13,
+    -57.5,
+    46,
+    -29.5,
+    50.5,
+    -8,
+    43.5,
+    53,
+    43,
+    53,
+    34,
+    18.5,
+    34,
+    18.5,
+    9.5,
+    102.5,
+    8
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_neutroniumplating"
+  ],
+  "center": [
+    56,
+    99.5
+  ],
+  "collisionRadius": 135,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -56.5,
+        37.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -56.5,
+        -37.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -56.5,
+        32.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -56.5,
+        -32.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -56.5,
+        27.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -56.5,
+        -27.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -56.5,
+        22.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -56.5,
+        -22.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    }
+  ],
+  "height": 220,
+  "hullId": "neutrino_grinder",
+  "hullName": "Grinder",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    7,
+    -0
+  ],
+  "shieldRadius": 125,
+  "spriteName": "graphics/neut/ships/neutrino_grinder2.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 145,
+      "id": "WS 9",
+      "locations": [
+        -47.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS 10",
+      "locations": [
+        -11.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 2.5,
+      "id": "WS 2",
+      "locations": [
+        102.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 1",
+      "locations": [
+        50.5,
+        38.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS 3",
+      "locations": [
+        19.5,
+        -29
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS 4",
+      "locations": [
+        19.5,
+        -22
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS 5",
+      "locations": [
+        19.5,
+        -15
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS 6",
+      "locations": [
+        19.5,
+        29
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS 7",
+      "locations": [
+        19.5,
+        22
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS 8",
+      "locations": [
+        19.5,
+        15
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 113
+}

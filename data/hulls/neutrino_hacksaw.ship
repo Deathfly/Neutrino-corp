@@ -1,0 +1,184 @@
+{
+  "bounds": [
+    92.5,
+    13.5,
+    75,
+    20.5,
+    21.5,
+    20.5,
+    0,
+    32.5,
+    23,
+    37,
+    -23,
+    51.5,
+    -57.5,
+    27.5,
+    -78.5,
+    21.5,
+    -59,
+    12,
+    -59,
+    -12,
+    -78.5,
+    -21.5,
+    -57.5,
+    -27.5,
+    -23,
+    -51.5,
+    23,
+    -37,
+    0,
+    -32.5,
+    21.5,
+    -20.5,
+    75,
+    -20.5,
+    92.5,
+    -13.5,
+    69,
+    -0
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_neutroniumplating"
+  ],
+  "center": [
+    55,
+    81
+  ],
+  "collisionRadius": 115,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -58.5,
+        8
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -58.5,
+        -8
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 40,
+      "location": [
+        -58.5,
+        2.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 40,
+      "location": [
+        -58.5,
+        -2.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    }
+  ],
+  "height": 176,
+  "hullId": "neutrino_hacksaw",
+  "hullName": "Hacksaw",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    5,
+    0
+  ],
+  "shieldRadius":110,
+  "spriteName": "graphics/neut/ships/neutrino_hacksaw.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 1",
+      "locations": [
+        71.5,
+        4
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 2",
+      "locations": [
+        71.5,
+        -4
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS 5",
+      "locations": [
+        37.5,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS 6",
+      "locations": [
+        -34,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 200,
+      "id": "WS 7",
+      "locations": [
+        -22.5,
+        32
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 200,
+      "id": "WS 8",
+      "locations": [
+        -22.5,
+        -32
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 110
+}

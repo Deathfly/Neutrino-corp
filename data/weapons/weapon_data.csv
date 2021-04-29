@@ -1,0 +1,84 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+# Missile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,90000.001
+Adv. P. Torpedo,neutrino_advancedtorpedosingle,1,,250,2500,,375,,20,12,5,3,0.033333333,,ENERGY,350,,0,12,1,0,0,0,0,0,,225,55,15,75,DO_NOT_AIM,"utility6, missile1, neutrino_bp",,Neutrino,,Long Range Support,Medium,Good,,,Submunition fragment itself. Few final fragments remain unstable. Unstable fragments damaging armor more effectively and result shield-penetrating arc that do minor EMP and fragment damage when hit on shield.,,,,,90000.002
+Dual Adv. P. Torpedo,neutrino_advancedtorpedo,1,,1200,5000,,375,,20,8,10,12,0.083333333,2,ENERGY,350,,0,11.5,2,0.5,0,0,0,0,,225,55,30,75,"DO_NOT_AIM,CONSERVE_2","utility13, missile8, neutrino_bp",,Neutrino,,Long Range Support,Medium,Good,,,Submunition fragment itself. Few final fragments remain unstable. Unstable fragments damaging armor more effectively and result shield-penetrating arc that do minor EMP and fragment damage when hit on shield.,,,,,90000.003
+Quad Adv. P. Torpedo,neutrino_XLadvancedtorpedo,2,,6000,5000,,375,,20,8,22,24,0.2,4,ENERGY,350,,0,9.5,2,0.5,0,0,0,0,,225,55,30,75,"DO_NOT_AIM,CONSERVE_2","utility20, missile20, rare_bp",,Neutrino,,Long Range Support,Medium,Good,,,Submunition fragment itself. Few final fragments remain unstable. Unstable fragments damaging armor more effectively and result shield-penetrating arc that do minor EMP and fragment damage when hit on shield.,,,,,90000.004
+Sapper SRM,neutrino_sapper,0,,200,1000,,80,200,5,40,4,80,,,HIGH_EXPLOSIVE,0,,0,7.75,8,0.15,12,20,2,10,,450,450,9,25,"ANTI_FTR,USE_VS_FRIGATES,CONSERVE_2","rocket7, strike0, neutrino_bp",,Neutrino,,Anti Armor,Fast,None,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",25%,,,,90000.005
+Goliath SRM Launcher,neutrino_goliath,1,,5000,1000,,80,200,5,12,24,480,,,HIGH_EXPLOSIVE,0,,0,0.75,6,0.075,5,10,0,0,,450,450,9,40,"ANTI_FTR,USE_VS_FRIGATES,CONSERVE_4","rocket20, strike10, neutrino_bp",,Neutrino,,Pressure,Fast,None,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",25%,,,,90000.006
+Light Photon Torpedo,neutrino_lightphoton,0,,200,1000,,200,,5,15,5,6,0.1,6,ENERGY,100,,0,9.4,3,0.3,12,24,4,12,,450,450,3,100,"STRIKE,GUIDED_POOR,CONSERVE_1,USE_VS_FRIGATES","rocket7, strike0, neutrino_bp",,Neutrino,,Strike,Fast,Poor,,,Cann't be disarmed or jamed. Cann't reacquire new target once being fired.,,,,,90000.007
+Photon Torpedo Launcher,neutrino_photontorpedo,1,,1500,1200,,400,,10,15,12,10,0.166666665,10,ENERGY,200,,0,9.4,5,0.15,16,24,3,12,,450,450,3,150,"STRIKE,GUIDED_POOR,CONSERVE_1,USE_VS_FRIGATES","rocket14, strike9, neutrino_bp",,Neutrino,,Strike,Fast,Poor,,,Cann't be disarmed or jamed. Cann't reacquire new target once being fired.,,,,,90000.008
+Javelin Torpedo Launcher,neutrino_javelin,3,0.5,6000,3500,,1450,,50,8,25,12,0.033333333,,ENERGY,0,,0,13.5,2,1,0,0,0,0,,350,20,12,400,"DO_NOT_AIM,USE_VS_FRIGATES,CONSERVE_2","strike14, missile20, rare_bp",,Neutrino,,Long Range Support,Fast,Poor,,,,,,,,90000.009
+Unstable Photon Cannon,neutrino_unstable_photon,3,0.3,10000,900,,500,1000,25,3,30,6,0.05,3,ENERGY,3000,,0.5,2,,,0,0,0,0,,375,375,3,200,"STRIKE,USE_VS_FRIGATES","energy20, rocket20, strike14",,Neutrino,,Strike,Fast,None,,,Submunition fragment itself. Few final fragments remain unstable. Unstable fragments damaging armor more effectively and result shield-penetrating arc that do minor EMP and fragment damage when hit on shield.,,,,,90000.01
+DERP Launcher,neutrino_derp_launcher,2,,2500,550,,95,55,10,40,13,12,0.333333333,3,ENERGY,50,0,0.2,2.6,3,0.1,20,20,0,0,,350,350,2,400,"PD,PD_ONLY,ANTI_FTR","pd15, rare_bp",,Neutrino,,Point Defense (Area),Slow,None,,,,,,,,89705
+Photon Cannon,neutrino_photongun,2,,2000,900,,300,,5,15,13,,,,HIGH_EXPLOSIVE,400,,0.25,1.25,1,,10,20,0,0,,600,600,1.3,120,,"he11, energy12, neutrino_bp",,Neutrino,,Pressure,Fast,Poor,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Beams,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,90000.013
+Disruptor,neutrino_disruptor,0,,600,550,116.2790698,,56.81818182,2.5,120,6,,,,KINETIC,,150,0.05,0.05,0.4,0.5,,,,,10000,,,,,"PD,PD_ONLY,ANTI_FTR","pd9, beam0, neutrino_bp",,Neutrino,,Point Defense,,,,,Jamming missile guidance on hit. Have small chance to disarm and/or disable missile.,,,,,90000.014
+Antiproton Beam,neutrino_antiproton,2,,2500,650,300,,150,0.5,60,12,,,,FRAGMENTATION,,100,0.15,0.15,0.7,,,,,,10000,,,,,PD,"pd15, beam10, neutrino_bp",,Neutrino,,Point Defense,,,,,Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.,,,,,90000.015
+Darkmatter Beam Cannon,neutrino_darkmatterbeamcannon,2,,2000,800,600,,,15,10,10,,,,KINETIC,,500,0.8,0.7,0.66,3.25,,,,,6000,,,,,,"kinetic12, beam10, rare_bp",,Neutrino,,Suppression,,,,,,,,,,90000.016
+Pulsed Beam Gun,neutrino_lightpulsebeam,0,,120,650,600,,,0,10,3,,,,ENERGY,,720,0.3,0.6,0.25,6.3,,,,,6000,,,,,,"energy1, beam5, neutrino_bp",,Neutrino,,General,,,,,,,,,,90000.017
+Pulsed Beam Cannon,neutrino_pulsebeam,1,,1200,750,1400,,,0,0,8,,,,ENERGY,,1750,0.3,0.6,0.25,4.35,,,,,6000,,,,,,"energy8, beam6, neutrino_bp",,Neutrino,,General,,,,,,,,,,90000.018
+Dual Giga Pulse Laser,neutrino_dualpulsebeam,1,,5000,1100,1218.093696,,,0,4,20,,,,ENERGY,,1316,0.1,1,0.66,1.365,,,,,3000,,,,,,"beam20, LR, neutrino_bp",,Neutrino,,Suppression,,,,,,,,,,90000.019
+Neutron Lance,neutrino_neutronlance,3,0.5,8000,1000,2000.5,,,,5,28,,,,ENERGY,,2666.666666,0.75,0.75,1.5,6,,,,,6000,,,,,,"energy20, beam18, LR, rare_bp",,Neutrino,,Strike,,,,,,,,,,90000.02
+# Phased Array Cannon,neutrino_phasedarray,100,0,50000,800,3000.742758,,,50,1,75,,,,ENERGY,,4270.462634,1.5,1.5,3,19,,,,,6000,,,,,SYSTEM,"energy50, beam50",,Neutrino,,Strike,,,,,,,,,,90000.021
+Tractor Beam,neutrino_tractorbeam,1,,5000,1400,270,,150,300,18,18,,,,KINETIC,,550,0.333,0.5,3.5,6,,,,,6000,,,,,,"beam15, utility14, LR, kinetic10, neutrino_bp",,Neutrino,,Suppression,,,,,Slow down and pull in target on hit.,,,,,90000.022
+# Silver Lance,neutrino_silverlance,3,0,35000,1200,8006,,4003,,1,36,,,,ENERGY,,3000,3,1.5,0.5,15.5,,,,,0,,,,,STRIKE,"energy40, beam40, rare_bp",,Neutrino,,Strike,,,,,Penetrate shield and do mass EMP damage and minor fragment damage when hit on shield target. Damaging armor more effectively when target flux level high or being overloaded.,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Projectile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,90000.025
+Pulsar Beam,neutrino_pulsar,0,,350,550,,135,,0,35,5,,,,ENERGY,162,,0.2,0.8,,2,6,12,2,3,,2000,,,1000,,"energy8, neutrino_bp",,Neutrino,,General,,,,,Consistent firing increase fire rate up to %s.,50%,,,,90000.026
+Pulsar Beam Repeater,neutrino_dualpulsar,2,0.6,2000,550,,135,,5,20,12,,,,ENERGY,150,,0.2,0.2,,3,6,12,2,3,,2000,,,2000,,"energy14, neutrino_bp",,Neutrino,,General,,,,,Consistent firing increase fire rate up to %s.,50%,,,,90000.027
+Heavy Pulsar Beam,neutrino_heavypulsar,3,0.3,8000,650,,1000,,65,10,25,,,,ENERGY,1400,,1,2,,5,8,12,3,6,,3000,,,3000,,"strike12, energy18, rare_bp",,Neutrino,,Strike,,,,,Consistent firing increase fire rate up to %s.,50%,,,,90000.026
+Magnetar Burster,neutrino_magnetar,0,,250,500,,25,1,1,60,4,32,4,8,ENERGY,15,,0,0.225,8,0.025,2,12,0.5,12,,3000,,,2000,PD,"pd6, energy8, SR, neutrino_bp",,Neutrino,,Point Defense,,,,,,,,,,90000.028
+Neutron Pulse Cannon,neutrino_neutronpulse,1,,2000,900,,325,,15,6,12,,,,ENERGY,525,,0,1.3,,,7,14,0,0,,250,,,650,,"energy12, LR, he16, neutrino_bp",,Neutrino,,Anti Armor,Slow,,,,Deals an extra %s damage %s to hulls.,50%|ignore armor rating ,,,,90000.029
+Triple Neutron Pulse Cannon,neutrino_neutronpulsef,2,0.5,3000,800,,150,,15,5,12,18,0.3,9,ENERGY,200,,0,5.6,9,0.05,13,26,0,0,,200,,,650,"STRIKE,USE_VS_FRIGATES","strike10, he15, rare_bp",,Neutrino,,Anti Armor,Slow,,,,Deals an extra %s damage %s to hulls.,50%|ignore armor rating ,,,,90000.03
+Heavy Neutron Pulse Cannon,neutrino_neutronpulseheavy,3,0.3,5000,650,,650,,15,4,14,2,0.307692308,,ENERGY,1170,,0,1.625,,,7,14,0,0,,400,,,650,"STRIKE,USE_VS_FRIGATES","energy14, strike12, he20, rare_bp",,Neutrino,,Anti Armor,Slow,,,,Deals an extra %s damage %s to hulls.,50%|ignore armor rating ,,,,90000.031
+Neutron Pulse Battery,neutrino_neutronpulsebattery,2,,5000,1000,,350,,15,4,25,,,,ENERGY,525,,0,0.65,,,7,14,0,0,,250,,,650,,"energy18, LR, rare_bp",,Neutrino,,Anti Armor,Slow,,,,Deals an extra %s damage %s to hulls.,50%|ignore armor rating ,,,,90000.032
+Misery,neutrino_misery,1,,1500,700,,50,1,5,25,10,,,,ENERGY,60,,0.1,0.1,,0.2,2,7.5,0.2,3,,1000,,,2000,"PD,PD_ALSO","energy13, pd8, neutrino_bp",,Neutrino,,General,,,,,Have %s chance to deal %s damage on hit.,2.5%|4x,,,,90000.033
+Bane,neutrino_bane,2,,5000,800,,75,1,5,15,22,,,,ENERGY,75,,0.08,0.08,,0.16,2,7.5,0.2,3,,1100,,,2000,"PD,PD_ALSO","energy18, pd14, LR, rare_bp",,Neutrino,,General,,,,,Have %s chance to deal %s damage on hit.,2.5%|4x,,,,90000.034
+Particle Cannon Array,neutrino_particlecannonarray,2,,5000,666,,222,,50,12,24,16,1,8,KINETIC,250,,0.2,0.8,4,0.1,2,4,,0,,900,,,20,,"kinetic18, rare_bp",,Neutrino,,Anti Shield,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Build in,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phased Array Cannon,neutrino_phasedarray2,0,,0,800,3000.742758,,,60,0,,,,,ENERGY,,3200,1.5,1.5,3,19,,,,,6000,,,,,"STRIKE, SYSTEM, SHOW_IN_CODEX",,,Neutrino,,Strike,,,,,Extremely effective against armor. 25% of damage result hard flux on shield. ,,,,,
+Herp Emitter,neutrino_herp,3,,0,750,1786.428857,,,,0,,,,,HIGH_EXPLOSIVE,,2501.0004,2,7,4,14,,,,,0,,,,,"SYSTEM,STRIKE, SHOW_IN_CODEX",,,Neutrino,,Anti Armor,,,,,,,,,,
+Herp Emitter,neutrino_herp1,0,,0,800,,175,,100,0,,,,,HIGH_EXPLOSIVE,200,,1.9,17.5,20,0.09,9,18,0,0,,400,,,750,SYSTEM,,,,,,,,,,,,,,,
+Herp Emitter,neutrino_herp2,0,,0,775,,150,,100,0,,,,,HIGH_EXPLOSIVE,175,,2,17,20,0.11,9,18,0,0,,525,,,750,SYSTEM,,,,,,,,,,,,,,,
+Herp Emitter,neutrino_herp3,0,,0,825,,125,,100,0,,,,,HIGH_EXPLOSIVE,150,,1.95,16.5,20,0.13,9,18,0,0,,650,,,750,SYSTEM,,,,,,,,,,,,,,,
+Herp Emitter,neutrino_herp4,0,,0,850,,100,,100,0,,,,,HIGH_EXPLOSIVE,125,,2.05,16,20,0.15,9,18,0,0,,775,,,750,SYSTEM,,,,,,,,,,,,,,,
+Herp Emitter,neutrino_herp5,0,,0,800,,75,,100,0,,,,,HIGH_EXPLOSIVE,100,,2.1,15.5,20,0.17,9,18,0,0,,900,,,750,SYSTEM,,,,,,,,,,,,,,,
+Siege Fusor,neutrino_siegefusor,0,,0,1000,,2000,,,0,,,,,KINETIC,2000,,2,18,,,,,,,,300,,,10000,"SYSTEM,STRIKE,USE_VS_FRIGATES",,,Neutrino,,Strike,,,,,,,,,,
+Quasar,neutrino_quasar,0,,0,875,,2000,,500,0,,,,,HIGH_EXPLOSIVE,1250,,2.25,22,4,0.45,,,,,,925,,,750,"SYSTEM,SHOW_IN_CODEX",,,Neutrino,,Anti Armor,,,,,,,,,,
+Fusion Lance,neutrino_fusionlance,0,,0,-50,300,,,0,0,,,,,HIGH_EXPLOSIVE,,95,1,1,,,,,,,2400,,,,,"SYSTEM,SHOW_IN_CODEX",,,Neutrino,,Anti Armor,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Fighter Build in,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Graviton Inversion Device,neutrino_graviton_inverter,0,,0,300,,1250,500,100,90,,5,,,KINETIC,0,,0.25,0,1,0,60,60,0,0,,125,125,10,400,"SYSTEM,GUIDED_POOR,SHOW_IN_CODEX",,,Neutrino,,Strike,,,,,,,,,TRUE,
+Sapper SRM Pack,neutrino_sapper_f,0,,0,800,,80,200,5,90,,6,,,HIGH_EXPLOSIVE,0,,0,7.75,16,0.075,12,20,2,10,,450,450,3,25,"STRIKE,USE_VS_FRIGATES,SYSTEM",,,Neutrino,,Anti Armor,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",25%,,,TRUE,
+Light Photon Torpedo (F),neutrino_lightphoton_f,0,,0,900,,200,,5,40,,,,,ENERGY,0,,0,29.4,3,0.3,12,24,4,12,,450,450,2.5,100,"GUIDED_POOR,STRIKE,USE_VS_FRIGATES,SYSTEM",,,Neutrino,,Pressure,,,,,Cann't be disarm or jam. Cann't reacquire new target once being fired.,,,,TRUE,
+Disruptor,neutrino_disruptor_f,0,,0,500,116.2790698,,56.81818182,2.5,180,,,,,ENERGY,,150,0.05,0.05,0.4,0.7,,,,,10000,,,,,"PD,SYSTEM",,,Neutrino,,Point Defense,,,,,Jamming missile guidance on hit. Have small chance to disarm and/or disable missile.,,,,,
+Photon Torpedo Launcher (Precharged),neutrino_photontorpedo_f,0,,0,600,,400,,10,40,,5,,,ENERGY,0,,1,5.4,5,0.15,16,24,3,12,,450,450,3,150,"GUIDED_POOR,STRIKE,SYSTEM",,,Neutrino,,Strike,,,,,Cann't be disarmed or jamed. Cann't reacquire new target once being fired.,,,,TRUE,
+Misery (Fighter),neutrino_misery_f,0,,0,600,,50,1,5,90,,12,1,4,ENERGY,62.5,,0.1,0.1,,0.1,3,5,5,6,,1000,,,2000,"SYSTEM,PD,PD_ALSO",,,Neutrino,,General,,,,,Have %s chance to deal %s damage on hit.,2.5%|4x,,,,90000.026
+Magnetar,neutrino_magnetar_f,0,,0,450,,25,1,1,60,,,,,ENERGY,20,,0.1,0.75,4,0.05,6,12,0,0,,2500,,,2000,"SYSTEM,PD",,,Neutrino,,Point Defense,,,,,,,,,,90000.026
+Micro Magnetar,neutrino_micromagnetar_f,0,,0,450,,25,1,1,60,,,,,ENERGY,20,,0.2,1.75,2,0.05,6,12,0,0,,2500,,,2000,"SYSTEM,PD",,,Neutrino,,Point Defense,,,,,,,,,,90000.018
+Dual Giga Pulse Laser,neutrino_dualpulsebeam_f,1,,0,1100,1218.093696,,,0,90,,,,,ENERGY,,1316,0.1,1,0.66,5,,,,,3000,,,,,SYSTEM,"beam21, LR",,Neutrino,,Strike,,,,,,,,,,
+Pulsed Beam Gun,neutrino_lightpulsebeam_f,0,,120,650,600,,,0,10,3,,,,ENERGY,,720,0.3,0.6,0.25,39.3,,,,,6000,,,,,"SYSTEM,STRIKE,USE_VS_FRIGATES","energy1, beam5, neutrino_bp",,Neutrino,,General,,,,,,,,,,90000.017
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# SYSTEM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Swarm Flare Launcher,neutrino_swarmflarelauncher,,,,500,,10,200,,,,,0,,ENERGY,0,0,0,0.1,16,0.05,90,90,0,0,,320,0,5,1,"SYSTEM, EXTRA_RANGE_ON_FIGHTER",,,,,,,,,,,,,,,
+Derp Charge CIWS,neutrino_derpchargelauncher,,,,400,,95,55,,,,,0,,HIGH_EXPLOSIVE,0,0,0,0.1,3,0.1,15,15,0,0,,350,50,2,135,SYSTEM,,,,,,,,,,,,,,,
+Phase Missile System,neutrino_phasemissilelauncher,,,,2250,,1,,,,,,0,,HIGH_EXPLOSIVE,0,0,0,0,5,0,75,75,0,0,,400,200,5,100,SYSTEM,,,,,,,,,,,,,,,
+Phase Missile System,neutrino_phasemissilelauncher2,,,,2250,,1,,,,,15,0.25,5,HIGH_EXPLOSIVE,0,0,0,9.5,5,0.1,75,75,0,0,,450,200,5,100,SYSTEM,,,,,,,,,,,,,,,
+Super Phase Missile,neutrino_superphasemissilelauncher,,,,2250,,1,,,,,4,0.05,2,HIGH_EXPLOSIVE,4000,0,0,9.5,2,0.1,75,75,0,0,,450,200,5,300,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Adv. P. Torpedo,neutrino_adv_torpedo_1,0,,0,1000,,300,,,,,,,,ENERGY,0,,0,0,1,0,0,0,0,0,,400,400,3,40,SYSTEM,,,,,,,,,,,,,,,
+Adv. P. Torpedo,neutrino_adv_torpedo_2,0,,0,1000,,50,,,,,,,,ENERGY,0,,0,0,1,0,0,0,0,0,,400,400,3,40,SYSTEM,,,,,,,,,,,,,,,
+Adv. P. Torpedo,neutrino_adv_torpedo_3,0,,0,1000,,20,,,,,,,,ENERGY,0,,0,0,1,0,0,0,0,0,,400,400,3,40,SYSTEM,,,,,,,,,,,,,,,
+Adv. P. Torpedo,neutrino_adv_torpedo_4,0,,0,200,,25,,,,,,,,KINETIC,0,,0,0,1,0,0,0,0,0,,200,-40,1,40,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Unstable Photon Cannon,neutrino_unstable_photon1,0,,0,1500,,200,,,,,,,,ENERGY,0,,0,0,1,0,0,0,0,0,,375,375,3,100,SYSTEM,,,,,,,,,,,,,,,
+Unstable Photon Cannon,neutrino_unstable_photon2,0,,0,1500,,100,,,,,,,,ENERGY,0,,0,0,1,0,0,0,0,0,,375,375,3,50,SYSTEM,,,,,,,,,,,,,,,
+Unstable Photon Cannon,neutrino_unstable_photon3,0,,0,1500,,50,,,,,,,,ENERGY,0,,0,0,1,0,0,0,0,0,,375,375,3,20,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,neutrino_derp_sub,0,,0,-1,,0,,,6,12,,,,ENERGY,0,,0,0,1,0,0,0,0,0,,0,,5,650,SYSTEM,,,,,,,,,,,,,,,
+,neutrino_plasma_DECO,0,,0,-1,,0,,,6,12,,,,ENERGY,0,,0,0,1,0,0,0,0,0,,0,,5,650,SYSTEM,,,,,,,,,,,,,,,
+,neutrino_light_plasma_DECO,0,,0,-1,,0,,,6,12,,,,ENERGY,0,,0,0,1,0,0,0,0,0,,0,,5,650,SYSTEM,,,,,,,,,,,,,,,
+# DECORATE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,neutrino_ring,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,

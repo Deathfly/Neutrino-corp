@@ -1,0 +1,23 @@
+{
+    "displayName": "Super",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "neutrino_nausicaa2",
+    "hullMods": [
+        "expanded_cargo_holds",
+        "auxiliary_fuel_tanks"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_nausicaa2_standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "neutrino_misery",
+            "WS0004": "neutrino_misery",
+            "WS0005": "neutrino_misery",
+            "WS0006": "neutrino_misery"
+        }
+    }]
+}

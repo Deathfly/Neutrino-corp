@@ -1,0 +1,7 @@
+{
+	"id":"neutrino_swarmflarelauncher_fighter",
+	"type":"WEAPON",
+	"aiType":"FLARE_JAMMER",
+	"weaponDataId":"neutrino_swarmflarelauncher",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

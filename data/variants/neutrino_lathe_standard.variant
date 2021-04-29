@@ -1,0 +1,49 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 11,
+    "fluxVents": 21,
+    "goalVariant": true,
+    "hullId": "neutrino_lathe",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "neutrino_lathe_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 11": "neutrino_neutronlance"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 10": "neutrino_particlecannonarray"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 12": "neutrino_photontorpedo",
+                "WS 13": "neutrino_photontorpedo"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 9": "neutrino_bane"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 1": "neutrino_disruptor",
+                "WS 2": "neutrino_disruptor",
+                "WS 3": "pdlaser",
+                "WS 4": "pdlaser",
+                "WS 5": "pdlaser",
+                "WS 6": "pdlaser",
+                "WS 7": "taclaser",
+                "WS 8": "neutrino_derp_launcher"
+            }
+        }
+    ]
+}

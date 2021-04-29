@@ -1,0 +1,61 @@
+{
+
+	"neut_star_neutron":{
+		"name":"RX J1856.5-3754",
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-15, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":10, #  minimum thickness in pixels
+		"atmosphereColor":[160,232,255,255],
+		"texture":"graphics/neut/planets/star_neutron.jpg",
+		"icon":"graphics/warroom/icon_star.png",
+		"iconColor":[0,210,255,255],
+		"starCoronaSprite":"graphics/fx/star_halo.png", # optional, defaults to really bright particle
+		"starCoronaColor":[0,114,255,60], # optional, defaults to white
+		"starCoronaSizeMult":5.12, # required, multiplier for star's radius
+		"isStar":true,
+		"lightPosition":[0,0,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	
+	"neut_star_blackhole":{
+		"name":"V404",
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-5, # degrees/second
+		"planetColor":[0,0,0,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":10, #  minimum thickness in pixels
+		"atmosphereColor":[56,56,56,255],
+		"texture":"graphics/neut/planets/star_blackhole.jpg",
+		"icon":"graphics/neut/warroom/neut_icon_blackhole.png",
+		"iconColor":[0,0,0,255],
+		"starCoronaSprite":"graphics/fx/star_halo.png", # optional, defaults to really bright particle
+		"starCoronaColor":[90,90,90,90], # optional, defaults to white
+		"starCoronaSizeMult":5.12, # required, multiplier for star's radius
+		"isStar":true,
+		"lightPosition":[0,0,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},	
+	
+	"neut_rocky_unstable":{
+		"name":"Dead",
+		"tilt":2, # left-right (>0 tilts to the left)
+		"pitch":3, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-2, # degrees/second
+		"planetColor":[225,255,255,255],
+		"atmosphereThickness":0, # as fraction of radius.  Set to 0 for no atmosphere
+		"texture":"graphics/neut/planets/cruor.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[134,111,79,255],
+		"isStar":false,
+		"lightPosition":[-7,1,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.	
+	},
+	
+	
+}
+
+
+
+
+

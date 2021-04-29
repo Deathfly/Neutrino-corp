@@ -1,0 +1,37 @@
+package data.scripts.campaign.econ;
+
+import com.fs.starfarer.api.impl.campaign.econ.BaseMarketConditionPlugin;
+//import static com.fs.starfarer.api.impl.campaign.econ.BaseMarketConditionPlugin.getCrewDemandMet;
+//import static com.fs.starfarer.api.impl.campaign.econ.BaseMarketConditionPlugin.getProductionMult;
+import com.fs.starfarer.api.impl.campaign.ids.Commodities;
+
+public class Neutrino_StarFuelProduce extends BaseMarketConditionPlugin {
+
+    @Override
+    public void apply(String id) {
+//
+//        market.getDemand(Commodities.CREW).getDemand().modifyFlat(id, 50);
+//        market.getDemand(Commodities.CREW).getNonConsumingDemand().modifyFlat(id, 50 * 0.99f);
+//        float crewDemandMet = getCrewDemandMet(market);
+//
+//        market.getDemand(Commodities.METALS).getDemand().modifyFlat(id, 2000 * crewDemandMet);
+//        market.getDemand(Commodities.RARE_METALS).getDemand().modifyFlat(id, 400 * crewDemandMet);
+//        market.getDemand(Commodities.HEAVY_MACHINERY).getDemand().modifyFlat(id, 10);
+//
+//        float productionMult = getProductionMult(market, Commodities.METALS, Commodities.RARE_METALS) * crewDemandMet;
+//        market.getCommodityData(Commodities.FUEL).getSupply().modifyFlat(id, 5000 * productionMult);
+    }
+
+    @Override
+    public void unapply(String id) {
+//        market.getDemand(Commodities.METALS).getDemand().unmodify(id);
+//        market.getDemand(Commodities.RARE_METALS).getDemand().unmodify(id);
+//        market.getDemand(Commodities.HEAVY_MACHINERY).getDemand().unmodify(id);
+//
+//        market.getDemand(Commodities.CREW).getDemand().unmodify(id);
+//        market.getDemand(Commodities.CREW).getNonConsumingDemand().unmodify(id);
+//
+//        market.getCommodityData(Commodities.FUEL).getSupply().unmodify(id);
+    }
+
+}

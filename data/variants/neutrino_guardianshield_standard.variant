@@ -1,0 +1,9 @@
+{
+  "displayName": "Guardian Shield",
+  "fluxVents": 0,
+  "fluxCapacitors": 0,
+  "hullId": "neutrino_guardianshield",
+  "hullMods": [],
+  "variantId": "neutrino_guardianshield_standard",
+  "weaponGroups": []
+}

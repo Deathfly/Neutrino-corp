@@ -1,0 +1,70 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 46,
+    "goalVariant": true,
+    "hullId": "neutrino_bansheenorn",
+    "hullMods": [
+        "heavyarmor",
+        "neutrino_omegaupgrade",
+        "neutrino_broadsideShield",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_bansheenorn_broadside",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0037": "neutrino_quasar"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0023": "neutrino_neutronpulseheavy",
+                "WS0024": "neutrino_neutronpulseheavy"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "neutrino_neutronpulse",
+                "WS0020": "neutrino_neutronpulse",
+                "WS0021": "neutrino_neutronpulse",
+                "WS0022": "neutrino_neutronpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "neutrino_magnetar",
+                "WS0014": "neutrino_magnetar",
+                "WS0015": "neutrino_magnetar",
+                "WS0016": "neutrino_magnetar",
+                "WS0017": "neutrino_magnetar",
+                "WS0018": "neutrino_magnetar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0025": "pdburst",
+                "WS0026": "pdburst",
+                "WS0027": "pdburst",
+                "WS0028": "pdburst",
+                "WS0029": "pdburst",
+                "WS0030": "pdburst",
+                "WS0031": "pdburst",
+                "WS0032": "pdburst",
+                "WS0033": "pdburst",
+                "WS0034": "pdburst",
+                "WS0035": "pdburst",
+                "WS0036": "pdburst"
+            }
+        }
+    ]
+}

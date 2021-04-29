@@ -1,0 +1,94 @@
+{
+  "bounds": [
+    -15.5,
+    -4,
+    -4,
+    -13,
+    17,
+    -4.5,
+    17,
+    4.5,
+    -4,
+    13,
+    -15.5,
+    4
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_drone",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS 1": "neutrino_lightphoton_f",
+    "WS0001": "neutrino_magnetar_f"
+  },
+  "builtInWings": [],
+  "center": [
+    20,
+    19
+  ],
+  "collisionRadius": 28,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 25,
+      "location": [
+        -16,
+        2
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 25,
+      "location": [
+        -16,
+        -2
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 4
+    }
+  ],
+  "height": 40,
+  "hullId": "neutrino_drohne",
+  "hullName": "Drohne",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 27,
+  "spriteName": "graphics/neut/ships/neutrino_drohne.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "WS 1",
+      "locations": [
+        7,
+        5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 2.5,
+      "id": "WS0001",
+      "locations": [
+        11.5,
+        -5.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 40
+}

@@ -1,0 +1,10 @@
+{
+  "id":"Neutrino", # internal id
+	"name":"Neutrino Corporation", # displayed to the player
+	"author":"Flashfrozen and Deathfly",
+	"version":"1.86-RC3",
+	"description":"Yet another megacorporation, or said part of it R&D department, stuck in this sector after the Collapse.",
+	"gameVersion":"0.9.1a",
+	"modPlugin":"data.scripts.NCModPlugin",
+	"jars": ["jars/NeutrinoJAR.jar"]
+}

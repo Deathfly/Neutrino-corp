@@ -1,0 +1,28 @@
+{
+    "displayName": "Guerrilla Drone",
+    "fluxCapacitors": 6,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "neutrino_criticality",
+    "hullMods": [
+        "targetingunit",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_criticality_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "gravitonbeam",
+                "WS0002": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "neutrino_advancedtorpedo"}
+        }
+    ]
+}

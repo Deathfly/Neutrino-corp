@@ -1,0 +1,479 @@
+{
+  "hullName": "Banshee Norn",
+  "hullId": "neutrino_bansheenorn",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/neut/ships/neutrino_bansheenorn.png",
+  "style": "HIGH_TECH",
+  "height": 537,
+  "width": 150,
+  "center": [75, 229],
+  "collisionRadius": 330,
+  "shieldCenter": [25, 0],
+  "shieldRadius": 320,
+  "viewOffset": 0,
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_neutroniumplating",
+    "neutrino_hightarqueturretmotor"
+  ],
+  "builtInWeapons": {
+    "WS0037": "neutrino_quasar"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 90,
+      "locations": [221.5, 29]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -90,
+      "locations": [221.5, -29]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 90,
+      "locations": [210, 29]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -90,
+      "locations": [210, -29]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 90,
+      "locations": [170, 29]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -90,
+      "locations": [170, -29]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 90,
+      "locations": [158, 29]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -90,
+      "locations": [158, -29]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 90,
+      "locations": [101, 36]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -90,
+      "locations": [101, -36]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 90,
+      "locations": [89, 36]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -90,
+      "locations": [89, -36]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [242, 0]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [206, 0]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [170, 0]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [134, 0]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [98, 0]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [62, 0]
+    },
+    {
+      "id": "WS0019",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 60,
+      "locations": [-56, 25]
+    },
+    {
+      "id": "WS0020",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -60,
+      "locations": [-56, -25]
+    },
+    {
+      "id": "WS0021",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 60,
+      "locations": [-79, 44]
+    },
+    {
+      "id": "WS0022",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -60,
+      "locations": [-79, -44]
+    },
+    {
+      "id": "WS0023",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 45,
+      "locations": [4, 27]
+    },
+    {
+      "id": "WS0024",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -45,
+      "locations": [4, -27]
+    },
+    {
+      "id": "WS0025",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [22, 0]
+    },
+    {
+      "id": "WS0026",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-54, 0]
+    },
+    {
+      "id": "WS0027",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [-118, 35]
+    },
+    {
+      "id": "WS0028",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [-118, -35]
+    },
+    {
+      "id": "WS0029",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 130,
+      "angle": 90,
+      "locations": [198.5, 15.5]
+    },
+    {
+      "id": "WS0030",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 130,
+      "angle": -90,
+      "locations": [198.5, -15.5]
+    },
+    {
+      "id": "WS0031",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 130,
+      "angle": 90,
+      "locations": [182.5, 15.5]
+    },
+    {
+      "id": "WS0032",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 130,
+      "angle": -90,
+      "locations": [182.5, -15.5]
+    },
+    {
+      "id": "WS0033",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 130,
+      "angle": 90,
+      "locations": [144.5, 15.5]
+    },
+    {
+      "id": "WS0034",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 130,
+      "angle": -90,
+      "locations": [144.5, -15.5]
+    },
+    {
+      "id": "WS0035",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 130,
+      "angle": 90,
+      "locations": [126.5, 15.5]
+    },
+    {
+      "id": "WS0036",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 130,
+      "angle": -90,
+      "locations": [126.5, -15.5]
+    },
+    {
+      "id": "WS0037",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-41, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-182.5, 0],
+      "length": 97,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "Neutrino_SHIP"
+    },
+    {
+      "location": [-188.5, 5.5],
+      "length": 75,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "Neutrino_SHIP"
+    },
+    {
+      "location": [-188.5, -5.5],
+      "length": 75,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "Neutrino_SHIP"
+    },
+    {
+      "location": [-192.5, 10.5],
+      "length": 3,
+      "width": 7,
+      "angle": -110,
+      "contrailSize": 7,
+      "style": "Neutrino_SHIP"
+    },
+    {
+      "location": [-192.5, -10.5],
+      "length": 3,
+      "width": 7,
+      "angle": 110,
+      "contrailSize": 7,
+      "style": "Neutrino_SHIP"
+    },
+    {
+      "location": [-197.5, 10.5],
+      "length": 3,
+      "width": 7,
+      "angle": -130,
+      "contrailSize": 7,
+      "style": "Neutrino_SHIP"
+    },
+    {
+      "location": [-197.5, -10.5],
+      "length": 3,
+      "width": 7,
+      "angle": 130,
+      "contrailSize": 7,
+      "style": "Neutrino_SHIP"
+    },
+    {
+      "location": [-202.5, 10.5],
+      "length": 3,
+      "width": 7,
+      "angle": -150,
+      "contrailSize": 7,
+      "style": "Neutrino_SHIP"
+    },
+    {
+      "location": [-202.5, -10.5],
+      "length": 3,
+      "width": 7,
+      "angle": 150,
+      "contrailSize": 7,
+      "style": "Neutrino_SHIP"
+    },
+    {
+      "location": [-207.5, 10.5],
+      "length": 3,
+      "width": 7,
+      "angle": -170,
+      "contrailSize": 7,
+      "style": "Neutrino_SHIP"
+    },
+    {
+      "location": [-207.5, -10.5],
+      "length": 3,
+      "width": 7,
+      "angle": 170,
+      "contrailSize": 7,
+      "style": "Neutrino_SHIP"
+    }
+  ],
+  "bounds": [
+    289, -35.5,
+    262, -36,
+    255.5, -28,
+    142, -28,
+    138, -36,
+    49.5, -36,
+    26.5, -45,
+    22, -51,
+    -55, -52,
+    -57.5, -62,
+    -175.5, -68.5,
+    -183.5, -48.5,
+    -227, -41.5,
+    -220.5, -10,
+    -175.5, 0,
+    -220.5, 10,
+    -227, 41.5,
+    -183.5, 48.5,
+    -175.5, 68.5,
+    -57.5, 62,
+    -55, 52,
+    22, 51,
+    26.5, 45,
+    49.5, 36,
+    138, 36,
+    142, 28,
+    255.5, 28,
+    262, 36,
+    289, 35.5,
+    284, -0
+  ]
+}

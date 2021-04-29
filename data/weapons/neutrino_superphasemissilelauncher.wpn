@@ -1,0 +1,17 @@
+{
+	"id":"neutrino_superphasemissilelauncher",
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"LARGE",
+	"turretSprite":"",
+	"hardpointSprite":"",
+	"hardpointOffsets":[0,0],
+	"turretOffsets":[0,0],
+	"hardpointAngleOffsets":[0],
+	"turretAngleOffsets":[0],
+	"barrelMode":"ALTERNATING",
+	"interruptibleBurst":false,
+	"animationType":"NONE",			 
+	"projectileSpecId":"neutrino_super_phase_missile",
+	"fireSoundTwo":"neutrino_phase_missile_firing",
+}

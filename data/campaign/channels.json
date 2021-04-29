@@ -1,0 +1,26 @@
+{
+        "defaultChannels":[
+                "neutrino_public",
+        ],
+        
+        "neutrino_public":{
+		"name":"Neutrino Infomerical",
+		"logo":"graphics/neut/icons/intel/neut_public.png",
+		"icon":"graphics/neut/icons/intel/neut_public.png",
+		"image":"graphics/neut/factions/neut.png",
+		"sound":"ui_channel_news",
+		"faction":"neutrinocorp",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"neutrino_internal":{
+		"name":"Neutrino Restricted",
+		"logo":"graphics/neut/icons/intel/neut_internal.png",
+		"icon":"graphics/neut/icons/intel/neut_internal.png",
+		"image":"graphics/neut/factions/neut.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"neutrinocorp",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+}

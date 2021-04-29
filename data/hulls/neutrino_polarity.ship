@@ -1,0 +1,67 @@
+{
+  "bounds": [
+    30,
+    -15,
+    -13,
+    -15,
+    -13,
+    -8.5,
+    -28,
+    -8.5,
+    -28,
+    8.5,
+    -13,
+    8.5,
+    -13,
+    15,
+    30,
+    15
+  ],
+  "builtInMods": [
+    "insulatedengine",
+    "neutrino_sigmaupgrade"
+  ],
+  "center": [
+    17,
+    30
+  ],
+  "collisionRadius": 40.503086,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -27,
+        1.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -27,
+        -1.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    }
+  ],
+  "height": 65,
+  "hullId": "neutrino_polarity",
+  "hullName": "Polarity",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 40.049969,
+  "spriteName": "graphics/neut/ships/neutrino_polarity.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "width": 34
+}

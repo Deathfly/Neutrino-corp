@@ -1,0 +1,15 @@
+{
+	"id":"neutrino_adv_torpedo_1",
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"LARGE",
+	"turretSprite":"",
+	"hardpointSprite":"",
+	"turretOffsets":[0,0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0,0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED",
+	"animationType":"NONE", 	
+        "projectileSpecId":"neutrino_adv_torpedo_payload1",
+}

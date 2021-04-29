@@ -1,0 +1,72 @@
+{
+    "displayName": "Beamer",
+    "fluxCapacitors": 0,
+    "fluxVents": 48,
+    "goalVariant": true,
+    "hullId": "neutrino_bansheenorn",
+    "hullMods": [
+        "advancedoptics",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_bansheenorn_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0037": "neutrino_quasar"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "neutrino_darkmatterbeamcannon",
+                "WS0002": "neutrino_darkmatterbeamcannon",
+                "WS0003": "neutrino_darkmatterbeamcannon",
+                "WS0004": "neutrino_darkmatterbeamcannon",
+                "WS0005": "neutrino_darkmatterbeamcannon",
+                "WS0006": "neutrino_darkmatterbeamcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "neutrino_pulsebeam",
+                "WS0008": "neutrino_pulsebeam",
+                "WS0009": "neutrino_pulsebeam",
+                "WS0010": "neutrino_pulsebeam",
+                "WS0011": "neutrino_pulsebeam",
+                "WS0012": "neutrino_pulsebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0013": "taclaser",
+                "WS0014": "taclaser",
+                "WS0015": "taclaser",
+                "WS0016": "taclaser",
+                "WS0017": "taclaser",
+                "WS0018": "taclaser",
+                "WS0019": "ionbeam",
+                "WS0020": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0021": "neutrino_antiproton",
+                "WS0022": "neutrino_antiproton",
+                "WS0023": "neutrino_antiproton",
+                "WS0024": "neutrino_antiproton",
+                "WS0025": "pdburst",
+                "WS0026": "pdburst",
+                "WS0027": "pdburst",
+                "WS0028": "pdburst"
+            }
+        }
+    ]
+}

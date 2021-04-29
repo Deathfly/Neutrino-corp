@@ -1,0 +1,26 @@
+{
+    "displayName": "Drone",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "neutrino_singularity",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "neutrino_singularity_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 2": "neutrino_misery",
+                "WS 3": "neutrino_misery"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 1": "pdburst"}
+        }
+    ]
+}

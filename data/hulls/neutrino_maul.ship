@@ -1,0 +1,195 @@
+{
+  "bounds": [
+    117,
+    0,
+    125,
+    -31.5,
+    2,
+    -31.5,
+    -3,
+    -40.5,
+    -63,
+    -40.5,
+    -73.5,
+    -28,
+    -116.5,
+    -28,
+    -116.5,
+    -15.5,
+    -135.5,
+    -11.5,
+    -135.5,
+    11.5,
+    -116.5,
+    15.5,
+    -116.5,
+    28,
+    -73.5,
+    28,
+    -63,
+    40.5,
+    -3,
+    40.5,
+    2,
+    31.5,
+    125,
+    31.5
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_neutroniumplating"
+  ],
+  "builtInWeapons": {
+    "WS0009": "neutrino_siegefusor"
+  },
+  "center": [
+    50,
+    138
+  ],
+  "collisionRadius": 170,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -135,
+        8.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -135,
+        -8.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -135,
+        3.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -135,
+        -3.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    }
+  ],
+  "height": 273,
+  "hullId": "neutrino_maul",
+  "hullName": "Maul",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    -0,
+    -0
+  ],
+  "shieldRadius": 170,
+  "spriteName": "graphics/neut/ships/neutrino_maul.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0001",
+      "locations": [
+        74,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0002",
+      "locations": [
+        21,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0003",
+      "locations": [
+        -32,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 200,
+      "id": "WS0004",
+      "locations": [
+        -42,
+        43
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 200,
+      "id": "WS0005",
+      "locations": [
+        -42,
+        -43
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0006",
+      "locations": [
+        105,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        123,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 100
+}

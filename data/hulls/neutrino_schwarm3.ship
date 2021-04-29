@@ -1,0 +1,63 @@
+{
+  "bounds": [
+    5,
+    5,
+    5,
+    -5,
+    -5,
+    -0
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "pointdefenseai",
+    "neutrino_drone"
+  ],
+  "builtInWeapons": {
+    "WS0001": "neutrino_micromagnetar_f"
+  },
+  "center": [
+    6,
+    6
+  ],
+  "collisionRadius": 7,
+  "engineSlots": [
+    {
+      "angle": 135,
+      "contrailSize": 0,
+      "length": 1,
+      "location": [
+        0,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 0
+    }
+  ],
+  "height": 12,
+  "hullId": "neutrino_schwarm3",
+  "hullName": "Schwarm",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 6.5,
+  "spriteName": "graphics/neut/ships/neutrino_schwarm.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 2.5,
+      "id": "WS0001",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 12
+}

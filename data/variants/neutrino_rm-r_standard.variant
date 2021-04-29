@@ -1,0 +1,100 @@
+{
+    "displayName": "CNC Irony",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "hullId": "neutrino_rm-r",
+    "hullMods": [
+        "heavyarmor",
+        "autorepair",
+        "armoredweapons",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "neutrino_rm-r_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "neutrino_neutronlance",
+                "WS0002": "neutrino_neutronlance",
+                "WS0004": "neutrino_misery",
+                "WS0005": "neutrino_misery",
+                "WS0048": "neutrino_misery",
+                "WS0049": "neutrino_misery",
+                "WS0050": "neutrino_misery",
+                "WS0051": "neutrino_misery"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "neutrino_neutronpulseheavy",
+                "WS0009": "neutrino_neutronpulseheavy",
+                "WS0010": "neutrino_neutronpulsef",
+                "WS0011": "neutrino_neutronpulsef",
+                "WS0012": "neutrino_neutronpulsef",
+                "WS0013": "neutrino_neutronpulsef",
+                "WS0014": "neutrino_pulsebeam",
+                "WS0015": "neutrino_pulsebeam",
+                "WS0016": "neutrino_pulsebeam",
+                "WS0017": "neutrino_pulsebeam",
+                "WS0018": "neutrino_neutronpulsef",
+                "WS0019": "neutrino_neutronpulsef",
+                "WS0020": "neutrino_neutronpulsef",
+                "WS0021": "neutrino_neutronpulsef",
+                "WS0036": "reaper",
+                "WS0037": "reaper",
+                "WS0038": "reaper",
+                "WS0039": "reaper",
+                "WS0040": "reaper",
+                "WS0041": "reaper"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "neutrino_misery",
+                "WS0007": "neutrino_misery",
+                "WS0022": "neutrino_sapper",
+                "WS0023": "neutrino_sapper",
+                "WS0024": "neutrino_sapper",
+                "WS0025": "neutrino_sapper",
+                "WS0026": "neutrino_sapper",
+                "WS0027": "neutrino_sapper",
+                "WS0042": "neutrino_advancedtorpedosingle",
+                "WS0043": "neutrino_advancedtorpedosingle",
+                "WS0044": "neutrino_advancedtorpedosingle",
+                "WS0045": "neutrino_advancedtorpedosingle",
+                "WS0046": "neutrino_advancedtorpedosingle",
+                "WS0047": "neutrino_advancedtorpedosingle"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "neutrino_derp_launcher",
+                "WS0028": "neutrino_pulsar",
+                "WS0029": "neutrino_disruptor",
+                "WS0030": "neutrino_disruptor",
+                "WS0031": "pdburst",
+                "WS0032": "pdburst",
+                "WS0033": "neutrino_pulsar",
+                "WS0034": "neutrino_pulsar",
+                "WS0035": "neutrino_disruptor",
+                "WS0052": "pdburst",
+                "WS0053": "pdburst",
+                "WS0054": "pdburst",
+                "WS0055": "pdburst",
+                "WS0056": "pdburst",
+                "WS0057": "pdburst",
+                "WS0058": "pdburst",
+                "WS0059": "pdburst"
+            }
+        }
+    ]
+}

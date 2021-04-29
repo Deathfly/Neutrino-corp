@@ -1,0 +1,45 @@
+{
+	"id":"neutrino_super_phase_missile",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	"sprite":"graphics/neut/missiles/neutrino_phasemissile.png",
+	"glowSprite":"graphics/neut/missiles/neutrino_phasemissile.png",
+	"glowColor":[255,175,255,50],
+	"glowRadius":60,
+	"size":[28,56],	
+	"center":[14,28],
+	"collisionRadius":0,
+	"collisionClass":"NONE",
+	"collisionClassAfterFlameout":"NONE",
+	"explosionColor":[0,0,0,0],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":0, # purely visual
+	"flameoutTime":0.000001, # total time from flameout to full fadeout
+	"fadeTime":0, # fadeout duration	
+	"engineSpec":{"turnAcc":1200,
+				  "turnRate":1200,
+				  "maxSpeed":300,
+				  "acc":850,
+				  "dec":200},
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":600,
+					"minTimeToSplit":0.25,
+					"numShots":5,
+					"damage":325,
+					"damageType":HIGH_EXPLOSIVE,
+					"hitpoints":125,
+					"arc":360,
+					"spreadSpeed":600,
+					"projectileSpec":"neutrino_phase_missile2",
+					"emptySpec":"neutrino_unstable_photon",
+					"smokeSpec":{"particleSizeMin":20.0,
+								 "particleSizeRange":10.0,
+								 "cloudParticleCount":5,
+								 "cloudDuration":2.0,
+								 "cloudRadius":30.0,
+								 "blowbackParticleCount":15,
+								 "blowbackDuration":2,
+								 "blowbackLength":40,
+								 "blowbackSpread":40,
+								 "particleColor":[175,100,50,120]}
+					}				    
+}

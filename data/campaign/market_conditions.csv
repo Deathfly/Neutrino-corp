@@ -1,0 +1,4 @@
+name,id,script,desc,icon,order
+# Star Volatile Collect Facility,neutrino_star_fuel_produce,data.scripts.campaign.econ.Neutrino_StarFuelProduce,A Neutrino proprietary facility use to collect volatiles from star.,graphics/icons/markets/solar_shade.png,30
+# Planetoid Mining,neutrino_planetoid_mining,data.scripts.campaign.econ.Neutrino_PlanetoidMining,This tidally locked planetoid surface temperature is extreme low in dark side. Most volatile elements and organics are freeze in place and can be essily harvested.,graphics/icons/markets/uninhabitable.png,10
+Small Hydroponics Complex,neutrino_small_hydroponics,data.scripts.campaign.econ.Neutrino_SmallHydroponics,Sealed-biosphere agricultural production facilities which allow farming in orbit or on the surface of inhospitable worlds. This small scale biosphere maintain with Neutrino autonomy drones.,graphics/icons/markets/hydroponics.png,30

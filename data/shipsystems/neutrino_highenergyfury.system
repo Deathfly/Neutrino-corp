@@ -1,0 +1,24 @@
+{
+	"id":"neutrino_highenergyfury",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	#"aiType":"WEAPON_BOOST",
+
+	"statsScript":"data.shipsystems.scripts.NeutrinoHighEnergyFuryStats",
+	
+	"weaponGlowColor":[255,0,100,200],
+	"weaponTypes":[ENERGY],
+
+	#"shieldRingColor":[255,0,100,200],
+	#"shieldInnerColor":[150,0,50,100],
+	#"shieldThicknessMult":0.5,
+
+	"useSound":"system_high_energy_focus_activate",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop",
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":200,
+		"averageSpeedIncrease":0,}	
+}

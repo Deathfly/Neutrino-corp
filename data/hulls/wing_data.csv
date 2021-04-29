@@ -1,0 +1,13 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+neutrino_drohne_wing,neutrino_drohne_Scout,"fighter1, fighter, high, neutrino_bp",0,,2,2,BOX,4000,500,,2,FIGHTER,Scout Drone,8,4000,,,,,,,,,,,,,
+neutrino_schwarzgeist_wing,neutrino_schwarzgeist_Bomber,"bomber5, bomber, high, neutrino_bp",2,,6,20,CLAW,4000,1000,600,2,BOMBER,Bomber Drone,18,12000,,,,,,,,,,,,,
+neutrino_drache_wing,neutrino_drache_Bomber,"bomber6, bomber, high, rare_bp",3,0.5,12,25,BOX,4000,2000,-300,1,BOMBER,Heavy Bomber,30,20000,,,,,,,,,,,,,
+neutrino_floh_wing,neutrino_floh_Fighter,"support4, fighter, high, rare_bp",3,0.5,7,20,BOX,4000,2000,500,1,FIGHTER,Experimental Corvette,30,12000,,,,,,,,,,,,,
+neutrino_moskito_wing,neutrino_moskito_Fighter,"support2, fighter, high, neutrino_bp",2,,8,15,BOX,4000,500,,1,SUPPORT,Escort Corvette,20,10000,,,,,,,,,,,,,
+neutrino_schwarm_wing,neutrino_schwarm_Fighter,"interceptor3, interceptor, high, rare_bp",1,0.5,8,12,BOX,2000,500,-400,4,INTERCEPTOR,Drone,18,10000,,,,,,,,,,,,,
+neutrino_gepard1_wing,neutrino_gepard1_Fighter,"fighter4, fighter, high, neutrino_bp",1,,6,10,V,3000,750,300,2,FIGHTER,Fighter,20,8000,,,,,,,,,,,,,
+neutrino_gepard2_wing,neutrino_gepard2_Fighter,"fighter5, fighter, high, rare_bp",4,0.3,12,20,V,4000,750,300,3,FIGHTER,Fighter Drone,20,20000,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+neutrino_barghestgepard_wing,neutrino_barghestgepard_variant,"no_drop, no_sell, high",3,,20,30,V,4000,750,900,6,FIGHTER,Phase Fighter,0,100000,,,,,,,,,,,,,

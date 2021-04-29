@@ -1,0 +1,62 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 35,
+    "fluxVents": 35,
+    "goalVariant": true,
+    "hullId": "neutrino_unsung",
+    "hullMods": [
+        "targetingunit",
+        "blast_doors",
+        "autorepair",
+        "fluxbreakers",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_unsung_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0047": "neutrino_herp"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "neutrino_heavypulsar",
+                "WS0002": "neutrino_heavypulsar",
+                "WS0003": "neutrino_heavypulsar",
+                "WS0004": "neutrino_heavypulsar"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "neutrino_bane",
+                "WS0006": "neutrino_bane",
+                "WS0007": "neutrino_dualpulsar",
+                "WS0008": "neutrino_dualpulsar",
+                "WS0009": "neutrino_dualpulsar",
+                "WS0010": "neutrino_dualpulsar",
+                "WS0011": "neutrino_misery",
+                "WS0012": "neutrino_misery"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0029": "neutrino_disruptor",
+                "WS0030": "neutrino_disruptor",
+                "WS0033": "neutrino_disruptor",
+                "WS0034": "neutrino_disruptor",
+                "WS0037": "neutrino_disruptor",
+                "WS0038": "neutrino_disruptor",
+                "WS0041": "neutrino_disruptor",
+                "WS0042": "neutrino_disruptor"
+            }
+        }
+    ],
+    "wings": ["neutrino_drache_wing"]
+}

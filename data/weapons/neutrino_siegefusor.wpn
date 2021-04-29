@@ -1,0 +1,31 @@
+{
+	"specClass":"projectile",
+	"id":"neutrino_siegefusor",
+	"type":"ENERGY",
+	"size":"LARGE",
+	#"displayArcRadius":750,
+	"turretSprite":"graphics/neut/weapons/neutrino_siegefusor_hardpoint_base.png",
+	"turretGlowSprite":"graphics/neut/weapons/neutrino_siegefusor_hardpoint_glow.png",
+	"hardpointSprite":"graphics/neut/weapons/neutrino_siegefusor_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/neut/weapons/neutrino_siegefusor_hardpoint_glow.png",
+	"renderBelowAllWeapons":true,
+	"turretOffsets":[-30, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"glowColor":[255,219,50,255],
+	"muzzleFlashSpec":{"length":64.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":64.0,
+					   "particleSizeRange":3.0,
+					   "particleDuration":0.1,
+					   "particleCount":20,
+					   "particleColor":[255,219,50,255]},
+	"projectileSpecId":"neutrino_siegefusor_shot",
+	#"fireSoundOne":"neutrino_siegefusor_charge",
+	"fireSoundTwo":"neutrino_siegefusor_firing",
+        "everyFrameEffect":"data.scripts.weapons.NeutSiegeFusorEveryFrameEffect",
+}

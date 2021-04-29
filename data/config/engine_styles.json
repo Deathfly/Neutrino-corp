@@ -1,0 +1,16 @@
+{
+	# Reserved engine style ids (can not be used):
+	# "CUSTOM"
+	"Neutrino_SHIP":{
+		"engineColor":[120,165,200,255],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":0.7f,
+		"contrailParticleFinalSizeMult":0.8,
+		"contrailMaxSpeedMult":0.4f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[120,165,200,25],
+		"contrailCampaignColor":[120,165,200,25],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+}
+

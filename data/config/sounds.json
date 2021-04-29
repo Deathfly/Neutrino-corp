@@ -1,0 +1,215 @@
+{
+	#Credits to some sound files by Stian
+	
+	"neutrino_unstable_firing":[{"file":"sounds/neutyfx/tng_weapons2_clean.ogg","pitch":1, "volume":0.30}],
+
+    "neutrino_photon_firing":[{"file":"sounds/neutyfx/quantumtorpedoes2.ogg","pitch":1.1, "volume":0.15}],
+ 
+    "neutrino_photongun_firing":[{"file":"sounds/neutyfx/tng_disruptor_clean.ogg","pitch":1, "volume":0.30}],
+
+    "neutrino_darkmatter_firing":[{"file":"sounds/neutyfx/fire_beam_burst03.ogg","pitch":1, "volume":0.15}],  
+  
+    "neutrino_energygun_firing":[{"file":"sounds/neutyfx/fire_gun_heavy03a.ogg","pitch":1, "volume":0.66}],
+  
+    "neutrino_energybeam_firing":[
+		{"file":"sounds/neutyfx/fire_beam_burst03a.ogg","pitch":1, "volume":0.30},
+		{"file":"sounds/neutyfx/fire_beam_burst03a.ogg","pitch":1.02, "volume":0.28},
+		{"file":"sounds/neutyfx/fire_beam_burst03a.ogg","pitch":1.01, "volume":0.26},
+		{"file":"sounds/neutyfx/fire_beam_burst03a.ogg","pitch":0.99, "volume":0.32},
+		{"file":"sounds/neutyfx/fire_beam_burst03a.ogg","pitch":0.98, "volume":0.33}
+		],  
+  
+    "neutrino_heavybeam_firing":[{"file":"sounds/neutyfx/explosion_energy01.ogg","pitch":1, "volume":1.00}], 
+		
+	"neutrino_phasedarray_firing":[{"file":"sounds/neutyfx/neut_phasedarray.ogg","pitch":1, "volume":1.00}], 
+  
+  	"neutrino_phasedarray_loop":[{"file":"sounds/neutyfx/neut_highpitchbeam2.ogg","pitch":0.98, "volume":1.1}], 
+		
+	"neutrino_pulsar_firing":[
+		{"file":"sounds/neutyfx/hit_energy_heavy01a.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/neutyfx/hit_energy_heavy01a.ogg","pitch":1.02,"volume":0.71},
+		{"file":"sounds/neutyfx/hit_energy_heavy01a.ogg","pitch":1.01,"volume":0.69},
+		{"file":"sounds/neutyfx/hit_energy_heavy01a.ogg","pitch":0.99,"volume":0.71},
+		{"file":"sounds/neutyfx/hit_energy_heavy01a.ogg","pitch":0.98,"volume":0.61}
+		],
+
+	"neutrino_burstpulsar_firing":[
+		{"file":"sounds/neutyfx/hit_energy_heavy01a.ogg","pitch":1,"volume":0.8},
+		{"file":"sounds/neutyfx/hit_energy_heavy01a.ogg","pitch":1.02,"volume":0.81},
+		{"file":"sounds/neutyfx/hit_energy_heavy01a.ogg","pitch":1.01,"volume":0.79},
+		{"file":"sounds/neutyfx/hit_energy_heavy01a.ogg","pitch":0.99,"volume":0.81},
+		{"file":"sounds/neutyfx/hit_energy_heavy01a.ogg","pitch":0.98,"volume":0.81}
+	],
+	
+	"neutrino_heavypulsar_firing":[
+		{"file":"sounds/neutyfx/hit_energy_heavy02a.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/neutyfx/hit_energy_heavy02a.ogg","pitch":1.01,"volume":0.71},
+		{"file":"sounds/neutyfx/hit_energy_heavy02a.ogg","pitch":1.02,"volume":0.69},
+		{"file":"sounds/neutyfx/hit_energy_heavy02a.ogg","pitch":0.99,"volume":0.71},
+		{"file":"sounds/neutyfx/hit_energy_heavy02a.ogg","pitch":0.98,"volume":0.69}
+	],
+	
+	"neutrino_magnetar_firing":[
+		{"file":"sounds/neutyfx/hit_energy_heavy03a.ogg","pitch":1.0,"volume":0.6},
+		{"file":"sounds/neutyfx/hit_energy_heavy03a.ogg","pitch":1.01,"volume":0.61},
+		{"file":"sounds/neutyfx/hit_energy_heavy03a.ogg","pitch":1.02,"volume":0.59},
+		{"file":"sounds/neutyfx/hit_energy_heavy03a.ogg","pitch":0.99,"volume":0.61},
+		{"file":"sounds/neutyfx/hit_energy_heavy03a.ogg","pitch":0.98,"volume":0.59}
+	],
+	
+	"neutrino_magnetar_firing_f":[
+		{"file":"sounds/neutyfx/hit_energy_heavy03a.ogg","pitch":1.0,"volume":0.3},
+		{"file":"sounds/neutyfx/hit_energy_heavy03a.ogg","pitch":1.01,"volume":0.31},
+		{"file":"sounds/neutyfx/hit_energy_heavy03a.ogg","pitch":1.02,"volume":0.29},
+		{"file":"sounds/neutyfx/hit_energy_heavy03a.ogg","pitch":0.99,"volume":0.31},
+		{"file":"sounds/neutyfx/hit_energy_heavy03a.ogg","pitch":0.98,"volume":0.39}
+	],
+	
+	"neutrino_phase_missile_firing":[{"file":"sounds/neutyfx/ui_beep05.ogg","pitch":1,"volume":0.65}],
+  
+	"neutrino_herp_firing":[{"file":"sounds/neutyfx/neut_Lowbeamloop.ogg","pitch":1, "volume":0.70}],
+
+	"neutrino_chargeup":[{"file":"sounds/neutyfx/neut_chargeup.ogg","pitch":1, "volume":0.40}],  
+  
+	"neutrino_cruise_activate":[{"file":"sounds/neutyfx/neut_cruise_activate.ogg","pitch":0.9, "volume":0.85}],  
+  
+ 	"neutrino_cruise_loop":[{"file":"sounds/neutyfx/neut_cruise_loop.ogg","pitch":0.9, "volume":0.33}], 
+
+ 	"neutrino_neutronexplosion":[{"file":"sounds/neutyfx/neut_neutron_explosion2.ogg","pitch":0.9, "volume":0.8}], 
+
+ 	"neutrino_neutronpulse":[
+		{"file":"sounds/neutyfx/neut_neutronpulse.ogg","pitch":0.90, "volume":0.33},
+		{"file":"sounds/neutyfx/neut_neutronpulse.ogg","pitch":0.93, "volume":0.31},
+		{"file":"sounds/neutyfx/neut_neutronpulse.ogg","pitch":0.87, "volume":0.35},
+		],
+		
+	"neutrino_neutronpulseheavy":[
+		{"file":"sounds/neutyfx/neut_neutronpulse.ogg","pitch":0.93, "volume":0.40},
+		{"file":"sounds/neutyfx/neut_neutronpulse.ogg","pitch":0.96, "volume":0.38},
+		{"file":"sounds/neutyfx/neut_neutronpulse.ogg","pitch":0.89, "volume":0.42},
+		],
+		
+	"neutrino_neutronpulsebrust":[
+		{"file":"sounds/neutyfx/neut_neutronpulse.ogg","pitch":0.85, "volume":0.30},
+		{"file":"sounds/neutyfx/neut_neutronpulse.ogg","pitch":0.88, "volume":0.28},
+		{"file":"sounds/neutyfx/neut_neutronpulse.ogg","pitch":0.82, "volume":0.32},
+	],   
+
+ 	"neutrino_siegefusor_firing":[{"file":"sounds/neutyfx/neut_siegefusorfire.ogg","pitch":1.0, "volume":0.8}],   
+	
+ 	"neutrino_siegefusor_charge":[{"file":"sounds/neutyfx/neut_siegefusorcharge.ogg","pitch":1.0, "volume":0.6}],   	
+	
+ 	"neutrino_siegefusor_effect":[{"file":"sounds/neutyfx/neut_siegefusoreffect.ogg","pitch":1.0, "volume":0.5}],   		
+	
+	"neutrino_gravityplateloop":[{"file":"sounds/neutyfx/neut_gravityplateloop.ogg","pitch":1.0, "volume":0.25}],   		
+ 	
+	"neutrino_gravityplateactivate":[{"file":"sounds/neutyfx/neut_gravityplateactivate.ogg","pitch":1.0, "volume":0.25}],   
+
+    "neutrino_quasar_charging":[{"file":"sounds/neutyfx/neut_quasar_charge.ogg","pitch":1, "volume":0.60}],   
+    
+	"neutrino_quasar_firing":[{"file":"sounds/neutyfx/neut_quasar_fire.ogg","pitch":1, "volume":1.0}], 
+
+	"neutrino_lightlaunch":[{"file":"sounds/neutyfx/neut_lightmissilelaunch.ogg","pitch":1, "volume":0.3},
+		{"file":"sounds/neutyfx/neut_lightmissilelaunch.ogg","pitch":1.1, "volume":0.25},
+		{"file":"sounds/neutyfx/neut_lightmissilelaunch.ogg","pitch":0.9, "volume":0.25},
+		{"file":"sounds/neutyfx/neut_lightmissilelaunch.ogg","pitch":1.05, "volume":0.32},
+		{"file":"sounds/neutyfx/neut_lightmissilelaunch.ogg","pitch":0.95, "volume":0.32}
+		], 
+
+	"neutrino_heavybeamfire":[
+		{"file":"sounds/neutyfx/neut_neutronbeamfire2.ogg","pitch":1, "volume":0.75},
+		{"file":"sounds/neutyfx/neut_neutronbeamfire2.ogg","pitch":0.96, "volume":0.78},
+		{"file":"sounds/neutyfx/neut_neutronbeamfire2.ogg","pitch":0.92, "volume":0.72}		
+		], 
+	
+	"neutrino_heavybeamloop":[{"file":"sounds/neutyfx/neut_heavybeamloop.ogg","pitch":1, "volume":1.2}], 
+	
+	"neutrino_heavybeamloop2":[{"file":"sounds/neutyfx/neut_highpitchbeam.ogg","pitch":0.1, "volume":1.0}], 
+		
+	"neutrino_lightbeamfire":[{"file":"sounds/neutyfx/neut_lightbeamfire.ogg","pitch":1, "volume":0.6}], 	
+	
+	"neutrino_pulsebeam":[
+		{"file":"sounds/neutyfx/neut_pulsebeam2.ogg","pitch":1, "volume":0.42},
+		{"file":"sounds/neutyfx/neut_pulsebeam2.ogg","pitch":0.96, "volume":0.40},
+		{"file":"sounds/neutyfx/neut_pulsebeam2.ogg","pitch":0.92, "volume":0.38},
+		],
+		
+	"neutrino_lightpulsebeam":[
+		{"file":"sounds/neutyfx/neut_pulsebeam2.ogg","pitch":0.8, "volume":0.22},
+		{"file":"sounds/neutyfx/neut_pulsebeam2.ogg","pitch":0.76, "volume":0.23},
+		{"file":"sounds/neutyfx/neut_pulsebeam2.ogg","pitch":0.72, "volume":0.24},
+		], 		
+		
+	"neutrino_gigapulse":[
+		{"file":"sounds/neutyfx/neut_gigapulse.ogg","pitch":1.0, "volume":0.8},
+		{"file":"sounds/neutyfx/neut_gigapulse.ogg","pitch":0.94, "volume":0.77},
+		{"file":"sounds/neutyfx/neut_gigapulse.ogg","pitch":0.88, "volume":0.74},
+		], 	
+
+	"neutrino_spinup":[{"file":"sounds/neutyfx/neut_spinup.ogg","pitch":1, "volume":0.3}], 		
+	
+	"neutrino_lightphoton_firing":[{"file":"sounds/neutyfx/quantumtorpedoes2.ogg","pitch":1.3, "volume":0.30}],	
+		
+	"launch_tube_1":[
+		{"file":"sounds/neutyfx/fire_gun_launch_tube01.ogg","pitch":1,"volume":1},
+		{"file":"sounds/neutyfx/fire_gun_launch_tube02.ogg","pitch":1,"volume":1},		
+		],
+		
+	"neutrino_gravitonexplosion":[{"file":"sounds/neutyfx/neut_gravitonexplosion.ogg","pitch":1.0, "volume":1.1}],
+	
+	"neutrino_gravitonexplosion2":[
+		{"file":"sounds/neutyfx/neut_gravitonexplosion.ogg","pitch":1.0, "volume":0.5},
+		{"file":"sounds/neutyfx/neut_gravitonexplosion.ogg","pitch":0.96, "volume":0.52},
+		{"file":"sounds/neutyfx/neut_gravitonexplosion.ogg","pitch":0.92, "volume":0.54}
+	
+	], 	
+	
+	"neutrino_javelin_effect":[
+		{"file":"sounds/neutyfx/neut_javelineffect.ogg","pitch":1.0, "volume":0.6},
+		{"file":"sounds/neutyfx/neut_javelineffect.ogg","pitch":0.96, "volume":0.62},
+		{"file":"sounds/neutyfx/neut_javelineffect.ogg","pitch":0.92, "volume":0.64}
+	
+	],
+
+	"neutrino_bane_effect":[
+		{"file":"sounds/neutyfx/neut_banefire.ogg","pitch":1.0, "volume":0.2},
+		{"file":"sounds/neutyfx/neut_banefire.ogg","pitch":0.96, "volume":0.22},
+		{"file":"sounds/neutyfx/neut_banefire.ogg","pitch":0.92, "volume":0.23}
+	
+	], 	
+
+	"neutrino_misery_effect":[
+		{"file":"sounds/neutyfx/neut_miseryfire.ogg","pitch":1.0, "volume":0.12},
+		{"file":"sounds/neutyfx/neut_miseryfire.ogg","pitch":0.96, "volume":0.14},
+		{"file":"sounds/neutyfx/neut_miseryfire.ogg","pitch":0.92, "volume":0.26}
+	
+	], 		
+
+	"neutrino_reactioncontrolfire":[
+		{"file":"sounds/neutyfx/neut_reactioncontrolsystem.ogg","pitch":1.0, "volume":0.5},
+		{"file":"sounds/neutyfx/neut_reactioncontrolsystem.ogg","pitch":0.96, "volume":0.52},
+		{"file":"sounds/neutyfx/neut_reactioncontrolsystem.ogg","pitch":0.92, "volume":0.5}
+	], 	
+	
+	"neutrino_fighterreactioncontrolfire":[
+		{"file":"sounds/neutyfx/neut_reactioncontrolsystem.ogg","pitch":0.6, "volume":0.25},
+		{"file":"sounds/neutyfx/neut_reactioncontrolsystem.ogg","pitch":0.56, "volume":0.27},
+		{"file":"sounds/neutyfx/neut_reactioncontrolsystem.ogg","pitch":0.52, "volume":0.29}
+	], 
+	
+ 	"neutrino_silverlance_fire":[
+		{"file":"sounds/neutyfx/neut_silverlancefire.ogg","pitch":1.0, "volume":0.7},
+		{"file":"sounds/neutyfx/neut_silverlancefire.ogg","pitch":0.98, "volume":0.68},
+		{"file":"sounds/neutyfx/neut_silverlancefire.ogg","pitch":0.96, "volume":0.72}	
+	],
+
+	"neut_gravityplateactivate":[{"file":"sounds/neutyfx/neut_gravityplateactivate.ogg","pitch":1,"volume":1}],
+ 	
+	"neut_gravityplatebreak":[{"file":"sounds/neutyfx/neut_gravityplatebreak.ogg","pitch":1, "volume":1}],
+
+	"neut_gravityplateloop":[{"file":"sounds/neutyfx/neut_gravityplateloop.ogg","pitch":1, "volume":1}],
+
+	"neut_spin_up":[{"file":"sounds/neutyfx/neut_spinup.ogg","pitch":1, "volume":0.5}],
+  
+    "tron_energycannon_firing":[{"file":"sounds/neutyfx/tron_blastfire.ogg","pitch":1, "volume":0.70}],
+}

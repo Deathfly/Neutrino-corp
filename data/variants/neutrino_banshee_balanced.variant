@@ -1,0 +1,57 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 20,
+    "fluxVents": 33,
+    "goalVariant": true,
+    "hullId": "neutrino_banshee",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "neutrino_banshee_balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "neutrino_javelin",
+                "WS0004": "neutrino_javelin",
+                "WS0005": "neutrino_javelin"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "neutrino_bane",
+                "WS0007": "neutrino_misery"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "guardian",
+                "WS0006": "neutrino_derp_launcher"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "neutrino_disruptor",
+                "WS0015": "neutrino_disruptor",
+                "WS0016": "neutrino_disruptor"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "neutrino_magnetar",
+                "WS0018": "neutrino_magnetar",
+                "WS0019": "neutrino_magnetar",
+                "WS0020": "neutrino_magnetar"
+            }
+        }
+    ],
+    "wings": ["neutrino_schwarzgeist_wing"]
+}

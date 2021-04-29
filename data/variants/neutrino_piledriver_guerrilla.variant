@@ -1,0 +1,29 @@
+{
+    "displayName": "Guerrilla",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "neutrino_piledriver",
+    "hullMods": ["hardened_subsystems"],
+    "permaMods": [],
+    "variantId": "neutrino_piledriver_guerrilla",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 2": "taclaser",
+                "WS 3": "taclaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0002": "neutrino_derp_launcher"}
+        }
+    ],
+    "wings": [
+        "neutrino_schwarm_wing",
+        "neutrino_gepard1_wing"
+    ]
+}

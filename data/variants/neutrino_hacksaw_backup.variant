@@ -1,0 +1,38 @@
+{
+    "displayName": "Backup",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "neutrino_hacksaw",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "neutrino_hacksaw_backup",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 1": "neutrino_darkmatterbeamcannon",
+                "WS 2": "neutrino_darkmatterbeamcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 7": "neutrino_misery",
+                "WS 8": "neutrino_misery"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 5": "taclaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 6": "neutrino_disruptor"}
+        }
+    ]
+}

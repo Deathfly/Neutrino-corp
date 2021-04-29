@@ -1,0 +1,21 @@
+{
+	"starSystem":"corvus",
+	"markets":[
+		{
+			"entities":["neut_solar"], # Star powerplant
+			"faction":"neutrinocorp",
+			"size":2,
+			"startingConditions":[
+				"trade_center",
+				"orbital_station",
+				"outpost",
+				"population_2",
+			],
+		},
+	],
+
+
+}
+
+
+

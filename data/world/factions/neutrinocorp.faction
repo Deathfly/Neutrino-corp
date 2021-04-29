@@ -1,0 +1,244 @@
+{
+	id:"neutrinocorp",
+	"color":[60,60,80,255],	
+	"secondaryUIColor":[218,225,229,200],
+	"secondarySegments":32,
+	"displayName":"Neutrino",
+	"displayNameWithArticle":"the Neutrino",
+	"displayNameLong":"Neutrino Corporation",
+	"displayNameLongWithArticle":"the Neutrino Corporation",
+	"logo":"graphics/neut/factions/neut.png",
+	"crest":"graphics/neut/factions/crest_neut.png",
+	"shipNamePrefix":"CNCS",
+	"shipNameSources":{
+		"JAPANESE":1,
+	},	
+	"names":{
+		"modern":1,
+	},
+	
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	
+	# multiplier for how often hulls show up in the faction's fleets
+#	"hullFrequency":{
+#		"tags":{
+#		},
+#		"hulls":{
+#		},
+#	},
+
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+			"dram",
+			"mudskipper",
+			"valkyrie",
+			"phaeton",
+			"nebula",
+			"starliner",
+			"prometheus",
+		],
+	},
+	"knownShips":{
+		"tags":["neutrino_bp", "neutrino"],
+		"hulls":[
+			"neutrino_causality",
+			"neutrino_vice",
+			"neutrino_miter",
+			"neutrino_theend",
+			"neutrino_maul",
+			"neutrino_lathe",
+			"neutrino_nausicaa2",
+			"neutrino_colossus",
+			"neutrino_hildolfr",
+			"neutrino_banshee",
+			"neutrino_bansheenorn",
+			"neutrino_jackhammer2",
+		],
+	},	
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["neutrino_bp", "neutrino"],
+		"hulls":[
+			"neutrino_causality",
+			"neutrino_vice",
+			"neutrino_miter",
+			"neutrino_theend",
+			"neutrino_maul",
+			"neutrino_nausicaa2",
+			"neutrino_hildolfr",
+			"neutrino_banshee",
+			"neutrino_bansheenorn",
+			"neutrino_jackhammer2",
+		],
+    },
+	"knownFighters":{
+		"tags":["neutrino_bp", "neutrino"],
+		"fighters":[
+			"neutrino_drache_wing",
+			"neutrino_floh_wing",
+			"neutrino_schwarm_wing",
+			"neutrino_gepard2_wing",
+			"xyphos_wing",
+			"wasp_wing",
+			"dagger_wing",
+			"cobra_wing",
+			"longbow_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":["neutrino_bp", "neutrino"],
+#		"fighters":[
+#		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "neutrino_bp", "neutrino"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"augmentedengines",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"hardenedshieldemitter",
+			"hardened_subsystems",
+			"heavyarmor",
+			"insulatedengine",
+			"pointdefenseai",
+			"targetingunit",
+			"nav_relay",
+			"operations_center",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"unstable_injector",
+			"hiressensors",
+			"efficiency_overhaul",
+			"augmentedengines",
+			"auxiliary_fuel_tanks",
+			"expanded_cargo_holds",
+			"solar_shielding",
+		],
+	},
+	"knownWeapons":{
+        "tags":["base_bp", "missile_bp", "hightech_bp", "neutrino_bp", "neutrino"],
+        "weapons":[
+            "neutrino_XLadvancedtorpedo",
+            "neutrino_javelin",
+            "neutrino_derp_launcher",
+            "neutrino_darkmatterbeamcannon",
+            "neutrino_neutronlance",
+            "neutrino_heavypulsar",
+            "neutrino_neutronpulsef",
+            "neutrino_neutronpulseheavy",
+            "neutrino_neutronpulsebattery",
+			"neutrino_bane",
+			"neutrino_particlecannonarray",
+        ],
+    },
+    "priorityWeapons":{
+        "tags":["neutrino_bp", "neutrino"],
+        "weapons":[
+            "neutrino_javelin",
+            "neutrino_XLadvancedtorpedo",
+            "neutrino_neutronlance",
+            "neutrino_heavypulsar",
+            "neutrino_neutronpulsef",
+            "neutrino_neutronpulseheavy",
+            "neutrino_neutronpulsebattery",
+            "neutrino_bane",
+            "neutrino_particlecannonarray",
+        ],
+    },
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":3,
+		"phaseShips":1,
+		
+		"officerQuality":3,
+		"shipQuality":2,
+		"numShips":2,
+		
+		"shipSize":5,
+		
+		"aggression":2,
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.33,# as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"electronic_warfare",
+			"fighter_doctrine",
+			"officer_management",
+			"coordinated_maneuvers",
+		],
+	},
+	"illegalCommodities":[
+		"ai_cores",
+	],
+	"internalComms":"neutrino_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_hegemony05.png",
+			"graphics/portraits/portrait_mercenary01.png",
+			"graphics/portraits/portrait18.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_hegemony04.png",
+			"graphics/portraits/portrait16.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Operation Manager"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Patrol Director"},
+			"fleetCommander":{"name":"Fleet Director"},
+			"baseCommander":{"name":"Base Director"},
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":3,
+		"AICoreRepMult":0.5,
+		"buysSurveyData":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+            },
+        },
+	"fleetTypeNames":{
+		"trade":"Corporate Merchandiser",
+		"tradeLiner":"Quantum Starway Flight",
+		"tradeSmuggler":"Speedpost Convoy",
+		"smallTrader":"Distribution Convoy",
+		
+		"patrolSmall":"Security Patrol",
+		"patrolMedium":"Security Flotilla",
+		"patrolLarge":"Capital Assurance Fleet",
+		
+		"inspectionFleet":"QA Inspector",
+		"taskForce":"Special Affairs Fleet",
+		
+		"foodReliefFleet":"Relief Convoy",
+		
+		#"mercScout":"Contract Scout",
+		#"mercBountyHunter":"Human Recovery Contractor",
+		#"mercPrivateer":"Security Contractor",
+		#"mercPatrol":"Contracted Patrol",
+		#"mercArmada":"Contracted Armada",
+	}
+}

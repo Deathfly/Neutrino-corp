@@ -1,0 +1,34 @@
+{
+    "displayName": "Supper",
+    "fluxCapacitors": 12,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "neutrino_barghestcausality",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "neutrino_barghestcausality_variant",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "neutrino_neutronlance",
+                "WS0002": "neutrino_neutronlance"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "neutrino_pulsar",
+                "WS0004": "neutrino_pulsar"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "neutrino_superphasemissilelauncher"}
+        }
+    ]
+}

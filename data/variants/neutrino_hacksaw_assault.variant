@@ -1,0 +1,39 @@
+{
+    "displayName": "Brawler",
+    "fluxCapacitors": 4,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "neutrino_hacksaw",
+    "hullMods": [
+        "neutrino_hightarqueturretmotor",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_hacksaw_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 1": "neutrino_neutronpulsef",
+                "WS 2": "neutrino_neutronpulsef"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 7": "neutrino_misery",
+                "WS 8": "neutrino_misery"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 5": "neutrino_magnetar",
+                "WS 6": "neutrino_magnetar"
+            }
+        }
+    ]
+}

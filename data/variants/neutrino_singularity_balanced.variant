@@ -1,0 +1,29 @@
+{
+    "displayName": "Balanced Drone",
+    "fluxCapacitors": 6,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "neutrino_singularity",
+    "hullMods": [
+        "targetingunit",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "neutrino_singularity_balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 2": "neutrino_darkmatterbeamcannon",
+                "WS 3": "neutrino_darkmatterbeamcannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 1": "lrpdlaser"}
+        }
+    ]
+}

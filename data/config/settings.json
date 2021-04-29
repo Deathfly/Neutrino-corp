@@ -1,0 +1,19 @@
+{
+	"plugins":{
+	"Neutrino_EveryFrameCombatPlugin":"data.scripts.plugins.Neutrino_EveryFrameCombatPlugin",
+	"Neutrino_LocalData":"data.scripts.plugins.Neutrino_LocalData",
+	"Neutrino_FakeBeamPlugin":"data.scripts.plugins.Neutrino_FakeBeamPlugin",
+	"Neutrino_ExtraParticlePlugin":"data.scripts.plugins.Neutrino_ExtraParticlePlugin",
+	},
+	"graphics":{
+		"misc":{
+				"neutrino_phasecloak_icon":"graphics/neut/icons/hullsys/neutrino_PhaseCloak_StatusIcon.png",
+				"neutrino_neutroniumplating_icon":"graphics/neut/icons/hullsys/neutrino_NeutroniumPlating_StatusIcon.png",
+				"neutrino_missileboost_icon":"graphics/neut/icons/hullsys/neutrino_MissileBoost_StatusIcon.png"
+		},
+		"blueprint_packages":{
+			"neutrino_package":"graphics/neut/factions/neut.png"
+		},
+	},
+}
+

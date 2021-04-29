@@ -1,0 +1,36 @@
+{
+	"id":"neutrino_gravityplating",
+	"type":"STAT_MOD",
+	"aiType":"PHASE_CLOAK",
+	
+	"statsScript":"data.shipsystems.scripts.NeutrinoGravityPlatingStats",
+	
+	"phaseHighlight":"_armor",
+
+	"effectColor1":[175,213,255,255],
+
+	
+	"jitterColor":[84,156,255,150],
+	"jitterCopies":2,
+	"jitterRange":0.04,
+	"jitterRangeRadiusFraction":0,	
+	
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	
+	"engineGlowColor":[175,175,175,175],
+	"engineGlowContrailColor":[175,175,175,15],
+	"engineGlowLengthMult":1,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":0.25,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.04,
+	
+	
+	"useSound":"neutrino_gravityplateactivate",
+	#"deactivateSound":"system_phase_cloak_deactivate",
+	"loopSound":"neutrino_gravityplateloop",
+	#"outOfUsesSound":"system_phase_cloak_collision",
+}

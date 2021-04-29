@@ -1,0 +1,26 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,icon
+Scout Drohne,neutrino_drone_scout,,,,,,,,3,0.011111111,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Active Swarm Flares,neutrino_swarmflarelauncher,,,,,,,,2,0.033,,,,8,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+Guardian Shield,neutrino_guardianshield,1,,,,,,,,,0.2,,0.2,0,TRUE,,,,,,,,,,graphics/icons/hullsys/fortress_shield.png
+Aegis Drones,neutrino_shielddrones,,,,,,,,4,,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/fortress_shield.png
+Derp Charge CIWS,neutrino_derpchargesystem,,,,,,,,3,0.011111111,0,,0,4,,,,,,,,,,TRUE,graphics/icons/hullsys/flare_launcher.png
+Arc Surge Emitter,neutrino_arcsurge,1,,,,,0.2,,,,2.5,0.5,2,4,,,,TRUE,,,,,,,graphics/icons/hullsys/emp_emitter.png
+Phase Missile System ,neutrino_phasemissilesystem,,,,,,0.2,,3,0.05,0.25,,0.25,10,,,,TRUE,,,,,,TRUE,graphics/icons/hullsys/flare_launcher.png
+Cruise Drive,neutrino_cruise_engine,,,,,,,,,,2,7.5,1,6,,,,,TRUE,,,TRUE,,,graphics/icons/hullsys/burn_drive.png
+For The Swarm,neutrino_schwarm,1,,,,,,,,,,9999,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+For The Swarm,neutrino_schwarm2,1,,,,,,,2,,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+For The Swarm,neutrino_schwarm3,1,,,,,,,2,,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Rotte Drone,neutrino_rotte,1,,,,,,,2,0.1,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Gravity Plating,neutrino_gravityplating,,,,,,,,3,,0.5,6.5,0.5,12,,,,,,,,,TRUE,,graphics/icons/hullsys/fortress_shield.png
+Siege Mode,neutrino_siege,,,,,,,,,,2,10,2,30,,,,,,,TRUE,TRUE,,TRUE,graphics/icons/hullsys/high_energy_focus.png
+Reaction Control System,neutrino_reactioncontrolsystem,,,,,0.5,0.1,,,,0.1,0.2,0.2,1,,,TRUE,TRUE,,,,,,,graphics/icons/hullsys/burn_drive.png
+Evasive Maneuver,neutrino_fighterevasion,,,,,0.5,0.3,,,,0.1,0.2,0.2,3,,,TRUE,TRUE,,,,,,,graphics/icons/hullsys/burn_drive.png
+Micro-Phase Actuators,neutrino_phasecloak,,,,,,,,,,1,,3,4,TRUE,,TRUE,TRUE,TRUE,,,,,,graphics/icons/hullsys/phase_cloak.png
+Polyphase Amplifier,neutrino_highenergyfury,,,,,,0.2,,,,2,5,0.5,12.5,,,TRUE,TRUE,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+Active Swarm Flares,neutrino_swarmflarelauncher_fighter,,,,,,,,1,0.033,,,,8,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+Derp Charge CIWS(F),neutrino_derpchargesystem_fighter,,,,,,,,1,0.011111111,0,,0,4,,,,,,,,,,TRUE,graphics/icons/hullsys/flare_launcher.png
+Missile TDS,neutrino_trajectorycontrolsystem,,,,,,,,,,1,20,1,40,,,,,,,,,,,graphics/neut/icons/hullsys/neutrino_MissileBoost_StatusIcon.png
+Phase Ordnance Deliver System,neutrino_phasebombrelease,,,,,,,,5,,0.25,,0,0,,,,,,,,,,TRUE,graphics/icons/hullsys/flare_launcher.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+#Advanced Dive Bomb AI,neutrino_advanceddivebombAI,,,,,,,,,,0,,0,0,TRUE,,,,,,,,,,graphics/icons/hullsys/burn_drive.png
+#Barghest Squads,neutrino_barghest,,,,,,,,12,0.03,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png

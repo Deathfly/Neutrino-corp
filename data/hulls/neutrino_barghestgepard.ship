@@ -1,0 +1,89 @@
+{
+  "bounds": [
+    15,
+    -8.5,
+    -10,
+    -10.5,
+    -10,
+    10.5,
+    15,
+    8.5
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_neutroniumplating",
+    "pointdefenseai"
+  ],
+  "builtInWeapons": {
+    "WS0001": "neutrino_misery_f",
+    "WS0002": "neutrino_lightpulsebeam"
+  },
+  "center": [
+    20,
+    20
+  ],
+  "collisionRadius": 24,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -12,
+        6
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -12,
+        -6
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    }
+  ],
+  "height": 40,
+  "hullId": "neutrino_barghestgepard",
+  "hullName": "Barghest ",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 25,
+  "spriteName": "graphics/neut/ships/neutrino_barghestgepard.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        -1,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        14,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 40
+}

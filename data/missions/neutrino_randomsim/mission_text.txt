@@ -1,0 +1,17 @@
+Initializing Neutrino Combat Sim...
+....
+...
+..
+.
+done!
+
+Dear customer, due to the unpredictability, we Neutrino Corp take no responsible for any potential damage result form this simulation.
+
+Hold down keys when clicking the mission to customize.
+
+For piloting Neutrino ships to challenge other factions, press 1;
+For piloting other factions ships to challenge Neutrino, press 2;
+For piloting Neutrino ships to challenge other factions (with other mods), press 3;
+For piloting other factions ships to challenge Neutrino (with other mods), press 4;
+
+Enjoy yourself and have a nice day!

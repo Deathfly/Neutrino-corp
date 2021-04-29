@@ -1,0 +1,120 @@
+{
+  "bounds": [
+    10,
+    0,
+    6,
+    -18,
+    -2.5,
+    -21.5,
+    -2.5,
+    -2.5,
+    -10.5,
+    0,
+    -2.5,
+    2.5,
+    -2.5,
+    21.5,
+    6,
+    18
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_drone"
+  ],
+  "builtInWeapons": {
+    "WS0002": "neutrino_photontorpedo_f"
+  },
+  "builtInWings": [],
+  "center": [
+    23,
+    12
+  ],
+  "collisionRadius": 28,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 8.809115,
+      "length": 21.043999,
+      "location": [
+        -4,
+        12.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 8.809115
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8.809115,
+      "length": 21.043999,
+      "location": [
+        -4,
+        -12.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 8.809115
+    }
+  ],
+  "height": 24,
+  "hullId": "neutrino_schwarzgeist",
+  "hullName": "Schwarzgeist",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 19.006578,
+  "spriteName": "graphics/neut/ships/neutrino_schwarzgeist.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "WS0002",
+      "locations": [
+        7,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "WS0001",
+      "locations": [
+        1.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "WS0003",
+      "locations": [
+        -7.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -0,
+      "arc": 45,
+      "id": "WS0004",
+      "locations": [
+        -7.5,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 46
+}

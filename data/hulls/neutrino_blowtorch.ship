@@ -1,0 +1,186 @@
+{
+  "hullName": "Blowtorch",
+  "hullId": "neutrino_blowtorch",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/neut/ships/neutrino_blowtorch.png",
+  "style": "HIGH_TECH",
+  "height": 183,
+  "width": 108,
+  "center": [54, 98],
+  "collisionRadius": 100,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 100,
+  "viewOffset": 0,
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "advancedoptics",
+    "repair_gantry"
+  ],
+  "builtInWeapons": {
+    "WS0003": "neutrino_fusionlance",
+    "WS0004": "neutrino_fusionlance",
+    "WS0005": "neutrino_fusionlance",
+    "WS0006": "neutrino_fusionlance",
+    "WS0007": "neutrino_fusionlance",
+    "WS0008": "neutrino_fusionlance"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [19, 16]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [19, -16]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [48, 4]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [48, -11]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [48, 11]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [48, -4]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [48, 18]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [48, -18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46, 36],
+      "length": 27.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, -36],
+      "length": 27.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, 30.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, -30.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, 25.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, -25.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, 20.5],
+      "length": 27.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, -20.5],
+      "length": 27.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    52, -25,
+    79, -25.5,
+    61.5, -38,
+    -3, -38,
+    -17, -47.5,
+    -45, -47.5,
+    -45, -14.5,
+    -72, -14.5,
+    -87, -0,
+    -72, 14.5,
+    -45, 14.5,
+    -45, 47.5,
+    -17, 47.5,
+    -3, 38,
+    61.5, 38,
+    79, 25.5,
+    52, 25
+  ]
+}

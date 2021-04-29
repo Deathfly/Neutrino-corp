@@ -1,0 +1,52 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "everyFrameEffect": "data.scripts.weapons.NeutPulsarBeamEveryFrameEffect",
+  "fireSoundTwo": "neutrino_heavypulsar_firing",
+  "glowColor": [
+    1,
+    195,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/neut/weapons/neutrino_heavypulsar_hardpoint_glow.png",
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointSprite": "graphics/neut/weapons/neutrino_heavypulsar_hardpoint.png",
+  "id": "neutrino_heavypulsar",
+  "interruptibleBurst": true,
+  "muzzleFlashSpec": {
+    "length": 50,
+    "particleColor": [
+      1,
+      195,
+      255,
+      255
+    ],
+    "particleCount": 12,
+    "particleDuration": 0.2,
+    "particleSizeMin": 15,
+    "particleSizeRange": 25,
+    "spread": 18
+  },
+  "projectileSpecId": "neutrino_heavypulsar_shot",
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": {},
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/neut/weapons/neutrino_heavypulsar_turret_glow.png",
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretSprite": "graphics/neut/weapons/neutrino_heavypulsar_turret.png",
+  "type": "ENERGY"
+}

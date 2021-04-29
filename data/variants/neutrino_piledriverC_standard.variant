@@ -1,0 +1,22 @@
+{
+    "displayName": "Heavy Duty",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "neutrino_piledriverC",
+    "hullMods": [
+        "expanded_cargo_holds",
+        "auxiliary_fuel_tanks"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_piledriverC_standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 2": "neutrino_magnetar",
+            "WS 3": "neutrino_magnetar"
+        }
+    }],
+    "wings": []
+}

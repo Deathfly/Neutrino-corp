@@ -1,0 +1,30 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 10,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "neutrino_vice",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "neutrino_vice_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 4": "neutrino_darkmatterbeamcannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 3": "neutrino_particlecannonarray"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 1": "typhoon",
+                "WS 2": "typhoon"
+            }
+        }
+    ]
+}

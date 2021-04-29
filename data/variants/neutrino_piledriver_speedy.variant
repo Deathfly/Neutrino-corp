@@ -1,0 +1,31 @@
+{
+    "displayName": "Speedy",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "neutrino_piledriver",
+    "hullMods": ["augmentedengines"],
+    "permaMods": [],
+    "variantId": "neutrino_piledriver_speedy",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "neutrino_advancedtorpedo"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 3": "neutrino_magnetar"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 2": "neutrino_magnetar"}
+        }
+    ],
+    "wings": [
+        "neutrino_schwarzgeist_wing",
+        "neutrino_drohne_wing"
+    ]
+}

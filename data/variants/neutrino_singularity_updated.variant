@@ -1,0 +1,27 @@
+{
+    "displayName": "Updated Drone",
+    "fluxCapacitors": 3,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "neutrino_singularity",
+    "hullMods": ["neutrino_broadsideShield"],
+    "permaMods": [],
+    "variantId": "neutrino_singularity_updated",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 2": "neutrino_photongun"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 3": "neutrino_misery"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 1": "neutrino_magnetar"}
+        }
+    ]
+}

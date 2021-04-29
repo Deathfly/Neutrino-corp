@@ -1,0 +1,211 @@
+id,type,text1,text2,text3,notes
+neutrino_lathe,SHIP,"Extremely rare, the product of Neutrino over-engineering. Its main weapons is rumored to be in far excess that of tachyon lances. Unusually low flux capacity is offset by high vent rates and an exceptionally strong pin-point barrier.",,,
+neutrino_piledriverC,SHIP,"An armored container transport ship that can keep its cargoes safe. Accompany with a pair of autonomous scout drones to help it navigate its way out of any potential dangerous, or even fight its way out, if needed.
+These original Pile-driver class' target markets were some AI strict restricted sections, to replace the fully autonomous Polarity container drones. After the semi-autonomous variant of Polarity with a new censored pseudo-ai was launched, they still be widely used since they are easier to maintain.",,,
+neutrino_piledriver,SHIP,"Stripped of cargo containers and replaced with a drone maintain module, with additional weapon slot and flux core, this modified Pile-driver class variant service as a light carrier well.
+Since it was built for maintain Polarity container drones, a general complaint from the pilots is the flight deck design lack of ergonomics.",,,
+neutrino_drohne,SHIP,"Completely autonomous armed scout drone, can fit in multi roles, and is capable of fending for itself. Expensive, but considered almost disposable.",,,
+neutrino_nausicaa,SHIP,"Beyond well armored, this high tech freighter has yet to fail a delivery. Its unique cargo has lent it immense mass. Never attempt to block its path.",,,
+neutrino_hacksaw,SHIP,"A Heavy destroyer, borderline light cruiser if not for it being often used solely as a Point Defense platform.",,,
+neutrino_blowtorch,SHIP,"Part construction machinery, part Neutrino technology. This ship is only seen when used to fuse massive super-capital sized armor plates together.",,,
+neutrino_jackhammer,SHIP,"The latest attempt at combining as many fleet roles as possible into one ship. Half of the ship is dedicated to a phased cannon array. Excessive force is required to take one of these down.",,,
+neutrino_singularity,SHIP,"A unique frigate that is completely autonomous down to the self-repair robots on board. Decently armed, gets things done quick.",,,
+neutrino_nirvash,SHIP,"A step away from normal Neutrino designs, the Nirvash focuses most of its offensive power in its broadsides with minimal point defense.",,,
+neutrino_hammer,SHIP,"A standard Jackhammer class that has been monstrously reconstructed while leaving most of its armaments behind for what appears to be massive durability.",,,
+neutrino_schwarzgeist,SHIP,"An advanced bomber drone used to beat down ships of opportunity. Well armored for a fighter craft.",,,
+neutrino_grinder,SHIP,"This ship is the result of field tests in which it was noted that shields dissipated most if not all Neutrino beam weaponry. Armed to the teeth, this cruiser is not to be taken lightly.",,,
+neutrino_drache,SHIP,"A bomber the size of a large frigate, and is armored as such, its sole purpose is to deliver its graviton inversion device.",,,
+neutrino_vice,SHIP,"An experimental support ship. Dedicates a large portion of the ship to its single large energy turret. Often seen with a tractor beam disrupting enemies.",,,
+neutrino_hildolfr,SHIP,"Derived from a civilian space mining rig. This huge ship has been re-purposed into a drone ship tender. Durable, slow, large, but moderately armed.",,,
+neutrino_moskito,SHIP,"An escort corvette drone equipped with powerful PD armament. Sturdy and durable, but not so easy to maintain due to its size.",,,
+neutrino_floh,SHIP,"A top of the line corvette drone equipped to deal with frigates up to cruisers, and often even capitals when used in numbers.",,,
+neutrino_banshee,SHIP,"A high tech Assault Battleship. Without large and bulky integrated energy weapons, the additional energy is re-routed into its monstrous engines. Most often seen as a missile platform.",,,
+neutrino_adventure,SHIP,"Created to fill in the gap of reliable and cheap capital ship, the Adventure class is a wolf in sheep's clothing.",,,
+neutrino_colossus,SHIP,"This monstrosity dedicates all its energy into its Guardian shield. It depends on allies to defend it in a mutual relationship.",,,
+neutrino_guardianship,SHIP,"This massive device draws the power of a whole capital ship. While having no ability to dissipate soft flux, it has the capacity of 175 thousand units of flux.",,,
+neutrino_aegis,SHIP,"An unarmed drone meant to cover the weak spots of Neutrino ships with a large 360 shield as opposed to the narrow impenetrable barriers.",,,
+neutrino_relativity,SHIP,"A complete standalone drone equipped with a Arc Surge system. Lightly armed when the Arc system isn't used in conjunction.",,,
+neutrino_causality,SHIP,"An Advanced Phase drone, by miniaturizing the bulky phase coils into standardized Micro-Phase Actuators additional room is given for a phase missile system.",,,
+neutrino_unsung,SHIP,"The epitome of the corporate fleet, commanded by only the best, its existence had only been known through rumors.",,,
+neutrino_schwarm,SHIP,"A swarm of interlinked drones meant to inundate and overwhelm pd systems while delivering light assault damage,",,,
+neutrino_theend,SHIP,"A hybrid phase ship and carrier. With a focus as being a base of operations for the Barghest. The experimental phase ring permits indefinite phase activation.",,,
+neutrino_sledgehammer,SHIP,"A relatively older missile destroyer design modernized up to todays standard with cutting edge armor and the inclusion of a Siege Fusor. Dangerous from far and up close.",,,
+neutrino_nausicaa2,SHIP,"Beyond well armored, this high tech freighter has yet to fail a delivery. Its unique cargo has lent it immense mass. Never attempt to block its path.",,,
+neutrino_polarity,SHIP,"Simply a shipping container on a engine steered by a simple Z++ encoded pseudo-ai. Useful when cargo space is tight without breaking the bank.",,,
+neutrino_bansheenorn,SHIP,"A remodeled Banshee for more direct engagements. It traded all its large slots for more numerous slots, also reinforced with sturdier bulkheads and flux capacitors.",,,
+neutrino_maul,SHIP,"A solid heavy cruiser built around 3 large energy slots. Its signature ability is siege mode, trading speed and turret rotation for damage and range. ",,,
+neutrino_jackhammer2,SHIP,"The latest attempt at combining as many fleet roles as possible into one ship. Half of the ship is dedicated to a phased cannon array. Excessive force is required to take one of these down.",,,
+neutrino_gepard1,SHIP,"A trio of space superiority fighters, with a deadly Misery laser and 2 Schwarm drones each, this flight of Gepards are a credible threat to any target.",,,
+neutrino_gepard2,SHIP,"A full wing of space superiority fighters, with a deadly Misery laser and 2 Schwarm drones each, extra expensive, but you don't mind right?",,,
+neutrino_criticality,SHIP,"A unusual Neutrino design, the Criticality trades in its shield for incomparable burst mobility and oversized fire power. As long as its reaction control system has charges, its speed is unmatched.",,,
+neutrino_falken,SHIP,"A advanced ship that cannot exist due to oversized weapons in its frigate size hull that physically cannot be installed. But there are rumors said this invisible red unicorn exists and lurks in phase space relentlessly, and will kill you three times faster than the others.",,,
+neutrino_miter,SHIP,"A high speed destroyer that unusual use for pursue. Lack of shield but packed enough firepower to destroy enemies before the armor breach, in most of times.",,,
+neutrino_barghestcausality,SHIP,"CLASSIFIED",,,
+,,,,,
+neutrino_neutronlance,WEAPON,"The Tachyon Lance's predecessor, it is still in many ways superior. High energy use and difficulty mounting makes it being rarely used outside of capital ships.
+
+Unlike the unpredictable tachyon beam, the neutron beam can reliably overload shields and break though armor more effectively. However, the lethal radiation released while firing requires an energy-intensive active shield to be integrated into the weapon system.
+
+""Initiate an antimatter-catalyzed fusion reaction in a proprietary neutron reflect chamber that results in a burst neutron beam."" That's the words came from Neutrino's instruction manual. And people believe that ""proprietary neutron reflect chamber"" is a reason of conflict between Neutrino and Tri-Tachyon.
+
+Neutron is a registered trademark of Neutrino corporation.
+",Assault,,
+neutrino_photontorpedo,WEAPON,"A battery of unique torpedoes that deliver modest damage warheads in quick succession Requires charging of munitions with energy before firing.
+
+Photon torpedo can reload in combat easily and safely due to the inertness of the uncharged torpedoes. That make this hybrid weapon more like a energy blaster in missile slot. It can provide sustained strike power in a prolonged fight. But it cost energy to fire, lack of range(compare to other missiles) and interceptable.
+
+The Mark IV series Photon torpedoes are much differ from its predecessor. They use activated degenerating matter munition instead of pre-changed fusion shape charge. This modification significantly reduced munitions' energy/damage radio by costing some effective range. And they still compatible to the former launchers.
+
+Due to its fuse-free warhead design and its unique inertia-manipulate thruster, Mark IV series Photon torpedoes are almost immunize to typical EMP arc strikes unless them hit hard enough to cause serious damage.
+
+Photon is a registered trademark of Neutrino corporation." ,Fire Support,,
+neutrino_unstable_photon,WEAPON,"A dangerous experiment involving degenerating matter. How it functions is unknown to outsiders. WARNING: Point away from self".,Fire Support,,
+neutrino_lightphoton,WEAPON,"A toned down version of the standard Photon torpedo. Little use against other fighter craft, but still a threat to unshielded ships.
+
+Photon torpedo can reload in combat easily and safely due to the inertness of the uncharged torpedoes. That make this hybrid weapon more like a energy blaster in missile slot. It can provide sustained strike power in a prolonged fight. But it cost energy to fire, lack of range(compare to other missiles) and interceptable.
+
+A new variation of Photon torpedoes since Mark IV series. The new munition design make farther miniaturization of Photon torpedo become available. Light photon torpedoes now are used widely as a low cost strike weaponry.
+
+Due to its fuse-free warhead design and its unique inertia-manipulate thruster, Mark IV series Photon torpedoes are almost immunize to typical EMP arc strikes unless them hit hard enough to cause serious damage.
+
+Photon is a registered trademark of Neutrino corporation.",Strike,,
+neutrino_photongun,WEAPON,"Ironically different from torpedoes in that these are actually magnetically guided and faster firing, but are much more difficult to assemble into a battery.
+",Assault,,
+neutrino_freightergun,WEAPON,"Ironically different from torpedoes in that these are actually magnetically guided and faster firing. Equipped with their own power generators.",Assault,,
+neutrino_antiproton,WEAPON,"A Point defense beam weaponry that shoots five concentrated pulses of anti-protons and aim them respectively. Ineffective against ship armor and shields.
+",Point Defense,,
+neutrino_fusionlance,WEAPON,"A variable setting laser that can be made to either fuse or cut using near fusion temperatures. Low tech, low range, high energy use, but effective.",Strike,,
+neutrino_phasedarray,WEAPON,"A shipborne version of the massive Phased Array Cannon: high flux, high damage, high fitting requirements. Dangerous too all but the hardiest of ships.",Strike,,
+neutrino_javelin,WEAPON,"The large missile equivalent of the Pilum, upgraded with matter-antimatter charges and a toughened casing this missile is hard to stop but easy to dodge.",Fire Support,,
+neutrino_tractorbeam,WEAPON,"Created by pure accident, this unique utility weapon hold ships in place for easier targeting of hard to aim ballistics or missiles. ",Fire Support,,
+neutrino_pulsebeam,WEAPON,"A unique modification combining a heavy burst beam with a mining blaster. The additional attachments render it impossible to turn.
+Was marketing as a mining device before the collapse but not being widely use due to aiming an fixed beam required additional attitude adjustment that may raised mining cost. But it was really energy efficiency and easy to install, so there still some miner would like to chose it. And since it hold some surprisingly drill power, it can the even hardest ore apart easily, as well as ship armor.",Assault,,
+neutrino_lightpulsebeam,WEAPON,"A toned down version of Pulse Beam Cannon that frequently be used as a burst mining beam. Can barely turn and hard to keep track on small targets.
+This ""small"" version mining pulse beam is still a little too bulky for a small module slot. But it still fit, can hit hard enough.",Assault,,
+neutrino_graviton_inverter,WEAPON,“Massively devastating weapon. This one shot bomb is nearly guaranteed to knock out a ships shields or rend some form of excessive damage.”,Strike,,
+neutrino_heavyphotonrepeater,WEAPON,An large scaled photon cannon . Its magnetic aiming coils has been reduced in order to fit larger charging capacitors for rapid fire.,Assault,,
+neutrino_darkmatterbeamcannon,WEAPON,This weapon fires off a dense stream of darkmatter for their kinetic effect. Electrostatic bloom limits range it to a short-mid range weapon.,Assault,,
+neutrino_particlecannonarray,WEAPON,"Inspired by the Darkmatter beam cannon, this proton particle cannon array to fire highly compressed bolts to rend huge kinetic damage.",Assault,,
+neutrino_XLadvancedtorpedo,WEAPON,"This is the Large scale version of the Advanced torpedo launcher. Exceptional range, modest tracking, and good damage.",Fire Support,,
+neutrino_advancedtorpedo,WEAPON,"Pre-stored degenerating matter charges are fired out and then guided until they meet the target. Exceptional range, modest tracking, and good damage.",Fire Support,,
+neutrino_pulsar,WEAPON,"A miniaturized synchrotron, stores highly accelerated protons. Semi high energy draw. The magnetic beamline regulator is notoriously inaccurate. Consistent firing will allow a higher load on the synchrotron, resulting up to 1.5 times rate of fire.
+
+Packing quite lot of striking power for its size, the Pulsar is an ideal, all-around energy weapon choice for ships that have some extra energy to spend. Although it is difficult to aim, the ultra-high velocity beam-like shots make it also difficult to be evaded. 
+
+A weaponized synchrotron design was simple in concept but difficult in practice, until Neutrino launched their Pulsar weapon line. Unlike other fragile research equipment, the Pulsar line is a novel synchrotron design, constituted by self-similarity fractual parts that are robust, and can easily be fabricated and replaced. Couple with Neutrino's autonomous maintenance drone*, the Pulsar can withstand even the most hazardous conditions. Along with the cutting edge gunnery AI* that can provide a greater than 95% accuracy**, the Pulsar line is truly a Neutrino marvel for these testing times.. 
+*Both are optional purchasable accessories.
+**In controlled conditions.
+
+Pulsar is a registered trademark of Neutrino corporation.
+",Assault,,
+neutrino_magnetar,WEAPON,"A weaponized electron synchrotron. As a decent PD solution, it fires multiple electron beams in salvo to overcome the inaccuracy from its magnetic beamline regulator.
+
+Although it is designed for point defense, Magnetar also often be used to keep up pressure on shield. Especially on some compact ship designs.
+
+One of the final models come from the ""Salvo"" project, a set of new point defense weapon designs to counter the intensified missile saturation attack. Due to its accuracy just merely reach PD standard, Magnetar was an underdog in this project until its potential usage as an assault weapon was discovered. Instead of mend its inaccuracy, the engineers decided to further improve its firing rate. So in practice, Magnetar can be used to replace some other shield pressuring assault weapons and that result more PD can be used when facing saturation attacks.
+",Point Defense,,
+neutrino_dualpulsar,WEAPON,"Upgraded form of the Pulsar, this weapon sports rapid capacitors, almost tripling fire rate. Accuracy is even lower due to rapid fire calculations. Consistent firing will allow a higher load on synchrotron resulting up to 1.5 times rate of fire.
+
+A simple series-operating design in fact, Pulsar Repeater works a little more inefficiency then its competitors. But its pure overwhelming devastating firepower can breakdown its opponents' defense easily.
+
+A weaponized synchrotron design was simple in concept but difficult in practice, until Neutrino launched their Pulsar weapon line. Unlike other fragile research equipment, the Pulsar line is a novel synchrotron design, constituted by self-similarity fractual parts that are robust, and can easily be fabricated and replaced. Couple with Neutrino's autonomous maintenance drone*, the Pulsar can withstand even the most hazardous conditions. Along with the cutting edge gunnery AI* that can provide a greater than 95% accuracy**, the Pulsar line is truly a Neutrino marvel for these testing times.. 
+*Both are optional purchasable accessories.
+**In controlled conditions.
+
+Pulsar is a registered trademark of Neutrino corporation.
+",Assault,,
+neutrino_heavypulsar,WEAPON,"Final derivation of offensive particle accelerators. Requires enormous energy to fire, but allows for an even faster beam. Some doubt a regulator is even installed. Consistent firing will allow a higher load on synchrotron resulting up to 1.5 times rate of fire.
+
+Due to its extravagant energy cost and inaccurate, Heavy Pulsar seldom reveal its sustaining striking potential. But no defense can stand long against it if it do so.
+
+Also well know as a ""fire and pray"" weapon since even the most experienced gunner will hold his fire at long range unless he ""feel lucky enough"". And it also be called as ""Overloader"" due to its ultra-high velocity beam-like shot leave almost no reaction time to the shield operator.
+
+A weaponized synchrotron design was simple in concept but difficult in practice, until Neutrino launched their Pulsar weapon line. Unlike other fragile research equipment, the Pulsar line is a novel synchrotron design, constituted by self-similarity fractual parts that are robust, and can easily be fabricated and replaced. Couple with Neutrino's autonomous maintenance drone*, the Pulsar can withstand even the most hazardous conditions. Along with the cutting edge gunnery AI* that can provide a greater than 95% accuracy**, the Pulsar line is truly a Neutrino marvel for these testing times.. 
+*Both are optional purchasable accessories.
+**In controlled conditions.
+
+Pulsar is a registered trademark of Neutrino corporation.
+",Strike,,
+neutrino_disruptor,WEAPON,"A high speed, high tracking missile jammer beam, works against IR, Radar, and even unguided munitions through high energy protons.
+",Point Defense,,
+neutrino_derp_launcher,WEAPON,"A weaponized version of the derp charge CIWS, this weapon launches large AoE charges that ruin any incoming munitions.",Point Defense,,
+neutrino_herp,WEAPON,"The High, Energy, Reactive, Plasma Emitter releases spent reactor plasma and directs it through the ship through magnetic rails.",Assault,,
+neutrino_dualpulsebeam,WEAPON,"Twin-linked pulsed lasers with high potential damage at close range but falls off at long range. Slow tracking but deadly.",Assault,,
+neutrino_neutronpulse,WEAPON,"By utilizing stabilized confinement fields to project large doses of neutron radiation, it deals extra 50% armor breaking damage on hull.
+
+Unlike other anti-armor energy weapons, Neutron Pulse Cannon fires unique slow moving projectiles that can easily rain down a mass volley through an unexpected long-distance. 
+The phase-shift effect cause by stabilized confinement field collapsing can disintegrate any matters in a small radius. And that results a very stable ""armor breakup"" effect on most types of armors regardless armor rating.
+
+A time-honored design that can date back to the ""decisive battle"" doctrine's last days. As a compacted energy weapon for the ship of the line of battle, Neutron Pulse Cannon was born for long range bombardment. Unfortunately, the old school line-of-battle ship rarely had any modularized energy weapon mounts, so it never be equipped widely before the ""mobile warfare"" doctrine dominated and it lost its place in space navy. 
+After the Collapse, since many venerable designs and tactics were revived, the Neutron bring back the old Neutron Pulse Cannon design, to face its old opponents once again.
+""Hope we can make a better sell this time.""
+Neutron is a registered trademark of Neutrino corporation.
+",Assault,,
+neutrino_neutronpulsebattery,WEAPON,"A quadruple battery of Neutron Pulse Cannons, with the extra room slightly higher efficiency capacitors help reduce the energy cost. It deals extra 50% armor breaking damage on hull.
+
+Unlike other anti-armor energy weapons, Neutron Pulse Cannon fires unique slow moving projectiles that can easily rain down a mass volley through an unexpected long-distance. 
+The phase-shift effect cause by stabilized confinement field collapsing can disintegrate any matters in a small radius. And that results a very stable ""armor breakup"" effect on most types of armors regardless armor rating.
+
+Since Neutron Pulse Cannon already had superlative armor breaking power, when its enlargement design first hit the drawing board, the most improvement were focused on a better energy efficacy. Although the first few prototypes's performance were good, this project was cancelled since it not longer fit the new form of warfare so only a few UAC lasted though the Collapse.
+""It was an advanced design and it still be.""
+Neutron is a registered trademark of Neutrino corporation.
+",Assault,,
+neutrino_neutronpulseheavy,WEAPON,"A heavier version of the standard Neutron Pulse Cannon. With a faster, harder hitting projectile but lowered range. Use special overcharged capacitors that need slowly recharge with caution. It deals extra 50% armor breaking damage on hull.
+
+A recently attempt to further improve the Neutron Pulse weapons line, the Heavy Neutron Pulse Cannon performance closer to a typical strike weapon then the others. 
+The phase-shift effect cause by stabilized confinement field collapsing can disintegrate any matters in a small radius. And that results a very stable ""armor breakup"" effect on most types of armors regardless armor rating.
+
+This cannon's hitting power is surprising high, as a medium size weapon. There are rumors said that this weapon's firing rate was intentional reduced to prevent it cannibalizes other large energy weaponrys' market sharing. And Neutrino corporation did not answer directly about that. They just reiterate that they will not take responsible for any personal injuries cause by any independent altered products.
+""That's a solid hit!""
+Neutron is a registered trademark of Neutrino corporation.
+",Strike,,
+neutrino_neutronpulsef,WEAPON,"A triple Light Neutron Pulse Cannon battery, dealing massive hull damage. Use special high-capacity capacitors that need slowly recharge with caution. It deals extra 50% armor breaking damage on hull.
+
+Unlike other anti-armor energy weapons, Neutron Pulse Cannon fires unique slow moving projectiles that can easily rain down a mass volley through an unexpected long-distance. And this tri-barrels prototype equipped with a very effective burst fire mechanism.
+The phase-shift effect cause by stabilized confinement field collapsing can disintegrate any matters in a small radius. And that results a very stable ""armor breakup"" effect on most types of armors regardless armor rating.
+
+As a partial success prototype to proof the practicability of Neutron Cannon miniaturization, the Model 17, which was named as ""Light Neutron Pulse Cannon"" later, had reached most expected goals, except its active neutron shield was a little less efficiency. Although the size fit, the Model 17 could not be used on modularized small energy weapon slot since the intensive energy consumptive when firing had exceeded the limit of technical standard.
+Then, to explore its potential usage, several new prototypes based on Model 17 was built, including this unusual burst fire battery. By combine a high capacity fusion neutron producer and three Model 17's projector units, this design was simple but yet deadly.
+""When size doesn't matter, the more, the better.""
+Neutron is a registered trademark of Neutrino corporation.
+",Strike,,
+neutrino_advancedtorpedosingle,WEAPON,"Pre-stored degenerating matter charges are fired out and then guided until they meet the target. Exceptional range, modest tracking, and good damage. This small launcher use a pre-charged case for rapid firing. As a side effect, the missile range is reduced.",Fire Support,,
+neutrino_siegefusor,WEAPON,"A dangerous weapon where by using special Neutronium projectiles with a mass enhancer, the slow moving projectile can deal massive damage.",Strike,,
+neutrino_quasar,WEAPON,"A modified Pulsar accelerator that fires antimatter. Dangerous, but light on flux with a slow recharge.",Assault,,
+neutrino_sapper,WEAPON,"An 8 shot EMP rocket launcher, with the rockets specially designed to slow down into a compact group to act as impromptu EMP mines.",Fire Support,,
+neutrino_phasedarray2,WEAPON,"By combining multiple neutron generators and slightly altering the phase of the combined beams, massive damage is gained at the cost of range.",Strike,,
+neutrino_bane,WEAPON,"A quad pulsed boson accelerator that uses a unique spiralized containment field to achieve results that are barely understood. Sometime it will deal extra damage on target.",Assault,,
+neutrino_misery,WEAPON,"A dual spiralize pulsed boson accelerator that offers good range and effective damage. Sometime it will deal extra damage on target.",Assault,,
+neutrino_goliath,WEAPON,"A burst-fire rocket system, easily suppresses offending PD systems with sheer volume. Easily shutdowns enemy subsystems if the rockets get through.",Assault,,
+neutrino_silverlance,WEAPON,"A high energy burst beam. It can penetrate most hulls, unshielded or shielded. And leave significant EMP effects on its path. Unfortunately, this beam can not deliver all its damage onto target in most of situation. 
+Unlike other weapons, Neutrino Corp refuses to discuss how this weapon works.",Strike,,
+neutrino_superphasemissilelauncher,WEAPON,"CLASSIFIED",Strike,,
+,,,,,
+,,,,,
+neutrino_drone_scout,SHIP_SYSTEM,Launches scout drones for the ship to acquire targets. Has a long free roam range.,Drones,,
+neutrino_swarmflarelauncher,SHIP_SYSTEM,"An improvement of the flare system by simply launching more flares, somewhat expensive given the efficacy of flares. ",Defensive,,
+neutrino_guardianshield,SHIP_SYSTEM,A 1.0 efficiency widescale shield capable of covering an entire fleet and taking in entire fleets worth of fire. 175K flux capacity. Cannot dissipate soft flux.,Defensive,,
+neutrino_shielddrones,SHIP_SYSTEM,Launches 3 shield drones that will immediately start trying to block incoming enemy fire.,Drones,,
+neutrino_derpchargesystem,SHIP_SYSTEM,"Durable, Energy, Retaining, Pod, or Derp. These Smart warheads carry a specially contained amount of antimatter, dealing light damage and some EMP with large splash to whatever they come into contact with. Launchers are hidden on ships.",Defensive,,
+neutrino_arcsurge,SHIP_SYSTEM,"An EMP emitter modified to send a thin stream of plasma before the weapon discharges, this systems increases the damage caused by increasing efficiency. This system can fire concurrently with weapons, at the cost of generating hard flux with use.",Offensive,,
+neutrino_phasemissilesystem,SHIP_SYSTEM,A special transmitter sends a signal to missiles in waiting that promptly re-enter normal space. The transmitter takes a fair bit of flux to activate and slowly recharges.,Offensive,,
+neutrino_cruise_engine,SHIP_SYSTEM,"By redirecting the flux allocated to the weapon systems, the ship can activate its cruise drive for long distance travel. Shields are still available for use but will decrease the drives speed.",Defensive,,
+neutrino_siege,SHIP_SYSTEM,"Redirects all unnecessary flux usage and diverts it to increase weapon range and damage at the cost of rate of fire, turret rotation speed, and mobility.",Offensive,,
+neutrino_reactioncontrolsystem,SHIP_SYSTEM,"By manipulating total inertia, it stores it for later use in high speed bursts at the cost of lowered normal ship speeds.",Defensive,,
+neutrino_schwarm,SHIP_SYSTEM,Multitude of near identical Schwarm drones interlinked for combat.,Offensive,,
+neutrino_schwarm2,SHIP_SYSTEM,Multitude of near identical Schwarm drones interlinked for combat.,Offensive,,
+neutrino_schwarm3,SHIP_SYSTEM,Multitude of near identical Schwarm drones interlinked for combat.,Offensive,,
+neutrino_highenergyfury,SHIP_SYSTEM,"A polyphase power amplifier that can increase both damage and rate of fire for energy weapons and enable engine boost. Due its high energy consumption, ship flux core cannot dissipate hard flux while this system is actived.",Offensive,"Briefly increases the damage dealt, rate of fire, and flux efficacy for all energy weapons, enable engine boost, but block hard flux dissipate.",
+neutrino_barghest,SHIP_SYSTEM,CLASSIFIED,Drones,,
+,,,,,
+,,,,,
+neut_star_neutron,PLANET,"RX J1856.5-3754 is small neutron star in the Corona Australis system, it has now become the home system of the Neutrino Corporation and is now a proud supplier of Neutronium.",,,
+neut_rocky_unstable,PLANET,"After the supernova explosion, debris has collected into this planetoid, being of little value, it has now been cleared for planetary bombardment and weapon testing.",,,
+,,,,,
+neut_station_smalldrill,CUSTOM,"A centuries old phasic-graviton laser that's been directed at RX J1856.5-3754 for decades, a source of neutronium plating for most neutrino ships in the sector.",,,
+neut_station_largeprocessing,CUSTOM,"A heavily industrialized autofactory, from raw material processing to starship production, each has it's own place inside this complex.",,,
+neut_station_experimental,CUSTOM,"Mainly a testing facility for weapons and experimental technology that have been techmined, frequently uses the orbiting planet as a target for its host of tests.",,,
+neut_station_powerplant,CUSTOM,"A Neutrino high-efficiency solar power plant and regional warehouse for the Corvus system.",,,
+neut_exelionabandoned,CUSTOM,"The IFF code shows this should be a Neutrino remote astrophysics research station.",,,
+,,,,,
+neutrinocorp,FACTION,"An corporation as old as the Tri-Tachyon, designs were once shared, technologies inter-mixed, but after a falling out the entities rarely co-exist peacefully in the same system.",,,

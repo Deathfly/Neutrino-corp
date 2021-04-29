@@ -1,0 +1,21 @@
+{
+  "displayName": "Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "neutrino_schwarm2",
+  "hullMods": [
+    "pointdefenseai",
+    "neutrino_sigmaupgrade"
+  ],
+  "quality": 0,
+  "variantId": "neutrino_schwarm2_variant",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "irpulse"
+      }
+    }
+  ]
+}

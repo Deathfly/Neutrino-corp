@@ -1,0 +1,516 @@
+﻿changelog since 1.86
+
+1.86-RC3
+
+BUG FIX
+
+- Fix a memory leak cause by Mammut.
+
+- Fix a bug cause Nausicaa got stick on its drones.
+
+1.86-RC2
+
+CONTENT CHANGES
+
+- Did I mentioned all photon weapons had a new photon-ish VFX? No?
+
+BALANCE CHANGES
+- Drache
+-> Lower the OP cost to 25.
+
+- Mammut
+-> While actived, the Guardian Shield will push enemy ship out, or push Mammut back if it covered a station.
+
+BUG FIX
+
+- Fix a bug cause Mammut can not move.
+
+- Fix a bug cause Antiproton Beam show under all ships. (Opps, test code leak.)
+
+- Fix a potential NPE when Mammut shows in a battle while your ally engage it first.
+
+1.86-RC1
+
+CONTENT CHANGES
+
+- Rework implement method for Neutronium Plating VFX, so it will no longer remove all light effects from GraphicLib.
+
+BALANCE CHANGES
+
+- Adjusted hull price to conform the vanilla price change.
+
+- Neutronium Plating
+-> Increase max armor damage reduction beyond 100% while actived. To gain a better protection against low DPH fire.
+
+- Vice
+-> Shipsystem change into Siege Mode.
+
+- Criticality
+-> Reaction Control System change into a right-click system. With 0.5 second active during and 1 second cooldown.
+-> Reaction Control System now provide "evade" effect that prevent ship hit by incoming fire while actived. 
+-> Shipsystem change into Quantum Disruptor.
+
+- Miter
+-> Reaction Control System change same as Criticality.
+-> Shipsystem change into Interdictor Array.
+
+- Jackhammer
+-> Remove 4 hidden medium energy slots.
+-> OP reduse from 350 to 320.
+
+- Unsung
+-> Remove all hidden weapon slots.
+-> OP reduse to 450
+
+- Antiproton Beam
+-> Reduce EMP arc chance surely this time.
+-> Increase armor piercing for individual beam by 5 times so the final weapon armor piercing capability match to the spec stat, to gain a reasonable anti-fighter capability.
+
+- DERP Launcher
+-> There was a bug that result the explosion AoE block out not only missiles, but also ballistic projectiles. Now with a newly added VFX, it become a feature.
+
+- Phased Array Cannon
+-> Reduce flux per shot from 18000 to 14400.
+-> Now fire as a 5 beams array.
+-> Extremely effective against armor. 25% of damage result hard flux on shield. 
+
+- Schwarzgeist
+-> Swap Shield with Phase Clock. 
+
+- Drache
+-> Swap Shield with Phase Clock.
+-> Graviton Inversion Device now hold 5 x 1250 kinetic damage ordnances instead of 3 x 1500.
+-> Shipsystem change into Phase Ordnance Deliver System. Enable deliver ordnances while phasing.
+
+- Floh
+-> Shipsystem change into Rotte Drone, release a pair of powerful attack drones.
+
+- Gepard Eins and Gepard Drei
+-> Shipsystem change into Rotte Drone, release a pair of powerful attack drones.
+-> Add a new right-click system, Evasive Maneuver. A fighter version Reaction Control System.
+
+
+KNOWN ISSUE
+
+- Mission "Random Combat Sim" and "Stop! Hammer Time!" don't work properly unless you enter campaign once after game started.
+
+RC4.1
+------------------------------------------------
+- Fix a CTD while Graviton Inversion Device trying to track on something moving too fast.
+
+RC4
+------------------------------------------------
+
+BALANCE CHANGES
+
+- Antiproton Beam
+-> Reduce EMP arc chance.
+-> Now firing at continuous short burst instead of sustained beams, to gain a better track.
+
+- DERP Launcher
+-> Explosion last longer, and will damaging anything that entering AOE.
+
+- Heavy Pulsar Beam
+-> Reduce max scatter.
+
+- Moskito
+-> Gain a hull mod that features a data link system that can fetch targeting data from mothership. Gain weapon range bonus from mothership. 
+-> Ship system change into DERP CIWS. 
+
+- Drache
+-> Now phase teleport Graviton Inversion Device near its target in short range.
+-> Graviton Inversion Device HP reduce to 400.
+
+BUG FIX
+
+- Fix a rare crash when TheEND got disabled or destroyed while figher landing. 
+
+- Fix a CTD while Graviton Inversion Device hit something cann't be hit.
+
+RC3
+------------------------------------------------
+CONTENT CHANGES
+
+- Add a jitter effect to launching ship while Phase Missile System active.
+
+BALANCE CHANGES
+
+- Phase Missile System
+-> Missiles now exiting to normal space with a lower speed. So they will more easier to be dodged by small ships.
+
+BUG FIX
+
+- Fix a crash when TheEND got disabled or destroyed while launching or landing fighers.
+
+- Fired the employee who mis-tagged Grinder class with a 400K price tag.
+
+RC2
+------------------------------------------------
+BUG FIX
+
+- Now Neutrino weapons now properly appear on market.
+
+RC1
+------------------------------------------------
+CONTENT CHANGES
+
+- Compatible with 0.9a
+
+- New ship system, Missile TDS, for Banshee and Sledgehammer
+-> An advanced missile trajectory control system that optimize missile trajectory and counter enemies countermeasures.
+-> When active, increase missile max speed, maneuverability, and damage by 15%. Increase missile weapon rate of fire by 100%. Increase missile HP by 50%
+
+- TheEND now features a phase fighter launching system.
+-> Generation hard flux equate to 10% base flux capability when launching fighters while mothership is phasing.
+-> More efficiently deploy and recover fighters somehow.
+
+BALANCE CHANGES
+
+- An overall balance check through all weapons, to make them works better on non-Neutrino ships.
+-> Reduce flux cost and OP cost in general. In line with vanilla energy weapons.
+
+- Magnetar Burster
+-> Introduced clip mechanism. Hold 20 charges that could be fired at 333 dps, and reload a 4 charges clip per second with 100 sustained DPS.
+-> Works as a PD weapon more effective.
+-> Flux/damage reduse to 0.75, more flux efficacy.
+
+- Heavy Pulsar Beam
+-> Damage per shot reduced to 1000. Flux per shot reduced to 1400. Rate of fire increase to one shot for every three seconds.(20 rpm)
+-> In line with Plasma Cannon change for 0.9a.
+
+- Particle Cannon Array
+-> Rework clip mechanism. Hold 16 charges that could be fired at 1293 dps, and reload a 8 charges clip per second with 222 sustained DPS.
+-> OP increase to 25
+
+- Misery
+-> Flux per shot reduce to 60(-7.5)
+-> Range reduce to 700 (-50)
+
+- Bane
+-> Flux per shot reduce to 75(-25)
+-> Range reduce to 800 (-50)
+
+- Unstable Photon Cannon
+-> Max charge reduce to 4(-2)
+-> Max range reduce to 900(-500)
+ 
+- Photon Cannon
+-> Range increase to 900
+-> Damage type change into HE.
+
+- Antiproton Beam
+-> Now sustained fire 5 beam with 200 DPS in total. Generate 100 flux per second.
+
+- Neutron Pulse Cannon
+-> OP reduce to 12(-1)
+-> Range increase to 900(+50)
+
+- Triple Neutron Pulse Cannon
+-> OP reduce to 12(-2)
+-> Flux per shot reduce to 200(-45).
+
+- Heavy Neutron Pulse Cannon
+-> OP reduce to 14(-1)
+-> Flux per shot increase to 1170(+95)
+-> Max charge reduce to 2(-6)
+
+- Neutron Pulse Battery
+-> OP reduce to 25(-1)
+-> Range increase to 1000(+100)
+-> Flux per shot increase to 525(+100)
+-> Damage increase to 350
+
+- Dual Giga Pulse Laser
+-> DPS reduced to 400(-100)
+
+- Neutron Lance
+-> Flux cost reduced to a 1.5 flux/damage rate.
+
+- Phased Array Cannon
+-> Flux cost reduced to a 1.5 flux/damage rate.
+
+- Removed Phased Array Cannon ship-borne version
+-> Maybe we could see it on battle stations another day.
+
+- Removed Silver Lance
+-> Anyway, this weapon was tend to be used for debuging Fake Beam. And it cause too many bugs in 0.9a now.
+
+- Dual Adv. P. Torpedo
+-> OP reduce to 10(-2)
+
+- Pile-Driver
+-> OP increase to 30
+-> Max cargo reduce to 250, max full increase to 120
+-> No Civilian-grade Hull. The point is, you can put Expanded Cargo Holds for it to reach a better then vanilla cargo efficacy, but that will cost one logistics hullmod slot.
+
+- Sledgehammer
+-> Now built-in with ECM Package and ECCM Package instead of Expanded Missile Racks.
+
+- TheEND
+-> Peak timer reduce to 360.
+
+- Maul
+-> Large energy turret firing arc reduce to 120 degree.
+
+- Banshee
+-> OP increase to 270
+-> Change one of the mediun energy slot into synergy
+
+- Nausicaa
+-> Max burn increase to 7
+-> cargo capability reduse to 4000, with same reason as Pile-Driver
+
+- Polyphase Amplifier
+-> Now got a shor time engine hyper boost while the system change up, to kick ship forward.
+
+- Phase Missile System 
+-> Now can use while phasing.
+-> Flux cost change to 20% hard flux of base capacity。
+-> Missile loose homing ability after they retrun to normal space.
+
+- Siege Mode
+-> No longer increase weapon damage.
+-> No longer reduce firing rate.
+-> Reduce 20% weapon flux cost instead.  
+
+- Neutronium Plating
+-> No longer overload ship while collapsing.
+-> Power Armor strength reduced.
+-> Armor regenerate rate reduced.
+
+- Neutrino Omega Upgrade reworked
+-> A high-end upgrade reserved for Neutrino operatives and corporate interests. Design for ships that been deployed to decisive battles. 
+   Advance target analysis system increase 10% damage done to capital ships or stations,  and 5% damage done to cruisers. 
+   Also increases armor by 50/100/150/200 depend on hull size.
+-> OP request reduce to 6/10/15/20
+-> No longer incompatible with ITU and DTC.
+
+- Schwarzgeist
+-> Removed Sapper SRM Pack.
+-> Photon Torpedo Launcher (Precharged) now hold 5 shots.
+
+- Drache
+-> Graviton Inversion Device damage reduced to 1500 KE, with 500 EMP, hold 3 shots per run.
+-> Graviton Inversion Device now have a time bomb style fuse. Will detonate only at 4 seconds after fired.
+-> Graviton Inversion Device now have a 200 SU AOE, with a suck gravitational pull effect.
+-> Drache will try to use decoys.
+
+- Floh
+-> DPS limited to 100.
+
+- Gepard Eins
+-> Now armed with an Ion Cannon instead of Pulse Beam Gun
+-> HP and armor redused.
+-> Sustained DPS was limited to around 75.
+
+- Gepard Drei
+-> Reduced to 3 figher per wing. OP reduced to 18
+-> Being conversed into a unmaned drone.
+-> Sustained DPS was limited to around 100.
+
+- And a lot of minor changes I missed.
+   
+changelog since 1.84
+
+
+RC3
+------------------------------------------------
+CONTENT CHANGES
+
+-A new ship system AI for Siege mode. That should make AI take advantage from range boost.
+
+-Siege Fusor now fires a really shiny shot.
+
+-Photon Torpedos now have a trail VFX.
+
+BALANCE CHANGES
+
+-All ships got another shield HP check. Reduced cruiser shield HP and flux capacity.
+
+-Dual Giga Pulse Laser
+ -Increase burst damage to 1250(from 1000), burst flux cost reduse to 1000(from 1200)
+
+-Disruptor
+ -Damage type change into KINETIC
+ -Rate of fire increase to one shot per second.
+
+-Antiproton Beam
+ -Now has an Ion Beam like on hit effect.
+
+-DERP Launcher
+ -Reload speed increase to one 3 shots clip per 9 second.
+ -AOE reduced to 110.
+ -Will no longer flight out of the range too much.
+
+-Neutrino Sigma Upgrade
+ -Shield arc increase to 60 degree.
+ -Will leads to a small chance of weapon malfunction when combined with Safety Override.
+
+-Neutrino Tau Upgrade
+ -Reform from Auxiliary Broadside Shield, and no longer builtin in that two broadside ships.
+ -An assault refitting set for close range assault. 
+  Increase shield arc to 300 but lock the shield into front facing position and increase 25% damage taken by sheild.
+  Optimized engine management increase max speed by 15/15/10/10 and increase zero flux speed boost by 15/10/10/5. 
+  But increased engine output will interferes sensors and reduce 10% weapon range,
+
+-TheEND
+ -Regain the 4 front facing medium hiden slots but were builtin with Pulsed Beam Cannons
+ -Assign as a combat carrier.
+ -Phase ring no longer leads to an infinite phasing, but will results additional time dilute effect when flux goes high (depend on flux level, max to another 10x).
+
+-Schwarm
+ -The core drone now randomly switch with its child drone ones per 1.5 second. 
+  This will confuse PDAI a little and make Schwarms act more aggression and more like a swarm.
+ -Max roamer range reduced to 2000.
+ -Overall DPS reduce 33%.
+ -FOR THE SWARM!
+
+-Gepard
+ -Add a Pulse Beam Gun.
+ -Ship system change into Decoy Flare Launcher
+
+-Schwarzgeist
+ -Now have Decoy Flare Launcher
+
+-Drache
+ -Ship system change into Active Swarm Flares
+
+-Floh and Moskito
+ -Flux capacity reduced to 500.
+
+-Banshee
+ -OP increase 10 (to 270)
+ -Max speed increase to 50
+
+-Banshee Norn
+ -Max speed increase to 50
+
+
+BUG FIX
+
+-Correct the Antiproton Beam targeting behavior.
+
+
+RC2.2
+------------------------------------------------
+BALANCE CHANGES
+- Antiphotons Beam
+ ->Beam track behaviour charged. Should more likely to aim at different targets in arc.
+
+-Gepard Eins
+ ->Misery on it now have a clip mechanism so only hold 12 shots and reload at half of the firing rate.
+
+-Schwarzgeist
+ ->Fix that armor rating typo, they should have 150 armor instead of 200150.
+ ->Photon Torpedo Launcher (Precharged) ammo reduced to 4 (from 5).
+ ->Sapper SRM Pack ammo reduced to 6 (from 8).
+ 
+
+RC2.1
+------------------------------------------------
+BUG FIX
+- Fix up Nexerelin compatibility.
+
+RC2
+------------------------------------------------
+CONTENT CHANGES
+- Compatible update with 0.8.1a (OK, in fact I done nothing but the compatible checks).
+
+
+BALANCE CHANGES
+- Most fighters' HP reduced. But I change those too many times so can't remember what have done now...
+
+- Banshee and Banshee Norn speed increase to 50 su
+
+- Jackhammer, Hildolfr, and Mammut speed increase to 30 su
+
+- Miter
+ ->PPT reduced to 360 sec(from 420)
+ ->Armor reduced to 500 (from 600)
+ ->Speed increase to 35
+
+- Pile-Driver(C) remove the built-in Drohne wing and a flight deck.
+
+- Reaction Control System
+ ->Have 4 changes max.(was 8)
+ ->Regenerate 1 change every 4 seconds (was 1 every 3 sec)
+ ->Moving behavior changed. Have a much greater acceleration but will loose acceleration after 0.1 sec.
+ ->Max speed bonus now is 600% max speed.(was flat 400su)
+
+- Misery and Bane will target missiles while there is not enemy ships in range (like the Devastator Cannon)
+
+- Floh now have fighter role that will make it more aggressive.
+
+BUG FIX
+ -Fix some potential ID miss match issue that may cause CTD occasional.
+ -Fix the CTD related to Mammut by cover the shield into module.
+
+RC1
+------------------------------------------------
+CONTENT CHANGES
+- Compatible update with 0.8a
+
+- New destroyer, Miter class. An unshield fast destroyer design for pursue.
+ ->Have 1 large enery hardpoint, 2 medium energy hardpoints, 1 medium energy turret and 2 small enery turrets.
+ ->Armer with Reaction Control System.
+
+- Banshee's broadside small synergy hidden slots removed.
+- Hildolfr's slot count reduced to 2/6/8(L/M/S)
+- Unsung's hideout now procedural generate.
+- Corona Australis move to -15200, -3400.
+- Colossus ranamed as Mammut
+
+BALANCE CHANGES
+- All ships fuel usage and capability rebalanced.
+ ->Neutrino ship cost more fuels then vanilla ship in general.
+
+- All ships op count rebalanced to meet the vanilla charge.
+ -More inline with vanilla ships.
+
+-Some burn speed change in line of vanilla.
+ ->Banshee and Banshee Norn now burn 8.
+ ->Jackhammer and Hildolfr now burn 7.
+ ->Nausicaa and Mammut now burn 6.
+ -Singularity and Criticality now burn 10.
+
+- Antiphotons Beam
+ ->Turn rate increase to 30
+ ->Now fire a shorter 400 damage burst.
+
+-Heavy Pulsar Beam
+ ->Fire rate reduced, DPS reduce to 350
+
+-Bane
+ ->DPH reduce to 75
+
+-Advance Photon Torpedo 
+ ->Sub warhead speed increase.
+
+-Javelin Torpedo
+ ->Max speed increase to 350. Maneuverability reduced.
+
+-Fighter wings rebalance 
+ -> Drache wing now have one bomber per wing. Gepard how have 2 fighters wing and 4 fighers wing. Floh now one corvette per wing.
+ -> Schwarzgeist now carrying 5 shots of Photon Torpedo and 8 shots of Sapper SRM.
+ -> Drache's Graviton Inversion Device damage reduced to 5000.
+
+-Banshee
+ -> Own a figher bay.
+ -> Ship system replaced by Missile Autoforge
+
+-Hildolfr
+ -> Ship system replaced by Reserve Deployment
+
+-Pile-Driver(C)
+ -> Now have 2+1 figher bays, with a Drohne wing built-in.
+ -> Ship system replaced by Targeting Feed
+
+-Pile-Driver
+ ->Now have one figher bay, with a Drohne wing built-in.
+ ->Ship system replaced by Active Swarmer Flares
+
+ 
+- And maybe something I can not remembered.
+
+
+

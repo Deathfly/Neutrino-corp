@@ -1,0 +1,22 @@
+{
+	"id":"neutrino_adv_torpedo_payload3",
+	"specClass":"missile",	
+	"missileType":"BOMB",
+	"sprite":"graphics/neut/missiles/neutrino_advancedphoton3.png",
+	"glowColor":[26,135,227,100],
+	"glowRadius":15,
+	"size":[4,20],	
+	"center":[2,15],
+	"collisionRadius":6,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[173,252,251,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":35, # purely visual
+	"maxFlightTime":2.5,
+	"flameoutTime":0.1,
+        "fadeTime":0.1,
+	"engineSpec":{"turnAcc":0,
+		      "turnRate":0,
+		      "maxSpeed":0,
+		      "acc":0,
+		      "dec":0},				    
+}

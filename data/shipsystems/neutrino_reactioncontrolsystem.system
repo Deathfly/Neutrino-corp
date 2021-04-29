@@ -1,0 +1,27 @@
+{
+	"id":"neutrino_reactioncontrolsystem",
+	"type":"PHASE_CLOAK",
+	"aiType":"CUSTOM",
+	
+	"aiScript":"data.scripts.AIs.ShipSystems.Neutrino_ReactionControlSystemAI",
+	"statsScript":"data.shipsystems.scripts.NeutrinoReactionControlStats",
+	
+	"engineGlowColor":[235,113,113,185],
+	"engineGlowLengthMult":1.7,
+	"engineGlowWidthMult":0.75,
+	"engineGlowGlowMult":2.1,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":true,
+
+	"useSound":"neutrino_reactioncontrolfire",
+	#"loopSound":"burstjetunderlay",
+	#"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":125,
+		"burstMovementPotential":300,
+	}
+}

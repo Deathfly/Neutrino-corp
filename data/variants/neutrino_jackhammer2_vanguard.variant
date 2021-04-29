@@ -1,0 +1,66 @@
+{
+    "displayName": "Vanguard",
+    "fluxCapacitors": 25,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "neutrino_jackhammer2",
+    "hullMods": [
+        "fluxbreakers",
+        "neutrino_omegaupgrade",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_jackhammer2_vanguard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0022": "neutrino_phasedarray2"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "neutrino_neutronpulsebattery",
+                "WS0002": "neutrino_neutronpulsebattery",
+                "WS0003": "neutrino_neutronpulse",
+                "WS0004": "neutrino_neutronpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "neutrino_magnetar",
+                "WS0014": "neutrino_magnetar",
+                "WS0017": "neutrino_magnetar",
+                "WS0018": "neutrino_magnetar",
+                "WS0019": "neutrino_magnetar",
+                "WS0020": "neutrino_magnetar",
+                "WS0021": "neutrino_magnetar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "neutrino_disruptor",
+                "WS0016": "neutrino_disruptor"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "neutrino_antiproton",
+                "WS0006": "neutrino_antiproton",
+                "WS0007": "heavyburst",
+                "WS0008": "heavyburst"
+            }
+        }
+    ],
+    "wings": [
+        "neutrino_gepard1_wing",
+        "neutrino_moskito_wing"
+    ]
+}

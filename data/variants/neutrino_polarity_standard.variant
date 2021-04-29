@@ -1,0 +1,11 @@
+{
+    "displayName": "Cargo",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "neutrino_polarity",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "neutrino_polarity_standard",
+    "weaponGroups": []
+}

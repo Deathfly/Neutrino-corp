@@ -1,0 +1,258 @@
+{
+  "bounds": [
+    86,
+    29,
+    4.5,
+    29.5,
+    -3,
+    44,
+    -60.5,
+    43.5,
+    -73,
+    28.5,
+    -95,
+    24.5,
+    -95,
+    9.5,
+    -72,
+    0,
+    -95,
+    -9.5,
+    -95,
+    -24.5,
+    -82,
+    -28.5,
+    -82,
+    -44,
+    22.5,
+    -44,
+    22.5,
+    -20.5,
+    110,
+    -20.5,
+    116.5,
+    -10.5,
+    111.5,
+    0.5,
+    74,
+    0.5
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_neutroniumplating",
+    "ecm",
+    "eccm"
+  ],
+  "builtInWeapons": {
+    "WS0001": "neutrino_siegefusor"
+  },
+  "builtInWings": [],
+  "center": [
+    62,
+    98
+  ],
+  "collisionRadius": 145,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -89,
+        18.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -89,
+        -18.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -76,
+        -34.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -89,
+        16.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -89,
+        -16.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -76,
+        -36.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    }
+  ],
+  "height": 240,
+  "hullId": "neutrino_sledgehammer",
+  "hullName": "Sledgehammer",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    5,
+    0
+  ],
+  "shieldRadius": 140,
+  "spriteName": "graphics/neut/ships/neutrino_sledgehammer.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        20,
+        16
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 45,
+      "arc": 135,
+      "id": "WS0002",
+      "locations": [
+        -13,
+        15
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 135,
+      "id": "WS0003",
+      "locations": [
+        -42,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 235,
+      "id": "WS0004",
+      "locations": [
+        99,
+        -10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 235,
+      "id": "WS0005",
+      "locations": [
+        78,
+        -10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 235,
+      "id": "WS0006",
+      "locations": [
+        57,
+        -10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 235,
+      "id": "WS0007",
+      "locations": [
+        36,
+        -10
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 235,
+      "id": "WS0008",
+      "locations": [
+        -44,
+        43
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 235,
+      "id": "WS0009",
+      "locations": [
+        -64,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 235,
+      "id": "WS0010",
+      "locations": [
+        -26,
+        -41
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 124
+}

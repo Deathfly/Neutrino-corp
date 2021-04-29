@@ -1,0 +1,100 @@
+{
+    "displayName": "Helga",
+    "fluxCapacitors": 30,
+    "fluxVents": 35,
+    "hullId": "neutrino_rm-r",
+    "hullMods": [
+        "targetingunit",
+        "turretgyros",
+        "advancedoptics",
+        "eccm"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "neutrino_rm-r_helga",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "mjolnir",
+                "WS0002": "mjolnir"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "neutrino_photontorpedo",
+                "WS0004": "neutrino_photontorpedo",
+                "WS0005": "neutrino_photontorpedo",
+                "WS0006": "neutrino_photontorpedo",
+                "WS0007": "neutrino_photontorpedo",
+                "WS0008": "neutrino_photontorpedo",
+                "WS0009": "neutrino_photontorpedo",
+                "WS0022": "neutrino_lightphoton",
+                "WS0023": "neutrino_lightphoton",
+                "WS0024": "neutrino_lightphoton",
+                "WS0025": "neutrino_lightphoton",
+                "WS0026": "neutrino_lightphoton",
+                "WS0027": "neutrino_lightphoton",
+                "WS0036": "neutrino_lightphoton",
+                "WS0037": "neutrino_lightphoton",
+                "WS0038": "neutrino_lightphoton",
+                "WS0039": "neutrino_lightphoton",
+                "WS0040": "neutrino_lightphoton",
+                "WS0041": "neutrino_lightphoton",
+                "WS0042": "neutrino_lightphoton",
+                "WS0043": "neutrino_lightphoton",
+                "WS0044": "neutrino_lightphoton",
+                "WS0045": "neutrino_lightphoton",
+                "WS0046": "neutrino_lightphoton",
+                "WS0047": "neutrino_lightphoton"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "phasebeam",
+                "WS0011": "phasebeam",
+                "WS0012": "phasebeam",
+                "WS0013": "phasebeam",
+                "WS0014": "phasebeam",
+                "WS0015": "phasebeam",
+                "WS0016": "phasebeam",
+                "WS0017": "phasebeam",
+                "WS0018": "phasebeam",
+                "WS0019": "phasebeam",
+                "WS0020": "phasebeam",
+                "WS0021": "phasebeam",
+                "WS0048": "phasebeam",
+                "WS0049": "phasebeam",
+                "WS0050": "phasebeam",
+                "WS0051": "phasebeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0028": "taclaser",
+                "WS0029": "pdburst",
+                "WS0030": "pdburst",
+                "WS0031": "taclaser",
+                "WS0032": "taclaser",
+                "WS0033": "taclaser",
+                "WS0034": "taclaser",
+                "WS0035": "pdburst",
+                "WS0052": "taclaser",
+                "WS0053": "taclaser",
+                "WS0054": "taclaser",
+                "WS0055": "taclaser",
+                "WS0056": "taclaser",
+                "WS0057": "taclaser",
+                "WS0058": "taclaser",
+                "WS0059": "taclaser"
+            }
+        }
+    ]
+}

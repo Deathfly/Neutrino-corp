@@ -1,0 +1,24 @@
+{
+	"id":"neutrino_pulsar_shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+   	#"onHitEffect":"data.scripts.weapons.NeutPulsarOnHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":200.0,
+	"width":14.0,
+	"fadeTime":0.1,
+	"fringeColor":[100,100,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[100,100,255,255],
+	#"glowRadius":5,
+	"hitGlowRadius":30,
+	#"coreColor":[175,175,175,255],
+	#"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	#"textureScrollSpeed":64.0,
+	#"pixelsPerTexel":5.0
+	"textureType":"ROUGH2",  # only needed for BEAM spawnType
+	"textureScrollSpeed":0,
+	"pixelsPerTexel":0.2,
+}

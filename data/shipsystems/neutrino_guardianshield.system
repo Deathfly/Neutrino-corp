@@ -1,0 +1,8 @@
+{
+	"id":"neutrino_guardianshield",
+	"type":"STAT_MOD",
+	"statsScript":"data.shipsystems.scripts.NeutrinoGuardianShieldStats",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.AIs.ShipSystems.Neutrino_GuardianShieldAI",
+	"aiHints":{}
+}

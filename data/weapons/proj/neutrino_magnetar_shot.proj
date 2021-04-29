@@ -1,0 +1,24 @@
+{
+	"id":"neutrino_magnetar_shot",
+	"specClass":"projectile",
+   	#"onHitEffect":"data.scripts.weapons.NeutPulsarOnHitEffect",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":50,
+	"width":6,
+	"fadeTime":0.1,
+	"fringeColor":[100,100,255,175],
+	"coreColor":[200,200,200,200],
+	"glowColor":[100,100,255,200],
+	"glowRadius":0,
+	"hitGlowRadius":8,
+	#"coreColor":[175,175,175,255],
+	#"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	#"textureScrollSpeed":64.0,
+	#"pixelsPerTexel":5.0
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":0,
+	"pixelsPerTexel":0.5,	
+}

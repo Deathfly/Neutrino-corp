@@ -1,0 +1,56 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 8,
+    "fluxVents": 21,
+    "goalVariant": true,
+    "hullId": "neutrino_lathe",
+    "hullMods": [
+        "targetingunit",
+        "neutrino_omegaupgrade"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_lathe_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 10": "neutrino_heavypulsar",
+                "WS 11": "neutrino_heavypulsar"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 12": "sabotpod",
+                "WS 13": "sabotpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 8": "neutrino_neutronpulseheavy"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 3": "neutrino_lightpulsebeam",
+                "WS 4": "neutrino_lightpulsebeam",
+                "WS 7": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 1": "neutrino_disruptor",
+                "WS 2": "neutrino_disruptor",
+                "WS 5": "neutrino_disruptor",
+                "WS 6": "neutrino_disruptor",
+                "WS 9": "neutrino_derp_launcher"
+            }
+        }
+    ]
+}

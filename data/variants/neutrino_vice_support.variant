@@ -1,0 +1,30 @@
+{
+    "displayName": "Tractor",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "neutrino_vice",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "variantId": "neutrino_vice_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 3": "neutrino_tractorbeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 1": "neutrino_photontorpedo",
+                "WS 2": "neutrino_photontorpedo"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 4": "neutrino_neutronpulseheavy"}
+        }
+    ]
+}

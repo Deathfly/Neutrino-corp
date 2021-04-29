@@ -1,0 +1,14 @@
+{
+	"id":"neutrino_trajectorycontrolsystem",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.AIs.ShipSystems.Neutrino_TrajectoryControlSystemAI",
+	
+	"statsScript":"data.shipsystems.scripts.NeutrinoTrajectoryControlSystem",
+	
+	"weaponGlowColor":[100,200,50,125],
+	"weaponTypes":[MISSILE],
+	
+	"useSound":"neut_spin_up",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

@@ -1,0 +1,25 @@
+{
+    "displayName": "Drone",
+    "fluxCapacitors": 9,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "neutrino_criticality",
+    "hullMods": ["armoredweapons"],
+    "permaMods": [],
+    "variantId": "neutrino_criticality_guerrilla",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "neutrino_misery",
+                "WS0002": "neutrino_misery"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "neutrino_photontorpedo"}
+        }
+    ]
+}

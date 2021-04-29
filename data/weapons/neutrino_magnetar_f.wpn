@@ -1,0 +1,29 @@
+{
+	"id":"neutrino_magnetar_f",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"",
+	"turretGlowSprite":"graphics/neut/weapons/neutrino_magnetar_f_glow_turret.png",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/neut/weapons/neutrino_magnetar_f_glow_hardpoint.png",
+	"glowColor":[100,130,255,220],
+	"turretOffsets":[5, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[3, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":4.0,
+					   "particleSizeRange":4.0,
+					   "particleDuration":0.30,
+					   "particleCount":7,
+					   "particleColor":[100,135,255,170]},
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	#"interruptibleBurst":true,
+	"projectileSpecId":"neutrino_magnetar_shot",  # projectile that will be fired
+	"fireSoundTwo":"neutrino_magnetar_firing_f",
+}

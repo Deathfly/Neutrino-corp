@@ -1,0 +1,40 @@
+{
+    "displayName": "Escort",
+    "fluxCapacitors": 0,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "neutrino_hacksaw",
+    "hullMods": [
+        "turretgyros",
+        "targetingunit",
+        "neutrino_hightarqueturretmotor"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_hacksaw_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 1": "neutrino_neutronpulse",
+                "WS 2": "neutrino_neutronpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 5": "neutrino_magnetar",
+                "WS 6": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 7": "neutrino_antiproton",
+                "WS 8": "neutrino_antiproton"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Neutrino Sigma Upgrade,neutrino_sigmaupgrade,,,Neutrino,,,,,TRUE,,0,0,0,0,data.hullmods.NeutrinoSigmaUpgrade,"A set of proprietary combat systems including
+ - A sturdy onmi shield with a narrow arc (around %s degrees).
+ - An A.I. enhanced targeting system that boosts both weapon auto fire accuracy and missile tracking performance.
+ - A slightly more durable weapon emplacement design that increases all weapons' durability by %s percent.
+
+In additional, the ship's flux core is fine tuned for a higher dissipation rate at the expense of max capacity and active flux vent rate (vent rate reduced to %s percent), these changes will extend to all extra flux vents and capacitors as well.
+
+WARNING, Incompatible with Extended Shields, Front Shield Emitter, and Front Shield Generator. Overriding the safety protocols may leads to critical malfunction.",,graphics/neut/hullmods/neutrino_sigma.png
+Neutrino Autonomous Drone,neutrino_drone,,,Neutrino,,,,,TRUE,,0,0,0,0,data.hullmods.NeutrinoDrone,"Although it will still need someone to maintain it, this advanced AI drone is fully autonomous in battle so no crew will be lost if it is destroyed.",,graphics/neut/hullmods/neutrino_sigma.png
+Neutrino Omega Upgrade,neutrino_omegaupgrade,3,,Neutrino,"offensive, defensive","Weapons, Defenses",10000,,,,6,10,15,20,data.hullmods.NeutrinoOmegaUpgrade,"A high-end upgrade reserved for Neutrino operatives and corporate interests. Design for ships that been deployed to decisive battles. Advance target analysis system increase %s damage done to capital ships or stations,  and %s damage done to cruisers. Also increases armor by %s/%s/%s/%s depend on hull size.",Increases armor rating. Increase damage done to large target.,graphics/neut/hullmods/neutrino_omega.png
+Neutronium Plating,neutrino_neutroniumplating,,,Neutrino,,,,,TRUE,,0,0,0,0,data.hullmods.NeutrinoNeutroniumPlating,"With a patented plating technique, an ultrathin neutronium plating can be applied on all neutrino ships, which offers a %s percent increase to armor strength and reduces damage done to the armor by %s.
+
+Special field generators maintain both the liquidity and integrity of these neutronium plating, while active it makes the whole plating serve as a single armor block equal to %s armor HP for this ship. Reducing damage taken by weapons and engines by %s , hull damage is reduced by %s, and EMP damage is reduced by %s too.
+
+Plating strength will start to regenerate if no damage is dealt to the hull in %s seconds, and will restore to full strength in %s seconds.
+Once the plating takes too much damage or the ship's flux systems overload, the neutronium plating will collapse and need to recharge to at least %s of max strength to reboot.
+
+Due to the flux disturbance, plating only provide %s resistance while venting.",,graphics/neut/hullmods/neutrino_powerarmor.png
+High Torque Turret Motor,neutrino_hightarqueturretmotor,3,,Neutrino,offensive,Weapons,10000,,,,4,6,8,10,data.hullmods.NeutrinoHighTarqueTurretMotor,"Replace all turret motors in weapon slots with high torque models to optimize their performance with heavy turrets. Increases all weapon turn rate by %s degrees per second. In addition, all energy and ballistic weapon recoil is reduced by %s, and range increase by %s.",Slightly increase weapon range and turning speed.,graphics/neut/hullmods/neutrino_turrettorque.png
+Autonomous Sensor Drone,neutrino_sensorDrone,,,Neutrino,,,,,TRUE,,0,0,0,0,data.hullmods.NeutrinoSensorDrone,These fully autonomous sensor drones are equipped with advanced miniaturized high resolution sensors that can provide %s sensor strength.,,graphics/hullmods/high_res_sensors.png
+Neutrino Tau Upgrade,neutrino_broadsideShield,2,,Neutrino,defensive,"Shields, Engines",6000,,,,5,10,15,15,data.hullmods.NeutrinoBroadsideShield,"An assault refitting set for close range assault. Increase shield arc to %s, but lock the shield into front facing position and increase %s damage taken by shield. Optimized engine management increase max speed by %s and increase zero flux speed boost by %s. But increased engine output will interferes sensors and reduce %s weapon range. Neutrino ships only.",Increase shield coverage and ship max speed at cost of shield efficiency and weapon range.,graphics/neut/hullmods/neutrino_broadsideShield.png
+Target Data Link,neutrino_fighterTargetingLink,,,Neutrino,,,,,TRUE,,0,0,0,0,data.hullmods.NeutrinoFighterTargetingLink,A data link system that can fetch targeting data from mothership.,,graphics/neut/hullmods/neutrino_sigma.png

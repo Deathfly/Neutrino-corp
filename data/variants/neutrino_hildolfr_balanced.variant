@@ -1,0 +1,55 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 4,
+    "fluxVents": 40,
+    "goalVariant": true,
+    "hullId": "neutrino_hildolfr",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "neutrino_hildolfr_balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 1": "neutrino_XLadvancedtorpedo",
+                "WS 2": "neutrino_XLadvancedtorpedo"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 10": "neutrino_derp_launcher",
+                "WS 11": "neutrino_derp_launcher",
+                "WS 5": "neutrino_derp_launcher",
+                "WS 6": "neutrino_derp_launcher"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 15": "neutrino_magnetar",
+                "WS 16": "neutrino_magnetar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 17": "neutrino_disruptor",
+                "WS 18": "neutrino_disruptor",
+                "WS 26": "neutrino_disruptor"
+            }
+        }
+    ],
+    "wings": [
+        "neutrino_drache_wing",
+        "neutrino_gepard1_wing",
+        "neutrino_gepard1_wing",
+        "neutrino_drache_wing",
+        "neutrino_drohne_wing",
+        "neutrino_drohne_wing"
+    ]
+}

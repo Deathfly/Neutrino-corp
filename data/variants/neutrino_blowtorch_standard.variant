@@ -1,0 +1,32 @@
+{
+    "displayName": "Construction",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "hullId": "neutrino_blowtorch",
+    "hullMods": ["augmentedengines"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "neutrino_blowtorch_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "neutrino_fusionlance",
+                "WS0004": "neutrino_fusionlance",
+                "WS0005": "neutrino_fusionlance",
+                "WS0006": "neutrino_fusionlance",
+                "WS0007": "neutrino_fusionlance",
+                "WS0008": "neutrino_fusionlance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "mininglaser",
+                "WS0002": "mininglaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+	"id":"neutrino_unstable_photon1",
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"",
+	"hardpointSprite":"",
+	"turretOffsets":[0,0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0,0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED",
+	"animationType":"NONE", 	
+        "projectileSpecId":"neutrino_split_photon1",
+}

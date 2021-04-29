@@ -1,0 +1,111 @@
+name,id,tier,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,number
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Adv. P. Torpedo Launcher,neutrino_advancedtorpedosingle,2,1400,5000,,500,,100,12,6,12,,ENERGY,250,,0,13,1,0,0,0,0,0,,180,55,40,350,DO_NOT_AIM,89719
+Light Photon Torpedo,neutrino_lightphoton,2,1750,1200,,200,50,15,12,8,45,,ENERGY,175,,0.2,6.6,3,0.3,18,46,46,60,,450,450,2.3,210,GUIDED_POOR,89704
+Sapper SRM,neutrino_sapper,1,650,1200,,100,225,15,40,5,96,,HIGH_EXPLOSIVE,0,,0,6,8,0.4,30,30,0,0,,175,950,3,25,ANTI_FTR,89722
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dual Adv. P. Torpedo Launcher,neutrino_advancedtorpedo,2,3250,5000,,500,,100,8,12,20,,ENERGY,250,,0,12,2,0.85,0,0,0,0,,180,55,40,350,DO_NOT_AIM,89708
+Photon Torpedo Launcher,neutrino_photontorpedo,3,4200,1600,,375,75,25,15,15,80,,ENERGY,150,,0,8,5,0.3,16,24,0,12,,375,375,3.5,135,GUIDED_POOR,89702
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Quad Adv. P. Torpedo Launcher,neutrino_XLadvancedtorpedo,3,7000,5000,,500,,100,8,22,40,,ENERGY,250,,0,11,4,0.85,0,0,0,0,,180,55,40,350,DO_NOT_AIM,89708
+Javelin Torpedo Launcher,neutrino_javelin,3,10000,7500,,1450,,100,8,28,32,,ENERGY,0,,0,13.5,2,1,0,0,0,0,,185,65,40,450,DO_NOT_AIM,89708
+Graviton Inversion Device,neutrino_graviton_inverter,3,30000,850,,10000,,60000,5,40,1,,KINETIC,0,,0,1,1,,0,0,0,0,,50,50,20,1250,STRIKE,89712
+Goliath SRM Launcher,neutrino_goliath,2,7500,1400,,100,225,15,12,24,360,,HIGH_EXPLOSIVE,0,,0,0.75,6,0.075,10,10,0,0,,165,950,3,40,ANTI_FTR,89722
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pulsar Beam,neutrino_pulsar,2,1200,550,,145,,0,60,8,,,ENERGY,200,,0.2,1.4,,,6,15,5,3,,4000,,,1000,,89709
+Disruptor,neutrino_disruptor,2,1200,450,50,,25,250,75,6,,,ENERGY,,250,0.1,0.3,0.33,0.8,,,,,2500,,,,,"PD,PD_ONLY,ANTI_FTR",89712
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pulsar Beam Repeater,neutrino_dualpulsar,3,3500,650,,135,,5,45,12,,,ENERGY,175,,0.2,0.15,1,0.15,7,16,6,3,,5000,,,2000,,89710
+Antiproton Laser,neutrino_antiproton,3,2800,650,527,,100,,28,10,,,FRAGMENTATION,,400,0.5,0.5,1.3,2,,,,,2500,,,,,PD,89706
+Darkmatter Beam Cannon,neutrino_darkmatterbeamcannon,3,2600,650,600,,,65,8,11,,,KINETIC,,500,0.8,0.7,0.66,3.25,0,0,0,0,6000,,,,,,89714
+Pulsed Beam Cannon,neutrino_pulsebeam,3,3600,875,1150,,,15,0,7,1,0.18,ENERGY,,1450,0.1,0.7,0.33,0.6,,,,,6000,,,,,,89711
+Derp Launcher,neutrino_derp_launcher,3,4800,625,,95,55,40,30,14,45,,HIGH_EXPLOSIVE,0,0,0,4,3,0.1,30,30,0,0,,110,255,4,135,PD,89713
+Neutron Pulse Cannon,neutrino_neutronpulse,3,6000,1000,,325,,15,6,14,140,,ENERGY,550,,0,1.4,,,7,7,0,0,,225,225,,650,,89715
+Neutron Pulse Cannon v. (F),neutrino_neutronpulsef,3,7000,925,,300,,15,6,14,110,,ENERGY,0,,0,1.75,,,7,7,0,0,,225,225,,650,,89716
+Heavy Neutron Pulse Cannon,neutrino_neutronpulseheavy,3,7000,850,,650,,15,6,15,75,,ENERGY,750,,0,1.8,,,7,7,0,0,,325,325,,650,,89718
+Misery,neutrino_misery,3,4000,900,,40,1,5,25,10,,,ENERGY,90,,0.125,0.125,2,0.25,3,5,5,6,,1000,,,2000,,89710
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy Pulsar Beam,neutrino_heavypulsar,3,11000,750,,1750,,65,30,25,,,ENERGY,2520,,0.4,3.2,,,8,18,6,7,,6000,,,3000,,89711
+Fusion Lance,neutrino_fusionlance,1,1500,-50,300,,,0,0,6,,,HIGH_EXPLOSIVE,,95,1,1,,,,,,,2400,,,,,,89707
+Dual Giga Pulse Laser,neutrino_dualpulsebeam,3,10000,1100,971.1,,,15,4,20,5,0.3,ENERGY,,1942,0.1,2,0.33,0.2,,,,,1500,,,,,,89714
+Neutron Pulse Battery,neutrino_neutronpulsebattery,3,12000,1000,,325,,15,5,28,220,,ENERGY,450,,0,1.25,2,0.15,7,7,0,0,,225,225,,650,,89717
+Particle Cannon Array,neutrino_particlecannonarray,3,6500,666,,385,,125,12,25,240,,KINETIC,481.2,,0,2.87,4,0.2,0,0,0,0,,750,,,20,,89715
+Unstable Photon Cannon,neutrino_unstable_photon,3,30000,1600,,500,,25,3,40,50,,ENERGY,1750,,0.5,3,1,8,0,0,0,0,,375,375,2,200,,89703
+Tractor Beam,neutrino_tractorbeam,3,6500,1400,65,,150,650,18,25,,,ENERGY,,550,0.333,0.5,3.5,6,,,,,6000,,,,,,89710
+Neutron Lance,neutrino_neutronlance,3,30000,1300,1325,,,,5,35,,,ENERGY,,2100,0.5,3,1,7,,,,,6000,,,,,,89701
+Phased Array Cannon,neutrino_phasedarray,3,50000,1100,3500,,,50,2,75,,,ENERGY,,5000,3,7,1,18,,,,,6000,,,,,SHOW_IN_CODEX,89709
+Phased Array Cannon,neutrino_phasedarray2,3,50000,1200,3900,,,60,5,,,,ENERGY,,3700,3,7,1,14,,,,,6000,,,,,"SYSTEM,SHOW_IN_CODEX",89709
+Bane,neutrino_bane,3,12000,825,,75,1,5,15,22,,,ENERGY,100,,0.075,0.075,4,0.15,2,4,5,6,,1100,,,2000,,89710
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Swarm Flare Launcher,neutrino_swarmflarelauncher,,,500,,10,200,,,,,0,ENERGY,0,0,0,0.1,16,0.05,90,90,0,0,,320,240,7,1,SYSTEM,89801
+Derp Charge CIWS,neutrino_derpchargelauncher,,,400,,95,55,,,,,0,HIGH_EXPLOSIVE,0,0,0,0.1,1,0.1,90,90,0,0,,100,255,4,135,SYSTEM,89802
+Phase Missile System,neutrino_phasemissilelauncher,,,1400,,1,,,,,,0,HIGH_EXPLOSIVE,0,0,0,0.1,5,0.1,75,75,0,0,,4000,4000,0.25,650,SYSTEM,89803
+Phase Missile System,neutrino_phasemissilelauncher2,,,1400,,1,,,,,15,0.25,HIGH_EXPLOSIVE,0,0,0,9.5,5,0.1,75,75,0,0,,4000,4000,0.25,650,SYSTEM,89720
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Herp Emitter,neutrino_herp1,3,0,800,,175,,100,0,,,,HIGH_EXPLOSIVE,200,,1.9,17.5,20,0.09,19,19,0,0,,400,,,750,"SYSTEM,SHOW_IN_CODEX",89903
+Herp Emitter,neutrino_herp2,3,0,775,,150,,100,0,,,,HIGH_EXPLOSIVE,175,,2,17,20,0.11,19,19,0,0,,525,,,750,SYSTEM,89904
+Herp Emitter,neutrino_herp3,3,0,825,,125,,100,0,,,,HIGH_EXPLOSIVE,150,,1.95,16.5,20,0.13,19,19,0,0,,650,,,750,SYSTEM,89905
+Herp Emitter,neutrino_herp4,3,0,850,,100,,100,0,,,,HIGH_EXPLOSIVE,125,,2.05,16,20,0.15,19,19,0,0,,775,,,750,SYSTEM,89906
+Herp Emitter,neutrino_herp5,3,0,800,,75,,100,0,,,,HIGH_EXPLOSIVE,100,,2.1,15.5,20,0.17,19,19,0,0,,900,,,750,SYSTEM,89907
+Siege Fusor,neutrino_siegefusor,3,25000,650,,2000,,,100,,4,,KINETIC,2000,,3.8,16.2,,,,,,,,375,,,10000,SYSTEM,89908
+Quasar,neutrino_quasar,3,50000,875,,2000,,500,0,,,,HIGH_EXPLOSIVE,1250,,2.25,22,4,0.45,,,,,,925,,,750,"SYSTEM,SHOW_IN_CODEX",89721
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The Ring,neutrino_ring,,,10,,,,,,,,,,,,,,,,,,,,,20,,,,SYSTEM,90001
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Neutron Lance,neutrino_neutronlance,3,30000,1300,1325,,,,5,35,,,ENERGY,,2100,0.5,3,1,7,,,,,6000,,,,,,89701
+Photon Torpedo Launcher,neutrino_photontorpedo,3,4200,1600,,375,75,25,15,15,80,,ENERGY,150,,0,8,5,0.3,16,24,0,12,,375,375,3.5,135,GUIDED_POOR,89702
+Unstable Photon Cannon,neutrino_unstable_photon,3,30000,1600,,500,,25,3,40,50,,ENERGY,1750,,0.5,3,1,8,0,0,0,0,,375,375,2,200,,89703
+Light Photon Torpedo,neutrino_lightphoton,2,1750,1200,,200,50,15,12,8,45,,ENERGY,175,,0.2,6.6,3,0.3,18,46,46,60,,450,450,2.3,210,GUIDED_POOR,89704
+Photon Cannon,neutrino_photongun,2,3800,750,,350,,25,20,13,3,0.3,ENERGY,375,,0.2,1,1,5,0,0,0,0,,450,450,1.6,210,,89705
+Photon Cannon v. (F),neutrino_freightergun,2,4200,750,,350,,25,20,13,3,0.3,ENERGY,0,,0.25,1.3,1,5,0,0,0,0,,450,450,2,200,,89705
+Antiproton Laser,neutrino_antiproton,3,2800,650,527,,100,,28,10,,,FRAGMENTATION,,400,0.5,0.5,1.3,2,,,,,2500,,,,,PD,89706
+Fusion Lance,neutrino_fusionlance,1,1500,-50,300,,,0,0,6,,,HIGH_EXPLOSIVE,,95,1,1,,,,,,,2400,,,,,,89707
+Javelin Torpedo Launcher,neutrino_javelin,3,10000,7500,,1450,,100,8,28,32,,ENERGY,0,,0,13.5,2,1,0,0,0,0,,185,65,40,450,DO_NOT_AIM,89708
+Phased Array Cannon,neutrino_phasedarray,3,50000,1100,3500,,,50,2,75,,,ENERGY,,5000,3,7,1,18,,,,,6000,,,,,SHOW_IN_CODEX,89709
+Tractor Beam,neutrino_tractorbeam,3,6500,1400,65,,150,650,18,25,,,ENERGY,,550,0.333,0.5,3.5,6,,,,,6000,,,,,,89710
+Pulsed Beam Cannon,neutrino_pulsebeam,3,3600,875,1150,,,15,0,7,1,0.18,ENERGY,,1450,0.1,0.7,0.33,0.6,,,,,6000,,,,,,89711
+Graviton Inversion Device,neutrino_graviton_inverter,3,30000,850,,10000,,60000,5,40,1,,KINETIC,0,,0,1,1,,0,0,0,0,,50,50,20,1250,STRIKE,89712
+Heavy Photon Repeater,neutrino_heavyphotonrepeater,3,7500,800,,325,,25,14,22,9,0.85,ENERGY,350,,0.07,0.33,1,5,0,14,4,4,,450,450,1.6,210,,89713
+Darkmatter Beam Cannon,neutrino_darkmatterbeamcannon,3,2600,650,600,,,65,8,11,,,KINETIC,,500,0.8,0.7,0.66,3.25,0,0,0,0,6000,,,,,,89714
+Particle Cannon Array,neutrino_particlecannonarray,3,6500,666,,385,,125,12,25,240,,KINETIC,481.2,,0,2.87,4,0.2,0,0,0,0,,750,,,20,,89715
+Quad Adv. P. Torpedo Launcher,neutrino_XLadvancedtorpedo,3,7000,5000,,500,,100,8,22,40,,ENERGY,250,,0,11,4,0.85,0,0,0,0,,180,55,40,350,DO_NOT_AIM,89708
+Dual Adv. P. Torpedo Launcher,neutrino_advancedtorpedo,2,3250,5000,,500,,100,8,12,20,,ENERGY,250,,0,12,2,0.85,0,0,0,0,,180,55,40,350,DO_NOT_AIM,89708
+Pulsar Beam,neutrino_pulsar,2,1200,550,,145,,0,60,8,,,ENERGY,200,,0.2,1.4,,,6,15,5,3,,4000,,,1000,,89709
+Pulsar Beam Repeater,neutrino_dualpulsar,3,3500,650,,135,,5,45,12,,,ENERGY,175,,0.2,0.15,1,0.15,7,16,6,3,,5000,,,2000,,89710
+Heavy Pulsar Beam,neutrino_heavypulsar,3,11000,750,,1750,,65,30,25,,,ENERGY,2520,,0.4,3.2,,,8,18,6,7,,6000,,,3000,,89711
+Disruptor,neutrino_disruptor,2,1200,450,50,,25,250,75,6,,,ENERGY,,250,0.1,0.3,0.33,0.8,,,,,2500,,,,,"PD,PD_ONLY,ANTI_FTR",89712
+Derp Launcher,neutrino_derp_launcher,3,4800,625,,95,55,40,30,14,45,,HIGH_EXPLOSIVE,0,0,0,4,3,0.1,30,30,0,0,,110,255,4,135,PD,89713
+Dual Giga Pulse Laser,neutrino_dualpulsebeam,3,10000,1100,971.1,,,15,4,20,5,0.3,ENERGY,,1942,0.1,2,0.33,0.2,,,,,1500,,,,,,89714
+Neutron Pulse Cannon,neutrino_neutronpulse,3,6000,1000,,325,,15,6,14,140,,ENERGY,550,,0,1.4,,,7,7,0,0,,225,225,,650,,89715
+Neutron Pulse Cannon v. (F),neutrino_neutronpulsef,3,7000,925,,300,,15,6,14,110,,ENERGY,0,,0,1.75,,,7,7,0,0,,225,225,,650,,89716
+Neutron Pulse Battery,neutrino_neutronpulsebattery,3,12000,1000,,325,,15,5,28,220,,ENERGY,450,,0,1.25,2,0.15,7,7,0,0,,225,225,,650,,89717
+Heavy Neutron Pulse Cannon,neutrino_neutronpulseheavy,3,7000,850,,650,,15,6,15,75,,ENERGY,750,,0,1.8,,,7,7,0,0,,325,325,,650,,89718
+Adv. P. Torpedo Launcher,neutrino_advancedtorpedosingle,2,1400,5000,,500,,100,12,6,12,,ENERGY,250,,0,13,1,0,0,0,0,0,,180,55,40,350,DO_NOT_AIM,89719
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Quasar,neutrino_quasar,3,50000,875,,2000,,500,0,,,,HIGH_EXPLOSIVE,1250,,2.25,22,4,0.45,,,,,,925,,,750,"SYSTEM,SHOW_IN_CODEX",89721
+Sapper SRM,neutrino_sapper,1,650,1200,,100,225,15,40,5,96,,HIGH_EXPLOSIVE,0,,0,6,8,0.4,30,30,0,0,,175,950,3,25,ANTI_FTR,89722
+Phased Array Cannon,neutrino_phasedarray2,3,50000,1200,3900,,,60,5,,,,ENERGY,,3700,3,7,1,14,,,,,6000,,,,,"SYSTEM,SHOW_IN_CODEX",89709
+Bane,neutrino_bane,3,12000,825,,75,1,5,15,22,,,ENERGY,100,,0.075,0.075,4,0.15,2,4,5,6,,1100,,,2000,,89710
+Misery,neutrino_misery,3,4000,900,,40,1,5,25,10,,,ENERGY,90,,0.125,0.125,2,0.25,3,5,5,6,,1000,,,2000,,89710
+Goliath SRM Launcher,neutrino_goliath,2,7500,1400,,100,225,15,12,24,360,,HIGH_EXPLOSIVE,0,,0,0.75,6,0.075,10,10,0,0,,165,950,3,40,ANTI_FTR,89722
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Swarm Flare Launcher,neutrino_swarmflarelauncher,,,500,,10,200,,,,,0,ENERGY,0,0,0,0.1,16,0.05,90,90,0,0,,320,240,7,1,SYSTEM,89801
+Derp Charge CIWS,neutrino_derpchargelauncher,,,400,,95,55,,,,,0,HIGH_EXPLOSIVE,0,0,0,0.1,1,0.1,90,90,0,0,,100,255,4,135,SYSTEM,89802
+Phase Missile System,neutrino_phasemissilelauncher,,,1400,,1,,,,,,0,HIGH_EXPLOSIVE,0,0,0,0.1,5,0.1,75,75,0,0,,4000,4000,0.25,650,SYSTEM,89803
+Phase Missile System,neutrino_phasemissilelauncher2,,,1400,,1,,,,,15,0.25,HIGH_EXPLOSIVE,0,0,0,9.5,5,0.1,75,75,0,0,,4000,4000,0.25,650,SYSTEM,89720
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Herp Emitter,neutrino_herp1,3,0,800,,175,,100,0,,,,HIGH_EXPLOSIVE,200,,1.9,17.5,20,0.09,19,19,0,0,,400,,,750,"SYSTEM,SHOW_IN_CODEX",89903
+Herp Emitter,neutrino_herp2,3,0,775,,150,,100,0,,,,HIGH_EXPLOSIVE,175,,2,17,20,0.11,19,19,0,0,,525,,,750,SYSTEM,89904
+Herp Emitter,neutrino_herp3,3,0,825,,125,,100,0,,,,HIGH_EXPLOSIVE,150,,1.95,16.5,20,0.13,19,19,0,0,,650,,,750,SYSTEM,89905
+Herp Emitter,neutrino_herp4,3,0,850,,100,,100,0,,,,HIGH_EXPLOSIVE,125,,2.05,16,20,0.15,19,19,0,0,,775,,,750,SYSTEM,89906
+Herp Emitter,neutrino_herp5,3,0,800,,75,,100,0,,,,HIGH_EXPLOSIVE,100,,2.1,15.5,20,0.17,19,19,0,0,,900,,,750,SYSTEM,89907
+Siege Fusor,neutrino_siegefusor,3,25000,650,,2000,,,100,,4,,KINETIC,2000,,3.8,16.2,,,,,,,,375,,,10000,SYSTEM,89908
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The Ring,neutrino_ring,,,10,,,,,,,,,,,,,,,,,,,,,20,,,,SYSTEM,90001

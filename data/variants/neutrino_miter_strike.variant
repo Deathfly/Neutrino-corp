@@ -1,0 +1,35 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 9,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "neutrino_miter",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "neutrino_miter_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "neutrino_misery",
+                "WS0004": "neutrino_misery"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "neutrino_heavypulsar"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "neutrino_antiproton",
+                "WS0005": "pdburst",
+                "WS0006": "pdburst"
+            }
+        }
+    ]
+}

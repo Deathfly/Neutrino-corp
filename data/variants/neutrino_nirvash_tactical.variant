@@ -1,0 +1,49 @@
+{
+    "displayName": "Tactical",
+    "fluxCapacitors": 21,
+    "fluxVents": 29,
+    "goalVariant": true,
+    "hullId": "neutrino_nirvash",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "neutrino_nirvash_tactical",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "neutrino_neutronpulsebattery"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "neutrino_misery",
+                "WS0004": "neutrino_misery",
+                "WS0005": "neutrino_misery",
+                "WS0006": "neutrino_misery",
+                "WS0007": "neutrino_misery"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "neutrino_pulsar",
+                "WS0009": "neutrino_pulsar",
+                "WS0010": "neutrino_pulsar",
+                "WS0011": "neutrino_pulsar",
+                "WS0012": "neutrino_pulsar"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "pdburst",
+                "WS0017": "neutrino_disruptor",
+                "WS0018": "pdburst"
+            }
+        }
+    ]
+}

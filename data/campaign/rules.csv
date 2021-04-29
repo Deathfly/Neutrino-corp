@@ -1,0 +1,99 @@
+id,trigger,conditions,script,text,options,notes
+,,,,,,
+#Neutrino Corp fleet greeting lines,,,,,,
+greetingNeutTOffNormal,OpenCommLink,"$faction.id == neutrinocorp
+!$player.transponderOn
+$entity.relativeStrength >= 0",,"""As per standard operating procedure, please identify yourself then we can check if you can have any discount form Neutrino.""","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link",
+greetingNeutTOffWeaker,OpenCommLink,"$faction.id == neutrinocorp
+!$player.transponderOn
+$entity.relativeStrength < 0",,"""As per standard operating procedure, you need to identify yourself before you can do any business with Neutrino Corporation.""","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link",
+greetingNeutFriendly,OpenCommLink,"$faction.id == neutrinocorp
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions",""" *WUB WUB WUB* One moment $playerName, *BASSDROOOP* crosscheck authenticated, proceed with secure communications.""",,
+greetingNeutHostileWeaker,OpenCommLink,"$faction.id == neutrinocorp
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""Warning, no acts of aggression will go unpunished.""",cutCommLink:Cut the comm link,
+greetingNeutHostileWeakerDefiant,OpenCommLink,"$faction.id == neutrinocorp
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""Due to unforeseen circumstances we will have to entertain you a bit longer.""","cutCommLink:Cut the comm link""""""",
+greetingNeutHostileStronger,OpenCommLink,"$faction.id == neutrinocorp
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""As per standard operating procedure, if you surrender now you will earn a 10% discount on your next neutrino purchase.""",cutCommLink:Cut the comm link,
+greetingNeutNeutral,OpenCommLink,"$faction.id == neutrinocorp
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""We of the Neutrino Corporation welcome this continued relationship.""",,
+,,,,,,
+# Trade panel flavor text,,,,,,
+,,,,,,
+flavorTextMarketSmallDrill,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == neutrinocorp
+$market.id == neut_smalldrill_market","AddText ""A relic of the past. A huge phased graviton drill extracts neutronium endlessly from the nearby neutron star. "" textGrayColor",,,
+flavorTextMarketLargeProcessing,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == neutrinocorp
+$market.id == neut_largeprocessing_market","AddText ""A huge station dedicated to the processing of vast quantities of raw material. Part factory, part shipyard all expensive."" textGrayColor",,,
+flavorTextMarketExperimental,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == neutrinocorp
+$market.id == neut_experimental_market","AddText ""A dedicated testing facility for the production of next generation ships and weaponry. Frequently uses the planet below for a target."" textGrayColor",,,
+flavorTextMarketSolar,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == neutrinocorp
+$market.id == neutrino_powerplant_market","AddText ""A high efficiency solar array gather energy for bulk transport to needy settlements. Also a regional warehouse for the Neutrino Corp for their wares."" textGrayColor",,,
+flavorTextMarketNeutrino,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == neutrinocorp","AddText ""You glance around unsure of what to do, as soon as you move Holo-directories light up leading you to a queue of other starship captains."" textGrayColor",,,
+,,,,,,
+# patrol stopping player w/ transponder off,,,,,,
+tOffNeutPatrolOpenComm,OpenCommLink,"$entity.transponderOffConv score:100
+$faction.id == neutrinocorp","AddText ""\""Running with the transponder off in $faction space is against our security measures. Sorry for the inconvenient but as a part of our standard operating procedure, please make sure your transponder is on, reconfirm your identity, and standby for a cargo scan. If you have any technical problem with your transponder, we can offer our technical support later.\""""
+AdjustRep $faction.id TRANSPONDER_OFF
+AdjustRepActivePerson TRANSPONDER_OFF",,"0:tOffNeut_comply:Turn the transponder on and comply
+1:tOff_refuse:Refuse and cut the comm link",
+tOffNeutPatrolOpenCommUnknown,OpenCommLink,"$entity.transponderOffConv score:100
+!$entity.knowsWhoPlayerIs
+$faction.id == neutrinocorp","AddText ""\""Unknown $shipOrFleet, please identify yourself immediately. Running with the transponder off in $faction space is against our security measures. Sorry for the inconvenient but as a part of our standard operating procedure, please make sure your transponder is on and standby for a cargo scan. If you have any technical problem with your transponder, we can offer our technical support later.\""""
+AdjustRep $faction.id TRANSPONDER_OFF
+AdjustRepActivePerson TRANSPONDER_OFF",,"0:tOffNeut_comply:Turn the transponder on and comply
+1:tOff_refuse:Refuse and cut the comm link",
+tOffNeutPatrolOpenCommTOn,OpenCommLink,"$entity.transponderOffConv score:100
+$player.transponderOn
+$faction.id == neutrinocorp","AddText ""\""Running with the transponder off in $faction space is against our security measures. Sorry for the inconvenient but your transponder was fail to responses recently. As a part of our standard operating procedure, please make sure your transponder is on, reconfirm your identity, and standby for a cargo scan. If you have any technical problem with your transponder, we can offer our technical support later.\""""
+AdjustRep $faction.id TRANSPONDER_OFF
+AdjustRepActivePerson TRANSPONDER_OFF",,"0:tOffNeut_comply2:Allow the scan
+1:tOff_refuse:Refuse and cut the comm link",
+tOffNeutPatrolOpenCommNotFirstTime,OpenCommLink,"$entity.transponderOffConv score:100
+$entity.sawPlayerWithTOffCount == 2.0 score:10
+$entity.relativeStrength >= 0
+$faction.id == neutrinocorp","AddText""\""Please re-check your transponder and make sure it is on.\""""
+AdjustRep $faction.id TRANSPONDER_OFF
+AdjustRepActivePerson TRANSPONDER_OFF
+AddText ""The comm link is cut before you have a chance to respond.""
+$entity.ignorePlayerCommRequests = true 0
+unset $entity.transponderOffConv",,0:tOffNeut_notFirstTimeCont:Continue,
+tOffNeutPatrolOpenCommNotFirstTimeCont,DialogOptionSelected,$option == tOffNeut_notFirstTimeCont,"MakeHostileWhileTOff tOff true 7
+ShowDefaultVisual
+EndConversation",,,
+tOffNeutComply,DialogOptionSelected,$option == tOffNeut_comply,"unset $entity.transponderOffConv
+unset $entity.sawPlayerTransponderOff
+ActivateAbility $player.fleetId transponder
+UpdateMemory",You issue an order to activate the transponder and wait for the cargo scan to finish.,0:tOffNeut_scan_continue:Continue,
+tOffNeutComply2,DialogOptionSelected,$option == tOffNeut_comply2,"unset $entity.transponderOffConv
+unset $entity.sawPlayerTransponderOff",You wait for the cargo scan to finish.,0:tOffNeut_scan_continue:Continue,
+tOffNeutCargoScan,DialogOptionSelected,$option == tOffNeut_scan_continue,"AddText ""After a brief wait, the $faction $otherFleetName transmits the scan results.""
+CargoScan
+FireBest TOffNeutScanResult",,,
+tOffNeutCargoScanHostile,DialogOptionSelected,"$option == tOffNeut_scan_continue
+$entity.isHostile","ShowDefaultVisual
+EndConversation","However, instead of proceeding with the scan, the $faction $fleetName shuts down comms and powers up combat systems.
+You receive a pre-recorded message before the comms is cut.
+""As per standard operating procedure, if you surrender now you will earn a 10% discount on your next neutrino purchase.""
+",,
+tOffNeutCargoScanClean,TOffNeutScanResult,!$contrabandFound,,"$PersonRank $personName looks vaguely displeased for the moment, then the gentle smile is back.
+
+""Thank you for your cooperate. You are clear to proceed. Seems you don't have any technical problem with your transponder so please make sure don't accidental turn it off again.""
+
+The comm link is cut before you have a chance to respond.",0:tOff_cleanCont1:Continue,
+tOffNeutCargoScanContraband,TOffNeutScanResult,$contrabandFound,,"""Sorry for the inconvenient but we have to inform you we detected some contraband in your ship. Per standard $faction procedure, you are required to eject the contraband into space immediately. And just a warning, no acts of aggression will go unpunished.""
+
+Though having a strong expression $personRank $personLastName still smilling. You feels a little creepy about this.","0:tOff_comply_contraband:Surrender the contraband and cut the comm link
+1:tOff_refuse:Refuse and cut the comm link",

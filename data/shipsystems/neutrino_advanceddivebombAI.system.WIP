@@ -1,0 +1,22 @@
+{
+	"id":"neutrino_advanceddivebombAI",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.AIs.ShipSystems.Neutrino_AdvancedDiveBombAI",
+	"statsScript":"data.shipsystems.scripts.NeutrinoAdvancedDiveBombAIStats",
+	
+	"engineGlowColor":[235,113,113,185],
+	"engineGlowLengthMult":1.2,
+	"engineGlowWidthMult":1.2,
+	"engineGlowGlowMult":1.2,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+
+	#"useSound":"neutrino_reactioncontrolfire",
+	#"loopSound":"burstjetunderlay",
+	#"outOfUsesSound":"engine_disabled",
+
+}

@@ -1,0 +1,33 @@
+{
+	"id":"neutrino_misery",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"displayArcRadius":900,
+	"turretSprite":"graphics/neut/weapons/neutrino_misery_turret_base.png",
+	"turretGunSprite":"graphics/neut/weapons/neutrino_misery_turret_recoil.png",
+	"turretGlowSprite":"graphics/neut/weapons/neutrino_misery_turret_glow.png",	
+	"hardpointSprite":"graphics/neut/weapons/neutrino_misery_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/neut/weapons/neutrino_misery_hardpoint_recoil.png",
+	"hardpointGlowSprite":"graphics/neut/weapons/neutrino_misery_hardpoint_glow.png",	
+	"visualRecoil":5.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"glowColor":[227,101,52,255],
+	#"glowColor":[199,93,76,215],
+	"turretOffsets":[22, -6, 22, 6],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[16, -6, 16, 6],
+	"hardpointAngleOffsets":[0, 0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":36,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":32.0,
+					   "particleDuration":0.13,
+					   "particleCount":8,
+					  "particleColor":[100,100,255,255]},
+	"autocharge":true,					  
+	"projectileSpecId":"neutrino_misery_shot",  # projectile that will be fired
+	"fireSoundTwo":"neutrino_misery_effect",	
+}

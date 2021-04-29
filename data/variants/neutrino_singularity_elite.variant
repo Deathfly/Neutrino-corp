@@ -1,0 +1,28 @@
+{
+    "displayName": "Elite Drone",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "neutrino_singularity",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "neutrino_singularity_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 3": "neutrino_dualpulsar"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 2": "neutrino_pulsebeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 1": "pdburst"}
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+	"id":"neutrino_phasebombrelease",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.AIs.ShipSystems.Neutrino_PhaseBombReleaseAI",
+	"statsScript":"data.shipsystems.scripts.NeutrinoPhaseBombReleaseStats",
+	"weaponDataId":"neutrino_phasemissilelauncher",
+	"canUseWhileRightClickSystemOn":true,
+	#"useSound":"neutrino_phase_missile_firing",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		}
+	}	
+}

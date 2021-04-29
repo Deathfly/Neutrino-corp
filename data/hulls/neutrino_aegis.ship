@@ -1,0 +1,63 @@
+{
+  "bounds": [
+    15.5,
+    -8.5,
+    0.5,
+    -25.5,
+    -26,
+    -10.5,
+    -17.5,
+    -0,
+    -26,
+    10.5,
+    0.5,
+    25.5,
+    15.5,
+    8.5,
+    42,
+    -0
+  ],
+  "center": [
+    27,
+    28.5
+  ],
+  "collisionRadius": 200,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -20,
+        1.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -20,
+        -1.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    }
+  ],
+  "height": 72,
+  "hullId": "neutrino_aegis",
+  "hullName": "Aegis",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 200,
+  "spriteName": "graphics/neut/ships/neutrino_aegis.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "width": 54
+}

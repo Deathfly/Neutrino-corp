@@ -1,0 +1,7 @@
+{
+	"id":"neutrino_schwarm",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.AIs.ShipSystems.Neutrino_AlwaysOn",
+	"statsScript":"data.shipsystems.scripts.NeutrinoSchwarmStats",
+}

@@ -1,0 +1,29 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "neutrino_piledriver",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "neutrino_piledriver_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "neutrino_advancedtorpedo"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 2": "neutrino_magnetar",
+                "WS 3": "neutrino_magnetar"
+            }
+        }
+    ],
+    "wings": [
+        "neutrino_schwarzgeist_wing",
+        "neutrino_gepard2_wing"
+    ]
+}

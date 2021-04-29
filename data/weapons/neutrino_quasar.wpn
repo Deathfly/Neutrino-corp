@@ -1,0 +1,30 @@
+{
+	"id":"neutrino_quasar",
+	"specClass":"projectile",	
+	"type":"ENERGY",
+	"size":"LARGE",
+	"displayArcRadius":875,	
+	"turretSprite":"graphics/neut/weapons/neutrino_quasar_hardpoint.png",
+	#"turretGlowSprite":"graphics/neut/weapons/neutrino_heavypulsar_turret_glow.png",
+	"hardpointSprite":"graphics/neut/weapons/neutrino_quasar_hardpoint.png",
+	#"hardpointGlowSprite":"graphics/neut/weapons/neutrino_heavypulsar_hardpoint_glow.png",
+	"glowColor":[100,195,255,255],	
+	"turretOffsets":[0, -54, 0, 54],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[0, -54, 0, 54],
+	"hardpointAngleOffsets":[0, 0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":50.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":18.0,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":25.0,
+					   "particleDuration":0.20,
+					   "particleCount":12,
+					   "particleColor":[100,195,255,255]},
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"neutrino_quasar_shot",  # projectile that will be fired
+	"fireSoundOne":"neutrino_quasar_charging",
+	"fireSoundTwo":"neutrino_quasar_firing",
+}

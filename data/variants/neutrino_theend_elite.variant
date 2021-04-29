@@ -1,0 +1,49 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 12,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "neutrino_theend",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "neutrino_theend_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "neutrino_pulsebeam",
+                "WS0002": "neutrino_pulsebeam",
+                "WS0003": "neutrino_pulsebeam",
+                "WS0004": "neutrino_pulsebeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "heavyblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ioncannon",
+                "WS0007": "neutrino_pulsar",
+                "WS0008": "neutrino_pulsar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "pdburst",
+                "WS0010": "pdburst",
+                "WS0013": "neutrino_disruptor"
+            }
+        }
+    ],
+    "wings": [
+        "neutrino_gepard2_wing",
+        "neutrino_schwarzgeist_wing"
+    ]
+}

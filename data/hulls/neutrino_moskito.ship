@@ -1,0 +1,128 @@
+{
+  "bounds": [
+    42,
+    -6,
+    13.5,
+    -5.5,
+    33.5,
+    -15,
+    -27,
+    -19,
+    -32.5,
+    -9,
+    -32.5,
+    9,
+    -27,
+    19,
+    33.5,
+    15,
+    13.5,
+    5.5,
+    42,
+    6
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_neutroniumplating",
+    "neutrino_broadsideShield",
+	"neutrino_fighterTargetingLink",
+	"pointdefenseai",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0003": "neutrino_pulsar",
+    "WS0004": "neutrino_antiproton"
+  },
+  "center": [
+    22,
+    35
+  ],
+  "collisionRadius": 44.502808,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -31.5,
+        2.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -31.5,
+        -2.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    }
+  ],
+  "height": 78,
+  "hullId": "neutrino_moskito",
+  "hullName": "Schweine",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 59.820564,
+  "spriteName": "graphics/neut/ships/neutrino_moskito.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0003",
+      "locations": [
+        9,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0004",
+      "locations": [
+        -14,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 45,
+      "id": "WS0001",
+      "locations": [
+        0.5,
+        -16.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 90,
+      "arc": 45,
+      "id": "WS0002",
+      "locations": [
+        0.5,
+        16.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 44
+}

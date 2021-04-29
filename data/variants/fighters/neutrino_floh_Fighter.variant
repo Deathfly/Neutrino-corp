@@ -1,0 +1,22 @@
+{
+  "displayName": "Experimental Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "neutrino_floh",
+  "hullMods": [
+    "fluxbreakers",
+    "insulatedengine",
+    "neutrino_sigmaupgrade"
+  ],
+  "quality": 0,
+  "variantId": "neutrino_floh_Fighter",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "neutrino_dualpulsebeam"
+      }
+    }
+  ]
+}

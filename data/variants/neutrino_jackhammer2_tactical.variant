@@ -1,0 +1,61 @@
+{
+    "displayName": "Tactical",
+    "fluxCapacitors": 10,
+    "fluxVents": 32,
+    "goalVariant": true,
+    "hullId": "neutrino_jackhammer2",
+    "hullMods": [
+        "auxiliarythrusters",
+        "augmentedengines",
+        "targetingunit",
+        "turretgyros"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_jackhammer2_tactical",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0022": "neutrino_phasedarray2"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "neutrino_goliath",
+                "WS0002": "neutrino_goliath"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "neutrino_misery",
+                "WS0004": "neutrino_misery",
+                "WS0005": "neutrino_derp_launcher",
+                "WS0006": "neutrino_derp_launcher",
+                "WS0007": "neutrino_antiproton",
+                "WS0008": "neutrino_antiproton",
+                "WS0013": "neutrino_disruptor",
+                "WS0014": "neutrino_disruptor",
+                "WS0015": "pdburst",
+                "WS0016": "pdburst",
+                "WS0017": "neutrino_disruptor"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0018": "swarmer",
+                "WS0019": "swarmer",
+                "WS0020": "swarmer",
+                "WS0021": "swarmer"
+            }
+        }
+    ],
+    "wings": [
+        "neutrino_gepard1_wing",
+        "neutrino_drohne_wing"
+    ]
+}

@@ -1,0 +1,113 @@
+{
+  "bounds": [
+    47.5,
+    -8.5,
+    35.5,
+    -8.5,
+    35.5,
+    -16.5,
+    -27,
+    -19,
+    -32.5,
+    -9,
+    -32.5,
+    9,
+    -27,
+    19,
+    35.5,
+    16.5,
+    35.5,
+    8.5,
+    47.5,
+    8.5
+  ],
+  "builtInMods": [
+    "neutrino_sigmaupgrade",
+    "neutrino_neutroniumplating",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS 1": "neutrino_dualpulsebeam"
+  },
+  "builtInWings": [],
+  "center": [
+    23,
+    35
+  ],
+  "collisionRadius": 60,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -31.5,
+        2.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -31.5,
+        -2.5
+      ],
+      "style": "Neutrino_SHIP",
+      "width": 10
+    }
+  ],
+  "height": 84,
+  "hullId": "neutrino_floh",
+  "hullName": "Floh",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 59.820564,
+  "spriteName": "graphics/neut/ships/neutrino_floh.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 2.5,
+      "id": "WS 1",
+      "locations": [
+        40,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 45,
+      "id": "WS0001",
+      "locations": [
+        2,
+        17
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -90,
+      "arc": 45,
+      "id": "WS0002",
+      "locations": [
+        2,
+        -17
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 46
+}

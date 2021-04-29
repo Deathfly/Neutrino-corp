@@ -1,0 +1,171 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"neutrino_singularity_updated":5,
+		"neutrino_singularity_balanced":5,
+		"neutrino_criticality_standard":2,
+		"neutrino_criticality_assault":1,
+		"neutrino_relativity_standard":5,
+	},
+	"combatSmall":{
+		"neutrino_singularity_updated":5,
+		"neutrino_singularity_balanced":5,
+		"neutrino_criticality_standard":2,
+		"neutrino_criticality_guerrilla":1,
+		"neutrino_criticality_assault":1,
+		"neutrino_relativity_standard":5,
+		"neutrino_relativity_support":5,
+	},
+	"combatMedium":{
+		"neutrino_hacksaw_assault":5,
+		"neutrino_hacksaw_standard":3,
+		"neutrino_hacksaw_backup":5,
+		"neutrino_hacksaw_support":5,
+		"neutrino_sledgehammer_standard":2,
+		"neutrino_sledgehammer_assault":3,
+		"neutrino_sledgehammer_elite":1,
+		"neutrino_vice_assault":5,
+		"neutrino_vice_elite":2,
+		"neutrino_vice_standard":5,
+		"neutrino_vice_support":2,
+		"neutrino_miter_standard":3,
+		"neutrino_miter_strike":2,
+	},
+	"combatLarge":{
+		"neutrino_grinder_standard":10,
+		"neutrino_grinder_assault":12,
+		"neutrino_grinder_elite":3,
+		"neutrino_nirvash_standard":3,
+		"neutrino_nirvash_tactical":3,
+		"neutrino_nirvash_elite":3,
+		"neutrino_maul_standard":5,
+		"neutrino_maul_assault":3,
+		"neutrino_maul_support":4,
+		"neutrino_maul_elite":3,
+		"neutrino_lathe_standard":2,
+		"neutrino_lathe_strike":1,
+	},
+	"combatCapital":{
+		"neutrino_lathe_standard":2,
+		"neutrino_lathe_elite":1,
+		"neutrino_lathe_strike":2,
+		"neutrino_jackhammer2_standard":3,
+		"neutrino_jackhammer2_tactical":3,
+		"neutrino_jackhammer2_vanguard":3,
+		"neutrino_banshee_standard":4,
+		"neutrino_banshee_balanced":4,
+		"neutrino_banshee_elite":2,
+		"neutrino_bansheenorn_standard":3,
+		"neutrino_bansheenorn_broadside":2,
+		"neutrino_bansheenorn_support":2,
+		"neutrino_colossus_standard":4,
+	},
+	"civilianRandom":{
+		"neutrino_polarity_standard":2,
+		"neutrino_blowtorch_standard":1,
+		"ox_Standard":0.6,
+		"kite_original_Stock":0.2,
+	},
+
+	# carriers
+	"carrierSmall":{
+		"neutrino_piledriver_guerrilla":2,
+		"neutrino_piledriver_speedy":1,
+		"neutrino_piledriver_standard":2,
+	},
+	"carrierMedium":{
+		"neutrino_theend_standard":1,
+		"fallback":{"carrierSmall":2},
+	},
+	"carrierLarge":{
+		"neutrino_jackhammer2_standard":2,
+		"neutrino_jackhammer2_tactical":2,
+		"neutrino_hildolfr_standard":8,
+		"neutrino_hildolfr_balanced":8,
+	},
+
+	# phase ships
+	"phaseSmall":{
+		"neutrino_causality_guerrilla":2,
+		"neutrino_causality_standard":2,
+	},
+	"phaseLarge":{
+		"neutrino_theend_balanced":1,
+		"neutrino_theend_elite":1,
+		"neutrino_theend_standard":2,
+	},
+	# freighters and such
+	"freighterSmall":{
+		"neutrino_polarity_standard":10,
+		"neutrino_piledriverC_smuggler":2,
+	},
+	"freighterMedium":{
+		"neutrino_piledriverC_standard":5,
+		"neutrino_piledriverC_efficiency":10,
+		"neutrino_nausicaa2_speedy":0.1,
+	},
+	"freighterLarge":{
+		"neutrino_nausicaa2_standard":10,
+		"neutrino_nausicaa2_ER":5,
+	},
+	
+	"tankerSmall":{
+		"dram_Light":10,
+		"fallback":{"tankerMedium":1},
+	},
+	"tankerMedium":{
+		"phaeton_Standard":10,
+		"neutrino_piledriverC_fuel":10,
+		"fallback":{"tankerSmall":2},
+	},
+	"tankerLarge":{
+		"prometheus_Super":10,
+		"neutrino_nausicaa2_ER":0.5,
+		"fallback":{"tankerMedium":2},
+	},
+	
+	"personnelSmall":{
+		"mercury_Attack":3,
+		"mercury_PD":3,
+		"mercury_Standard":3,
+		"fallback":{"personnelMedium":1},
+	},
+	"personnelMedium":{
+		"valkyrie_Elite":10,
+		"nebula_Standard":2,
+		"fallback":{"personnelSmall":2},
+	},
+	"personnelLarge":{
+		"starliner_Standard":10,
+		"fallback":{"personnelMedium":2},
+	},
+	
+	"linerSmall":{
+		"mercury_Standard":2,
+	},
+	"linerMedium":{
+		"nebula_Standard":2,
+	},
+	"linerLarge":{
+		"starliner_Standard":2,
+	},
+	
+	# utility ships
+	"tug":{
+		"ox_Standard":30,
+	},
+	"crig":{
+		"neutrino_blowtorch_standard":30,
+	},
+
+	# Seems like we can still hind some rare hull here :)
+	"utility":{
+		"neutrino_falken_standard":1,
+		"neutrino_singularity_balanced":100,
+		"neutrino_relativity_standard":100,
+		"neutrino_relativity_support":100,
+		"neutrino_criticality_standard":100,
+		"neutrino_criticality_guerrilla":100,
+	}
+}

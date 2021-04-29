@@ -1,0 +1,30 @@
+{
+    "displayName": "Drone",
+    "fluxCapacitors": 8,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "neutrino_falken",
+    "hullMods": [
+        "neutrino_omegaupgrade",
+        "armoredweapons",
+        "neutrino_hightarqueturretmotor"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "neutrino_falken_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "neutrino_heavypulsar"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "neutrino_advancedtorpedo",
+                "WS0004": "neutrino_advancedtorpedo"
+            }
+        }
+    ]
+}

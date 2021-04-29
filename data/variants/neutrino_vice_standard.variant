@@ -1,0 +1,34 @@
+{
+    "displayName": "PD",
+    "fluxCapacitors": 0,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "neutrino_vice",
+    "hullMods": [
+        "magazines",
+        "targetingunit",
+        "pointdefenseai"
+    ],
+    "permaMods": [],
+    "variantId": "neutrino_vice_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 3": "guardian"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 1": "neutrino_advancedtorpedo",
+                "WS 2": "neutrino_advancedtorpedo"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 4": "neutrino_pulsebeam"}
+        }
+    ]
+}

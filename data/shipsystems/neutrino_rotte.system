@@ -1,0 +1,44 @@
+{
+	"id":"neutrino_rotte",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"CUSTOM",
+	"aiScript":"data.scripts.AIs.ShipSystems.Neutrino_FighterDroneSystemAI",
+	"droneVariant":"neutrino_rotte_Drone",
+	
+	"allowFreeRoam":true,
+	
+	"launchSpeed":200,
+	"launchDelay":0,
+	"maxDrones":2,
+	"droneBehavior":[
+		{"droneIndex":[0],
+		 "defaultFacing":"MATCH_SHIP_HEADING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":120,
+		 "freeRoamRange":600,
+		 "targetPriority":[SHIP_TARGET, MISSILE, FIGHTER, SHIP], # also SHIP_TARGET to prefer targeting the mothership's target
+		 "initialOrbitAngle":120,
+		 "orbitRadius":10, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":0, 				# pixels/second
+		},
+		{"droneIndex":[1],
+		 "defaultFacing":"MATCH_SHIP_HEADING",
+		 "faceEnemy":true,
+		 "holdRoamRange":120,
+		 "freeRoamRange":600,
+		 "targetPriority":[SHIP_TARGET, MISSILE, FIGHTER, SHIP],
+		 "initialOrbitAngle":240,
+		 "orbitRadius":10,
+		 "orbitDir":-1,
+		 "orbitSpeed":0,
+		},					
+	],
+	
+	"useSound":"drone_launch",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		}
+	}
+}

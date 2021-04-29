@@ -1,0 +1,31 @@
+package data.scripts.campaign.econ;
+
+import com.fs.starfarer.api.impl.campaign.econ.BaseMarketConditionPlugin;
+import com.fs.starfarer.api.impl.campaign.ids.Commodities;
+
+public class Neutrino_PlanetoidMining extends BaseMarketConditionPlugin {
+
+    @Override
+    public void apply(String id) {
+//        market.getDemand(Commodities.CREW).getDemand().modifyFlat(id, 100);
+//        market.getDemand(Commodities.CREW).getNonConsumingDemand().modifyFlat(id, 100 * 0.99f);
+//        float crewDemandMet = market.getDemand(Commodities.CREW).getClampedFractionMet();
+//
+//        market.getCommodityData(Commodities.VOLATILES).getSupply().modifyFlat(id, 2000f * crewDemandMet);
+//        market.getCommodityData(Commodities.ORE).getSupply().modifyFlat(id, 2000f * crewDemandMet);
+//        market.getCommodityData(Commodities.ORGANICS).getSupply().modifyFlat(id, 15000f * crewDemandMet);
+//        market.getDemand(Commodities.HEAVY_MACHINERY).getDemand().modifyFlat(id, 250);
+    }
+
+    @Override
+    public void unapply(String id) {
+//        market.getCommodityData(Commodities.VOLATILES).getSupply().unmodify(id);
+//        market.getCommodityData(Commodities.ORE).getSupply().unmodify(id);
+//        market.getCommodityData(Commodities.ORGANICS).getSupply().unmodify(id);
+//        market.getDemand(Commodities.HEAVY_MACHINERY).getDemand().unmodify(id);
+//
+//        market.getDemand(Commodities.CREW).getDemand().unmodify(id);
+//        market.getDemand(Commodities.CREW).getNonConsumingDemand().unmodify(id);
+    }
+
+}
